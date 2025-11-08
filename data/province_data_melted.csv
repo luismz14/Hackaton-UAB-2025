@@ -1,0 +1,1981 @@
+Region,Value,Year,Metric_Type,CCAA
+Almería,666.3,2008,Número de Habitantes,ANDALUCÍA
+Cádiz,1215.2,2008,Número de Habitantes,ANDALUCÍA
+Córdoba,795.0,2008,Número de Habitantes,ANDALUCÍA
+Granada,905.0,2008,Número de Habitantes,ANDALUCÍA
+Huelva,507.5,2008,Número de Habitantes,ANDALUCÍA
+Jaén,664.2,2008,Número de Habitantes,ANDALUCÍA
+Málaga,1543.2,2008,Número de Habitantes,ANDALUCÍA
+Sevilla,1872.2,2008,Número de Habitantes,ANDALUCÍA
+Huesca,226.0,2008,Número de Habitantes,ARAGÓN
+Teruel,146.1,2008,Número de Habitantes,ARAGÓN
+Zaragoza,964.3,2008,Número de Habitantes,ARAGÓN
+"Palmas, Las",1048.8,2008,Número de Habitantes,CANARIAS
+Santa Cruz de Tenerife,961.1,2008,Número de Habitantes,CANARIAS
+Ávila,173.6,2008,Número de Habitantes,CASTILLA Y LEÓN
+Burgos,374.1,2008,Número de Habitantes,CASTILLA Y LEÓN
+León,494.5,2008,Número de Habitantes,CASTILLA Y LEÓN
+Palencia,172.7,2008,Número de Habitantes,CASTILLA Y LEÓN
+Salamanca,350.5,2008,Número de Habitantes,CASTILLA Y LEÓN
+Segovia,163.4,2008,Número de Habitantes,CASTILLA Y LEÓN
+Soria,94.7,2008,Número de Habitantes,CASTILLA Y LEÓN
+Valladolid,527.4,2008,Número de Habitantes,CASTILLA Y LEÓN
+Zamora,195.5,2008,Número de Habitantes,CASTILLA Y LEÓN
+Albacete,396.3,2008,Número de Habitantes,CASTILLA - LA MANCHA
+Ciudad Real,521.7,2008,Número de Habitantes,CASTILLA - LA MANCHA
+Cuenca,215.5,2008,Número de Habitantes,CASTILLA - LA MANCHA
+Guadalajara,241.8,2008,Número de Habitantes,CASTILLA - LA MANCHA
+Toledo,675.2,2008,Número de Habitantes,CASTILLA - LA MANCHA
+Barcelona,5431.9,2008,Número de Habitantes,CATALUÑA
+Girona,729.2,2008,Número de Habitantes,CATALUÑA
+Lleida,428.0,2008,Número de Habitantes,CATALUÑA
+Tarragona,788.1,2008,Número de Habitantes,CATALUÑA
+Alicante/Alacant,1828.5,2008,Número de Habitantes,COMUNITAT VALENCIANA
+Castellón/Castelló,592.2,2008,Número de Habitantes,COMUNITAT VALENCIANA
+Valencia/València,2538.9,2008,Número de Habitantes,COMUNITAT VALENCIANA
+Badajoz,682.2,2008,Número de Habitantes,EXTREMADURA
+Cáceres,409.3,2008,Número de Habitantes,EXTREMADURA
+"Coruña, A",1131.4,2008,Número de Habitantes,GALICIA
+Lugo,352.2,2008,Número de Habitantes,GALICIA
+Ourense,332.2,2008,Número de Habitantes,GALICIA
+Pontevedra,944.2,2008,Número de Habitantes,GALICIA
+Araba/Álava,313.2,2008,Número de Habitantes,PAÍS VASCO
+Bizkaia,1152.0,2008,Número de Habitantes,PAÍS VASCO
+Gipuzkoa,701.7,2008,Número de Habitantes,PAÍS VASCO
+Total Nacional,45983.2,2008,Número de Habitantes,MELILLA
+Almería,0.014490074635954,2008,Estructura Porcentual,ANDALUCÍA
+Cádiz,0.02642704292002297,2008,Estructura Porcentual,ANDALUCÍA
+Córdoba,0.017288922910976185,2008,Estructura Porcentual,ANDALUCÍA
+Granada,0.019681100923815656,2008,Estructura Porcentual,ANDALUCÍA
+Huelva,0.011036639468327563,2008,Estructura Porcentual,ANDALUCÍA
+Jaén,0.014444405782981612,2008,Estructura Porcentual,ANDALUCÍA
+Málaga,0.033560082812853394,2008,Estructura Porcentual,ANDALUCÍA
+Sevilla,0.04071486977852781,2008,Estructura Porcentual,ANDALUCÍA
+Huesca,0.0049148384627429155,2008,Estructura Porcentual,ARAGÓN
+Teruel,0.0031772473425076986,2008,Estructura Porcentual,ARAGÓN
+Zaragoza,0.02097070234346457,2008,Estructura Porcentual,ARAGÓN
+"Palmas, Las",0.022808329998782163,2008,Estructura Porcentual,CANARIAS
+Santa Cruz de Tenerife,0.020901111710363785,2008,Estructura Porcentual,CANARIAS
+Ávila,0.0037752918457175664,2008,Estructura Porcentual,CASTILLA Y LEÓN
+Burgos,0.008135579950938604,2008,Estructura Porcentual,CASTILLA Y LEÓN
+León,0.010753927521355627,2008,Estructura Porcentual,CASTILLA Y LEÓN
+Palencia,0.003755719480157971,2008,Estructura Porcentual,CASTILLA Y LEÓN
+Salamanca,0.007622349031820318,2008,Estructura Porcentual,CASTILLA Y LEÓN
+Segovia,0.003553471702708816,2008,Estructura Porcentual,CASTILLA Y LEÓN
+Soria,0.0020594477983263454,2008,Estructura Porcentual,CASTILLA Y LEÓN
+Valladolid,0.011469406217923068,2008,Estructura Porcentual,CASTILLA Y LEÓN
+Zamora,0.004251552741001061,2008,Estructura Porcentual,CASTILLA Y LEÓN
+Albacete,0.008618364968075299,2008,Estructura Porcentual,CASTILLA - LA MANCHA
+Ciudad Real,0.011345447902712297,2008,Estructura Porcentual,CASTILLA - LA MANCHA
+Cuenca,0.004686494197880965,2008,Estructura Porcentual,CASTILLA - LA MANCHA
+Guadalajara,0.005258442213678039,2008,Estructura Porcentual,CASTILLA - LA MANCHA
+Toledo,0.01468362358426556,2008,Estructura Porcentual,CASTILLA - LA MANCHA
+Barcelona,0.11812792498129751,2008,Estructura Porcentual,CATALUÑA
+Girona,0.0158579655178413,2008,Estructura Porcentual,CATALUÑA
+Lleida,0.009307747177229946,2008,Estructura Porcentual,CATALUÑA
+Tarragona,0.017138868108352617,2008,Estructura Porcentual,CATALUÑA
+Alicante/Alacant,0.03976452269524522,2008,Estructura Porcentual,COMUNITAT VALENCIANA
+Castellón/Castelló,0.012878616538213958,2008,Estructura Porcentual,COMUNITAT VALENCIANA
+Valencia/València,0.055213643243619416,2008,Estructura Porcentual,COMUNITAT VALENCIANA
+Badajoz,0.014835853094173526,2008,Estructura Porcentual,EXTREMADURA
+Cáceres,0.008901076915047235,2008,Estructura Porcentual,EXTREMADURA
+"Coruña, A",0.02460463821569617,2008,Estructura Porcentual,GALICIA
+Lugo,0.007659319055655109,2008,Estructura Porcentual,GALICIA
+Ourense,0.007224377598775205,2008,Estructura Porcentual,GALICIA
+Pontevedra,0.02053358617930027,2008,Estructura Porcentual,GALICIA
+Araba/Álava,0.006811183214739296,2008,Estructura Porcentual,PAÍS VASCO
+Bizkaia,0.02505262791628247,2008,Estructura Porcentual,PAÍS VASCO
+Gipuzkoa,0.015259921014631432,2008,Estructura Porcentual,PAÍS VASCO
+Total Nacional,1.0,2008,Estructura Porcentual,MELILLA
+Almería,0.025708128078817616,2008,Tasa de Variación Interanual,ANDALUCÍA
+Cádiz,0.011570798301839824,2008,Tasa de Variación Interanual,ANDALUCÍA
+Córdoba,0.007221588749525054,2008,Tasa de Variación Interanual,ANDALUCÍA
+Granada,0.013892000896258194,2008,Tasa de Variación Interanual,ANDALUCÍA
+Huelva,0.012165935380933357,2008,Tasa de Variación Interanual,ANDALUCÍA
+Jaén,0.003778147196614734,2008,Tasa de Variación Interanual,ANDALUCÍA
+Málaga,0.021716101694915224,2008,Tasa de Variación Interanual,ANDALUCÍA
+Sevilla,0.013973136915077955,2008,Tasa de Variación Interanual,ANDALUCÍA
+Huesca,0.018018018018018056,2008,Tasa de Variación Interanual,ARAGÓN
+Teruel,0.008977900552486151,2008,Tasa de Variación Interanual,ARAGÓN
+Zaragoza,0.022912909727378805,2008,Tasa de Variación Interanual,ARAGÓN
+"Palmas, Las",0.020431990659661503,2008,Tasa de Variación Interanual,CANARIAS
+Santa Cruz de Tenerife,0.02222931291214625,2008,Tasa de Variación Interanual,CANARIAS
+Ávila,0.009302325581395321,2008,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Burgos,0.013271939328277416,2008,Tasa de Variación Interanual,CASTILLA Y LEÓN
+León,0.004468819825309778,2008,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Palencia,0.0,2008,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Salamanca,0.005450372920252411,2008,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Segovia,0.012391573729863659,2008,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Soria,0.008519701810436597,2008,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Valladolid,0.009764503159104043,2008,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Zamora,-0.0025510204081632404,2008,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Albacete,0.010969387755102034,2008,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Ciudad Real,0.013403263403263477,2008,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Cuenca,0.010787992495309595,2008,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Guadalajara,0.04269081500646843,2008,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Toledo,0.03653669020571093,2008,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Barcelona,0.016752770290506147,2008,Tasa de Variación Interanual,CATALUÑA
+Girona,0.030525720746184426,2008,Tasa de Variación Interanual,CATALUÑA
+Lleida,0.025886864813039256,2008,Tasa de Variación Interanual,CATALUÑA
+Tarragona,0.02992681651855711,2008,Tasa de Variación Interanual,CATALUÑA
+Alicante/Alacant,0.019571763131482012,2008,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Castellón/Castelló,0.02456747404844295,2008,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Valencia/València,0.01706525657973801,2008,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Badajoz,0.007383343177790991,2008,Tasa de Variación Interanual,EXTREMADURA
+Cáceres,0.001958384332925389,2008,Tasa de Variación Interanual,EXTREMADURA
+"Coruña, A",0.005867709815078337,2008,Tasa de Variación Interanual,GALICIA
+Lugo,-0.0005675368898978572,2008,Tasa de Variación Interanual,GALICIA
+Ourense,-0.0021027335536196734,2008,Tasa de Variación Interanual,GALICIA
+Pontevedra,0.007684098185699151,2008,Tasa de Variación Interanual,GALICIA
+Araba/Álava,0.014577259475218707,2008,Tasa de Variación Interanual,PAÍS VASCO
+Bizkaia,0.004972520282648496,2008,Tasa de Variación Interanual,PAÍS VASCO
+Gipuzkoa,0.007900028727377162,2008,Tasa de Variación Interanual,PAÍS VASCO
+Total Nacional,0.016517817667344614,2008,Tasa de Variación Interanual,MELILLA
+Almería,676.8,2009,Número de Habitantes,ANDALUCÍA
+Cádiz,1225.3,2009,Número de Habitantes,ANDALUCÍA
+Córdoba,798.5,2009,Número de Habitantes,ANDALUCÍA
+Granada,912.1,2009,Número de Habitantes,ANDALUCÍA
+Huelva,512.9,2009,Número de Habitantes,ANDALUCÍA
+Jaén,665.7,2009,Número de Habitantes,ANDALUCÍA
+Málaga,1559.6,2009,Número de Habitantes,ANDALUCÍA
+Sevilla,1893.6,2009,Número de Habitantes,ANDALUCÍA
+Huesca,226.7,2009,Número de Habitantes,ARAGÓN
+Teruel,145.6,2009,Número de Habitantes,ARAGÓN
+Zaragoza,972.2,2009,Número de Habitantes,ARAGÓN
+"Palmas, Las",1061.1,2009,Número de Habitantes,CANARIAS
+Santa Cruz de Tenerife,973.1,2009,Número de Habitantes,CANARIAS
+Ávila,173.6,2009,Número de Habitantes,CASTILLA Y LEÓN
+Burgos,374.3,2009,Número de Habitantes,CASTILLA Y LEÓN
+León,494.8,2009,Número de Habitantes,CASTILLA Y LEÓN
+Palencia,172.4,2009,Número de Habitantes,CASTILLA Y LEÓN
+Salamanca,351.0,2009,Número de Habitantes,CASTILLA Y LEÓN
+Segovia,163.0,2009,Número de Habitantes,CASTILLA Y LEÓN
+Soria,94.7,2009,Número de Habitantes,CASTILLA Y LEÓN
+Valladolid,529.6,2009,Número de Habitantes,CASTILLA Y LEÓN
+Zamora,194.2,2009,Número de Habitantes,CASTILLA Y LEÓN
+Albacete,398.6,2009,Número de Habitantes,CASTILLA - LA MANCHA
+Ciudad Real,524.8,2009,Número de Habitantes,CASTILLA - LA MANCHA
+Cuenca,216.4,2009,Número de Habitantes,CASTILLA - LA MANCHA
+Guadalajara,248.3,2009,Número de Habitantes,CASTILLA - LA MANCHA
+Toledo,687.8,2009,Número de Habitantes,CASTILLA - LA MANCHA
+Barcelona,5478.8,2009,Número de Habitantes,CATALUÑA
+Girona,739.4,2009,Número de Habitantes,CATALUÑA
+Lleida,432.7,2009,Número de Habitantes,CATALUÑA
+Tarragona,796.4,2009,Número de Habitantes,CATALUÑA
+Alicante/Alacant,1837.7,2009,Número de Habitantes,COMUNITAT VALENCIANA
+Castellón/Castelló,595.4,2009,Número de Habitantes,COMUNITAT VALENCIANA
+Valencia/València,2551.3,2009,Número de Habitantes,COMUNITAT VALENCIANA
+Badajoz,686.0,2009,Número de Habitantes,EXTREMADURA
+Cáceres,411.1,2009,Número de Habitantes,EXTREMADURA
+"Coruña, A",1136.2,2009,Número de Habitantes,GALICIA
+Lugo,351.6,2009,Número de Habitantes,GALICIA
+Ourense,331.7,2009,Número de Habitantes,GALICIA
+Pontevedra,949.6,2009,Número de Habitantes,GALICIA
+Araba/Álava,316.7,2009,Número de Habitantes,PAÍS VASCO
+Bizkaia,1155.3,2009,Número de Habitantes,PAÍS VASCO
+Gipuzkoa,705.0,2009,Número de Habitantes,PAÍS VASCO
+Total Nacional,46367.6,2009,Número de Habitantes,MELILLA
+Almería,0.014596399209793045,2009,Estructura Porcentual,ANDALUCÍA
+Cádiz,0.026425780070566517,2009,Estructura Porcentual,ANDALUCÍA
+Córdoba,0.017221076786376695,2009,Estructura Porcentual,ANDALUCÍA
+Granada,0.0196710634149708,2009,Estructura Porcentual,ANDALUCÍA
+Huelva,0.011061603360967572,2009,Estructura Porcentual,ANDALUCÍA
+Jaén,0.014357007910696263,2009,Estructura Porcentual,ANDALUCÍA
+Málaga,0.033635555862283145,2009,Estructura Porcentual,ANDALUCÍA
+Sevilla,0.04083886161888905,2009,Estructura Porcentual,ANDALUCÍA
+Huesca,0.004889189865337002,2009,Estructura Porcentual,ARAGÓN
+Teruel,0.003140123707071317,2009,Estructura Porcentual,ARAGÓN
+Zaragoza,0.020967227115485813,2009,Estructura Porcentual,ARAGÓN
+"Palmas, Las",0.022884514186630317,2009,Estructura Porcentual,CANARIAS
+Santa Cruz de Tenerife,0.020986637220817988,2009,Estructura Porcentual,CANARIAS
+Ávila,0.003743993650738878,2009,Estructura Porcentual,CASTILLA Y LEÓN
+Burgos,0.008072447139813145,2009,Estructura Porcentual,CASTILLA Y LEÓN
+León,0.010671244575953899,2009,Estructura Porcentual,CASTILLA Y LEÓN
+Palencia,0.003718113510295983,2009,Estructura Porcentual,CASTILLA Y LEÓN
+Salamanca,0.007569941079546926,2009,Estructura Porcentual,CASTILLA Y LEÓN
+Segovia,0.0035153857434933014,2009,Estructura Porcentual,CASTILLA Y LEÓN
+Soria,0.002042374416618501,2009,Estructura Porcentual,CASTILLA Y LEÓN
+Valladolid,0.011421768648797868,2009,Estructura Porcentual,CASTILLA Y LEÓN
+Zamora,0.004188269395008584,2009,Estructura Porcentual,CASTILLA Y LEÓN
+Albacete,0.008596519983781779,2009,Estructura Porcentual,CASTILLA - LA MANCHA
+Ciudad Real,0.011318248087026285,2009,Estructura Porcentual,CASTILLA - LA MANCHA
+Cuenca,0.00466705199320215,2009,Estructura Porcentual,CASTILLA - LA MANCHA
+Guadalajara,0.005355032393309121,2009,Estructura Porcentual,CASTILLA - LA MANCHA
+Toledo,0.014833633830519586,2009,Estructura Porcentual,CASTILLA - LA MANCHA
+Barcelona,0.11816009454877976,2009,Estructura Porcentual,CATALUÑA
+Girona,0.015946479869564094,2009,Estructura Porcentual,CATALUÑA
+Lleida,0.009331947308034058,2009,Estructura Porcentual,CATALUÑA
+Tarragona,0.017175786540601628,2009,Estructura Porcentual,CATALUÑA
+Alicante/Alacant,0.03963327840992417,2009,Estructura Porcentual,COMUNITAT VALENCIANA
+Castellón/Castelló,0.012840863016416636,2009,Estructura Porcentual,COMUNITAT VALENCIANA
+Valencia/València,0.055023335259966014,2009,Estructura Porcentual,COMUNITAT VALENCIANA
+Badajoz,0.014794813619855244,2009,Estructura Porcentual,EXTREMADURA
+Cáceres,0.00886610478006194,2009,Estructura Porcentual,EXTREMADURA
+"Coruña, A",0.02450417964268153,2009,Estructura Porcentual,GALICIA
+Lugo,0.007582881149768374,2009,Estructura Porcentual,GALICIA
+Ourense,0.007153702154090356,2009,Estructura Porcentual,GALICIA
+Pontevedra,0.020479817803811282,2009,Estructura Porcentual,GALICIA
+Araba/Álava,0.006830200398554163,2009,Estructura Porcentual,PAÍS VASCO
+Bizkaia,0.024916105211397612,2009,Estructura Porcentual,PAÍS VASCO
+Gipuzkoa,0.01520458251020109,2009,Estructura Porcentual,PAÍS VASCO
+Total Nacional,1.0,2009,Estructura Porcentual,MELILLA
+Almería,0.01575866726699693,2009,Tasa de Variación Interanual,ANDALUCÍA
+Cádiz,0.008311389071757658,2009,Tasa de Variación Interanual,ANDALUCÍA
+Córdoba,0.00440251572327055,2009,Tasa de Variación Interanual,ANDALUCÍA
+Granada,0.007845303867403342,2009,Tasa de Variación Interanual,ANDALUCÍA
+Huelva,0.010640394088669902,2009,Tasa de Variación Interanual,ANDALUCÍA
+Jaén,0.002258355916892496,2009,Tasa de Variación Interanual,ANDALUCÍA
+Málaga,0.01062726801451519,2009,Tasa de Variación Interanual,ANDALUCÍA
+Sevilla,0.011430402734750489,2009,Tasa de Variación Interanual,ANDALUCÍA
+Huesca,0.003097345132743401,2009,Tasa de Variación Interanual,ARAGÓN
+Teruel,-0.003422313483915085,2009,Tasa de Variación Interanual,ARAGÓN
+Zaragoza,0.008192471222648656,2009,Tasa de Variación Interanual,ARAGÓN
+"Palmas, Las",0.01172768878718533,2009,Tasa de Variación Interanual,CANARIAS
+Santa Cruz de Tenerife,0.01248569347622519,2009,Tasa de Variación Interanual,CANARIAS
+Ávila,0.0,2009,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Burgos,0.0005346164127237873,2009,Tasa de Variación Interanual,CASTILLA Y LEÓN
+León,0.0006066734074823277,2009,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Palencia,-0.0017371163867978545,2009,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Salamanca,0.0014265335235377208,2009,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Segovia,-0.002447980416156681,2009,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Soria,0.0,2009,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Valladolid,0.004171406901782415,2009,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Zamora,-0.006649616368286537,2009,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Albacete,0.005803684077718918,2009,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Ciudad Real,0.005942112325090898,2009,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Cuenca,0.004176334106728463,2009,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Guadalajara,0.026881720430107503,2009,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Toledo,0.018661137440758147,2009,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Barcelona,0.008634179568843381,2009,Tasa de Variación Interanual,CATALUÑA
+Girona,0.013987931980252277,2009,Tasa de Variación Interanual,CATALUÑA
+Lleida,0.010981308411214918,2009,Tasa de Variación Interanual,CATALUÑA
+Tarragona,0.010531658418982293,2009,Tasa de Variación Interanual,CATALUÑA
+Alicante/Alacant,0.005031446540880502,2009,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Castellón/Castelló,0.005403579871664954,2009,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Valencia/València,0.004884004884004867,2009,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Badajoz,0.005570214013485675,2009,Tasa de Variación Interanual,EXTREMADURA
+Cáceres,0.004397752259956089,2009,Tasa de Variación Interanual,EXTREMADURA
+"Coruña, A",0.004242531377054881,2009,Tasa de Variación Interanual,GALICIA
+Lugo,-0.0017035775127767216,2009,Tasa de Variación Interanual,GALICIA
+Ourense,-0.001505117399157152,2009,Tasa de Variación Interanual,GALICIA
+Pontevedra,0.005719127303537297,2009,Tasa de Variación Interanual,GALICIA
+Araba/Álava,0.011174968071519853,2009,Tasa de Variación Interanual,PAÍS VASCO
+Bizkaia,0.0028645833333333925,2009,Tasa de Variación Interanual,PAÍS VASCO
+Gipuzkoa,0.004702864471996415,2009,Tasa de Variación Interanual,PAÍS VASCO
+Total Nacional,0.008359574801231728,2009,Tasa de Variación Interanual,MELILLA
+Almería,683.8,2010,Número de Habitantes,ANDALUCÍA
+Cádiz,1234.1,2010,Número de Habitantes,ANDALUCÍA
+Córdoba,800.8,2010,Número de Habitantes,ANDALUCÍA
+Granada,917.5,2010,Número de Habitantes,ANDALUCÍA
+Huelva,516.8,2010,Número de Habitantes,ANDALUCÍA
+Jaén,666.6,2010,Número de Habitantes,ANDALUCÍA
+Málaga,1573.0,2010,Número de Habitantes,ANDALUCÍA
+Sevilla,1910.4,2010,Número de Habitantes,ANDALUCÍA
+Huesca,226.7,2010,Número de Habitantes,ARAGÓN
+Teruel,144.5,2010,Número de Habitantes,ARAGÓN
+Zaragoza,972.6,2010,Número de Habitantes,ARAGÓN
+"Palmas, Las",1070.8,2010,Número de Habitantes,CANARIAS
+Santa Cruz de Tenerife,982.3,2010,Número de Habitantes,CANARIAS
+Ávila,173.0,2010,Número de Habitantes,CASTILLA Y LEÓN
+Burgos,373.3,2010,Número de Habitantes,CASTILLA Y LEÓN
+León,494.2,2010,Número de Habitantes,CASTILLA Y LEÓN
+Palencia,171.5,2010,Número de Habitantes,CASTILLA Y LEÓN
+Salamanca,350.9,2010,Número de Habitantes,CASTILLA Y LEÓN
+Segovia,163.3,2010,Número de Habitantes,CASTILLA Y LEÓN
+Soria,94.9,2010,Número de Habitantes,CASTILLA Y LEÓN
+Valladolid,531.2,2010,Número de Habitantes,CASTILLA Y LEÓN
+Zamora,193.1,2010,Número de Habitantes,CASTILLA Y LEÓN
+Albacete,400.0,2010,Número de Habitantes,CASTILLA - LA MANCHA
+Ciudad Real,525.4,2010,Número de Habitantes,CASTILLA - LA MANCHA
+Cuenca,216.2,2010,Número de Habitantes,CASTILLA - LA MANCHA
+Guadalajara,252.4,2010,Número de Habitantes,CASTILLA - LA MANCHA
+Toledo,696.6,2010,Número de Habitantes,CASTILLA - LA MANCHA
+Barcelona,5497.5,2010,Número de Habitantes,CATALUÑA
+Girona,744.3,2010,Número de Habitantes,CATALUÑA
+Lleida,434.9,2010,Número de Habitantes,CATALUÑA
+Tarragona,800.6,2010,Número de Habitantes,CATALUÑA
+Alicante/Alacant,1840.2,2010,Número de Habitantes,COMUNITAT VALENCIANA
+Castellón/Castelló,595.1,2010,Número de Habitantes,COMUNITAT VALENCIANA
+Valencia/València,2553.7,2010,Número de Habitantes,COMUNITAT VALENCIANA
+Badajoz,688.6,2010,Número de Habitantes,EXTREMADURA
+Cáceres,411.8,2010,Número de Habitantes,EXTREMADURA
+"Coruña, A",1138.9,2010,Número de Habitantes,GALICIA
+Lugo,349.9,2010,Número de Habitantes,GALICIA
+Ourense,330.5,2010,Número de Habitantes,GALICIA
+Pontevedra,952.4,2010,Número de Habitantes,GALICIA
+Araba/Álava,318.7,2010,Número de Habitantes,PAÍS VASCO
+Bizkaia,1156.0,2010,Número de Habitantes,PAÍS VASCO
+Gipuzkoa,706.4,2010,Número de Habitantes,PAÍS VASCO
+Total Nacional,46562.5,2010,Número de Habitantes,MELILLA
+Almería,0.014685637583892616,2010,Estructura Porcentual,ANDALUCÍA
+Cádiz,0.026504161073825503,2010,Estructura Porcentual,ANDALUCÍA
+Córdoba,0.017198389261744964,2010,Estructura Porcentual,ANDALUCÍA
+Granada,0.01970469798657718,2010,Estructura Porcentual,ANDALUCÍA
+Huelva,0.011099060402684564,2010,Estructura Porcentual,ANDALUCÍA
+Jaén,0.014316241610738255,2010,Estructura Porcentual,ANDALUCÍA
+Málaga,0.03378255033557047,2010,Estructura Porcentual,ANDALUCÍA
+Sevilla,0.041028724832214765,2010,Estructura Porcentual,ANDALUCÍA
+Huesca,0.004868724832214765,2010,Estructura Porcentual,ARAGÓN
+Teruel,0.0031033557046979865,2010,Estructura Porcentual,ARAGÓN
+Zaragoza,0.02088805369127517,2010,Estructura Porcentual,ARAGÓN
+"Palmas, Las",0.022997046979865772,2010,Estructura Porcentual,CANARIAS
+Santa Cruz de Tenerife,0.021096375838926172,2010,Estructura Porcentual,CANARIAS
+Ávila,0.0037154362416107383,2010,Estructura Porcentual,CASTILLA Y LEÓN
+Burgos,0.008017181208053692,2010,Estructura Porcentual,CASTILLA Y LEÓN
+León,0.010613691275167784,2010,Estructura Porcentual,CASTILLA Y LEÓN
+Palencia,0.003683221476510067,2010,Estructura Porcentual,CASTILLA Y LEÓN
+Salamanca,0.007536107382550335,2010,Estructura Porcentual,CASTILLA Y LEÓN
+Segovia,0.003507114093959732,2010,Estructura Porcentual,CASTILLA Y LEÓN
+Soria,0.0020381208053691278,2010,Estructura Porcentual,CASTILLA Y LEÓN
+Valladolid,0.011408322147651008,2010,Estructura Porcentual,CASTILLA Y LEÓN
+Zamora,0.004147114093959732,2010,Estructura Porcentual,CASTILLA Y LEÓN
+Albacete,0.008590604026845637,2010,Estructura Porcentual,CASTILLA - LA MANCHA
+Ciudad Real,0.011283758389261744,2010,Estructura Porcentual,CASTILLA - LA MANCHA
+Cuenca,0.004643221476510067,2010,Estructura Porcentual,CASTILLA - LA MANCHA
+Guadalajara,0.005420671140939598,2010,Estructura Porcentual,CASTILLA - LA MANCHA
+Toledo,0.014960536912751678,2010,Estructura Porcentual,CASTILLA - LA MANCHA
+Barcelona,0.11806711409395973,2010,Estructura Porcentual,CATALUÑA
+Girona,0.015984966442953018,2010,Estructura Porcentual,CATALUÑA
+Lleida,0.009340134228187918,2010,Estructura Porcentual,CATALUÑA
+Tarragona,0.017194093959731545,2010,Estructura Porcentual,CATALUÑA
+Alicante/Alacant,0.03952107382550336,2010,Estructura Porcentual,COMUNITAT VALENCIANA
+Castellón/Castelló,0.012780671140939597,2010,Estructura Porcentual,COMUNITAT VALENCIANA
+Valencia/València,0.05484456375838926,2010,Estructura Porcentual,COMUNITAT VALENCIANA
+Badajoz,0.014788724832214765,2010,Estructura Porcentual,EXTREMADURA
+Cáceres,0.008844026845637584,2010,Estructura Porcentual,EXTREMADURA
+"Coruña, A",0.024459597315436243,2010,Estructura Porcentual,GALICIA
+Lugo,0.007514630872483221,2010,Estructura Porcentual,GALICIA
+Ourense,0.007097986577181208,2010,Estructura Porcentual,GALICIA
+Pontevedra,0.020454228187919463,2010,Estructura Porcentual,GALICIA
+Araba/Álava,0.006844563758389262,2010,Estructura Porcentual,PAÍS VASCO
+Bizkaia,0.024826845637583892,2010,Estructura Porcentual,PAÍS VASCO
+Gipuzkoa,0.015171006711409396,2010,Estructura Porcentual,PAÍS VASCO
+Total Nacional,1.0,2010,Estructura Porcentual,MELILLA
+Almería,0.010342789598108748,2010,Tasa de Variación Interanual,ANDALUCÍA
+Cádiz,0.007181914633151099,2010,Tasa de Variación Interanual,ANDALUCÍA
+Córdoba,0.0028804007514089403,2010,Tasa de Variación Interanual,ANDALUCÍA
+Granada,0.0059204034645323755,2010,Tasa de Variación Interanual,ANDALUCÍA
+Huelva,0.007603821407681677,2010,Tasa de Variación Interanual,ANDALUCÍA
+Jaén,0.0013519603424965165,2010,Tasa de Variación Interanual,ANDALUCÍA
+Málaga,0.008591946652988014,2010,Tasa de Variación Interanual,ANDALUCÍA
+Sevilla,0.00887198986058313,2010,Tasa de Variación Interanual,ANDALUCÍA
+Huesca,0.0,2010,Tasa de Variación Interanual,ARAGÓN
+Teruel,-0.007554945054945028,2010,Tasa de Variación Interanual,ARAGÓN
+Zaragoza,0.0004114379757251818,2010,Tasa de Variación Interanual,ARAGÓN
+"Palmas, Las",0.009141456978607243,2010,Tasa de Variación Interanual,CANARIAS
+Santa Cruz de Tenerife,0.009454321241393338,2010,Tasa de Variación Interanual,CANARIAS
+Ávila,-0.003456221198156695,2010,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Burgos,-0.0026716537536735085,2010,Tasa de Variación Interanual,CASTILLA Y LEÓN
+León,-0.0012126111560226693,2010,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Palencia,-0.0052204176334107455,2010,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Salamanca,-0.0002849002849003579,2010,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Segovia,0.0018404907975460016,2010,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Soria,0.002111932418162654,2010,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Valladolid,0.0030211480362538623,2010,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Zamora,-0.005664263645726031,2010,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Albacete,0.00351229302558953,2010,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Ciudad Real,0.0011432926829268997,2010,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Cuenca,-0.0009242144177450395,2010,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Guadalajara,0.01651228352799028,2010,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Toledo,0.012794416981680712,2010,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Barcelona,0.003413156165583686,2010,Tasa de Variación Interanual,CATALUÑA
+Girona,0.0066269948606978435,2010,Tasa de Variación Interanual,CATALUÑA
+Lleida,0.0050843540559277756,2010,Tasa de Variación Interanual,CATALUÑA
+Tarragona,0.005273731793068892,2010,Tasa de Variación Interanual,CATALUÑA
+Alicante/Alacant,0.0013603961473580561,2010,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Castellón/Castelló,-0.0005038629492777336,2010,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Valencia/València,0.0009406968996197307,2010,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Badajoz,0.0037900874635568016,2010,Tasa de Variación Interanual,EXTREMADURA
+Cáceres,0.0017027487229384075,2010,Tasa de Variación Interanual,EXTREMADURA
+"Coruña, A",0.002376342193275871,2010,Tasa de Variación Interanual,GALICIA
+Lugo,-0.004835039817975062,2010,Tasa de Variación Interanual,GALICIA
+Ourense,-0.0036177268616218727,2010,Tasa de Variación Interanual,GALICIA
+Pontevedra,0.0029486099410278577,2010,Tasa de Variación Interanual,GALICIA
+Araba/Álava,0.006315124723713206,2010,Tasa de Variación Interanual,PAÍS VASCO
+Bizkaia,0.0006059032285987698,2010,Tasa de Variación Interanual,PAÍS VASCO
+Gipuzkoa,0.001985815602836949,2010,Tasa de Variación Interanual,PAÍS VASCO
+Total Nacional,0.0042033661436002845,2010,Tasa de Variación Interanual,MELILLA
+Almería,687.4,2011,Número de Habitantes,ANDALUCÍA
+Cádiz,1242.3,2011,Número de Habitantes,ANDALUCÍA
+Córdoba,802.1,2011,Número de Habitantes,ANDALUCÍA
+Granada,920.9,2011,Número de Habitantes,ANDALUCÍA
+Huelva,519.2,2011,Número de Habitantes,ANDALUCÍA
+Jaén,667.6,2011,Número de Habitantes,ANDALUCÍA
+Málaga,1588.0,2011,Número de Habitantes,ANDALUCÍA
+Sevilla,1925.2,2011,Número de Habitantes,ANDALUCÍA
+Huesca,226.1,2011,Número de Habitantes,ARAGÓN
+Teruel,143.5,2011,Número de Habitantes,ARAGÓN
+Zaragoza,974.8,2011,Número de Habitantes,ARAGÓN
+"Palmas, Las",1082.6,2011,Número de Habitantes,CANARIAS
+Santa Cruz de Tenerife,991.4,2011,Número de Habitantes,CANARIAS
+Ávila,172.0,2011,Número de Habitantes,CASTILLA Y LEÓN
+Burgos,372.7,2011,Número de Habitantes,CASTILLA Y LEÓN
+León,493.4,2011,Número de Habitantes,CASTILLA Y LEÓN
+Palencia,170.8,2011,Número de Habitantes,CASTILLA Y LEÓN
+Salamanca,350.2,2011,Número de Habitantes,CASTILLA Y LEÓN
+Segovia,163.3,2011,Número de Habitantes,CASTILLA Y LEÓN
+Soria,94.7,2011,Número de Habitantes,CASTILLA Y LEÓN
+Valladolid,532.3,2011,Número de Habitantes,CASTILLA Y LEÓN
+Zamora,192.0,2011,Número de Habitantes,CASTILLA Y LEÓN
+Albacete,401.3,2011,Número de Habitantes,CASTILLA - LA MANCHA
+Ciudad Real,526.3,2011,Número de Habitantes,CASTILLA - LA MANCHA
+Cuenca,215.6,2011,Número de Habitantes,CASTILLA - LA MANCHA
+Guadalajara,256.3,2011,Número de Habitantes,CASTILLA - LA MANCHA
+Toledo,703.8,2011,Número de Habitantes,CASTILLA - LA MANCHA
+Barcelona,5511.9,2011,Número de Habitantes,CATALUÑA
+Girona,749.5,2011,Número de Habitantes,CATALUÑA
+Lleida,437.3,2011,Número de Habitantes,CATALUÑA
+Tarragona,805.4,2011,Número de Habitantes,CATALUÑA
+Alicante/Alacant,1847.6,2011,Número de Habitantes,COMUNITAT VALENCIANA
+Castellón/Castelló,594.5,2011,Número de Habitantes,COMUNITAT VALENCIANA
+Valencia/València,2560.0,2011,Número de Habitantes,COMUNITAT VALENCIANA
+Badajoz,690.9,2011,Número de Habitantes,EXTREMADURA
+Cáceres,412.6,2011,Número de Habitantes,EXTREMADURA
+"Coruña, A",1140.0,2011,Número de Habitantes,GALICIA
+Lugo,348.5,2011,Número de Habitantes,GALICIA
+Ourense,329.0,2011,Número de Habitantes,GALICIA
+Pontevedra,954.1,2011,Número de Habitantes,GALICIA
+Araba/Álava,320.5,2011,Número de Habitantes,PAÍS VASCO
+Bizkaia,1155.9,2011,Número de Habitantes,PAÍS VASCO
+Gipuzkoa,707.6,2011,Número de Habitantes,PAÍS VASCO
+Total Nacional,46736.3,2011,Número de Habitantes,MELILLA
+Almería,0.014708053483052786,2011,Estructura Porcentual,ANDALUCÍA
+Cádiz,0.026581051559494438,2011,Estructura Porcentual,ANDALUCÍA
+Córdoba,0.01716224861617201,2011,Estructura Porcentual,ANDALUCÍA
+Granada,0.019704169992061843,2011,Estructura Porcentual,ANDALUCÍA
+Huelva,0.01110913786500001,2011,Estructura Porcentual,ANDALUCÍA
+Jaén,0.014284399920404482,2011,Estructura Porcentual,ANDALUCÍA
+Málaga,0.033977871590177226,2011,Estructura Porcentual,ANDALUCÍA
+Sevilla,0.041192820141945335,2011,Estructura Porcentual,ANDALUCÍA
+Huesca,0.004837781339130398,2011,Estructura Porcentual,ARAGÓN
+Teruel,0.003070418496971305,2011,Estructura Porcentual,ARAGÓN
+Zaragoza,0.020857449134826674,2011,Estructura Porcentual,ARAGÓN
+"Palmas, Las",0.023164007420356337,2011,Estructura Porcentual,CANARIAS
+Santa Cruz de Tenerife,0.02121263343482475,2011,Estructura Porcentual,CANARIAS
+Ávila,0.0036802228674499265,2011,Estructura Porcentual,CASTILLA Y LEÓN
+Burgos,0.007974529434294114,2011,Estructura Porcentual,CASTILLA Y LEÓN
+León,0.01055710443488252,2011,Estructura Porcentual,CASTILLA Y LEÓN
+Palencia,0.00365454689395609,2011,Estructura Porcentual,CASTILLA Y LEÓN
+Salamanca,0.007493104931284675,2011,Estructura Porcentual,CASTILLA Y LEÓN
+Segovia,0.0034940720596196104,2011,Estructura Porcentual,CASTILLA Y LEÓN
+Soria,0.0020262622415552793,2011,Estructura Porcentual,CASTILLA Y LEÓN
+Valladolid,0.011389433908974393,2011,Estructura Porcentual,CASTILLA Y LEÓN
+Zamora,0.004108155759013871,2011,Estructura Porcentual,CASTILLA Y LEÓN
+Albacete,0.008586473469230554,2011,Estructura Porcentual,CASTILLA - LA MANCHA
+Ciudad Real,0.01126105404150521,2011,Estructura Porcentual,CASTILLA - LA MANCHA
+Cuenca,0.004613116571059326,2011,Estructura Porcentual,CASTILLA - LA MANCHA
+Guadalajara,0.005483960005391955,2011,Estructura Porcentual,CASTILLA - LA MANCHA
+Toledo,0.01505895845413522,2011,Estructura Porcentual,CASTILLA - LA MANCHA
+Barcelona,0.1179361652505654,2011,Estructura Porcentual,CATALUÑA
+Girona,0.016036785111358837,2011,Estructura Porcentual,CATALUÑA
+Lleida,0.009356752674045656,2011,Estructura Porcentual,CATALUÑA
+Tarragona,0.01723285754328006,2011,Estructura Porcentual,CATALUÑA
+Alicante/Alacant,0.03953244052267723,2011,Estructura Porcentual,COMUNITAT VALENCIANA
+Castellón/Castelló,0.012720305201738263,2011,Estructura Porcentual,COMUNITAT VALENCIANA
+Valencia/València,0.05477541012018495,2011,Estructura Porcentual,COMUNITAT VALENCIANA
+Badajoz,0.014782941739076476,2011,Estructura Porcentual,EXTREMADURA
+Cáceres,0.008828255552964183,2011,Estructura Porcentual,EXTREMADURA
+"Coruña, A",0.02439217481914486,2011,Estructura Porcentual,GALICIA
+Lugo,0.00745673063550174,2011,Estructura Porcentual,GALICIA
+Ourense,0.007039496066226894,2011,Estructura Porcentual,GALICIA
+Pontevedra,0.020414538592057992,2011,Estructura Porcentual,GALICIA
+Araba/Álava,0.006857624587312218,2011,Estructura Porcentual,PAÍS VASCO
+Bizkaia,0.0247323814679382,2011,Estructura Porcentual,PAÍS VASCO
+Gipuzkoa,0.015140265703532371,2011,Estructura Porcentual,PAÍS VASCO
+Total Nacional,1.0,2011,Estructura Porcentual,MELILLA
+Almería,0.005264697279906416,2011,Tasa de Variación Interanual,ANDALUCÍA
+Cádiz,0.006644518272425293,2011,Tasa de Variación Interanual,ANDALUCÍA
+Córdoba,0.0016233766233766378,2011,Tasa de Variación Interanual,ANDALUCÍA
+Granada,0.0037057220708447414,2011,Tasa de Variación Interanual,ANDALUCÍA
+Huelva,0.004643962848297489,2011,Tasa de Variación Interanual,ANDALUCÍA
+Jaén,0.001500150015001589,2011,Tasa de Variación Interanual,ANDALUCÍA
+Málaga,0.009535918626827788,2011,Tasa de Variación Interanual,ANDALUCÍA
+Sevilla,0.007747068676716928,2011,Tasa de Variación Interanual,ANDALUCÍA
+Huesca,-0.0026466696074106677,2011,Tasa de Variación Interanual,ARAGÓN
+Teruel,-0.00692041522491349,2011,Tasa de Variación Interanual,ARAGÓN
+Zaragoza,0.0022619782027555324,2011,Tasa de Variación Interanual,ARAGÓN
+"Palmas, Las",0.011019798281658444,2011,Tasa de Variación Interanual,CANARIAS
+Santa Cruz de Tenerife,0.009263972309885071,2011,Tasa de Variación Interanual,CANARIAS
+Ávila,-0.005780346820809301,2011,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Burgos,-0.001607286364854077,2011,Tasa de Variación Interanual,CASTILLA Y LEÓN
+León,-0.0016187778227438887,2011,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Palencia,-0.004081632653061162,2011,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Salamanca,-0.001994870333428267,2011,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Segovia,0.0,2011,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Soria,-0.0021074815595364393,2011,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Valladolid,0.002070783132529952,2011,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Zamora,-0.005696530295183799,2011,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Albacete,0.003249999999999975,2011,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Ciudad Real,0.0017129805862199365,2011,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Cuenca,-0.0027752081406104967,2011,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Guadalajara,0.015451664025356582,2011,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Toledo,0.010335917312661369,2011,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Barcelona,0.00261937244201893,2011,Tasa de Variación Interanual,CATALUÑA
+Girona,0.00698643020287526,2011,Tasa de Variación Interanual,CATALUÑA
+Lleida,0.005518510002299415,2011,Tasa de Variación Interanual,CATALUÑA
+Tarragona,0.0059955033724705675,2011,Tasa de Variación Interanual,CATALUÑA
+Alicante/Alacant,0.004021302032387819,2011,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Castellón/Castelló,-0.0010082339102672755,2011,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Valencia/València,0.00246700865410987,2011,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Badajoz,0.0033401103688643907,2011,Tasa de Variación Interanual,EXTREMADURA
+Cáceres,0.0019426906265178623,2011,Tasa de Variación Interanual,EXTREMADURA
+"Coruña, A",0.0009658442356659247,2011,Tasa de Variación Interanual,GALICIA
+Lugo,-0.004001143183766764,2011,Tasa de Variación Interanual,GALICIA
+Ourense,-0.004538577912254205,2011,Tasa de Variación Interanual,GALICIA
+Pontevedra,0.0017849643007139537,2011,Tasa de Variación Interanual,GALICIA
+Araba/Álava,0.005647944775651226,2011,Tasa de Variación Interanual,PAÍS VASCO
+Bizkaia,-8.650519031139225e-05,2011,Tasa de Variación Interanual,PAÍS VASCO
+Gipuzkoa,0.001698754246885592,2011,Tasa de Variación Interanual,PAÍS VASCO
+Total Nacional,0.003732617449664577,2011,Tasa de Variación Interanual,MELILLA
+Almería,690.1,2012,Número de Habitantes,ANDALUCÍA
+Cádiz,1244.9,2012,Número de Habitantes,ANDALUCÍA
+Córdoba,801.0,2012,Número de Habitantes,ANDALUCÍA
+Granada,921.5,2012,Número de Habitantes,ANDALUCÍA
+Huelva,519.8,2012,Número de Habitantes,ANDALUCÍA
+Jaén,664.3,2012,Número de Habitantes,ANDALUCÍA
+Málaga,1603.2,2012,Número de Habitantes,ANDALUCÍA
+Sevilla,1933.4,2012,Número de Habitantes,ANDALUCÍA
+Huesca,225.0,2012,Número de Habitantes,ARAGÓN
+Teruel,141.8,2012,Número de Habitantes,ARAGÓN
+Zaragoza,973.2,2012,Número de Habitantes,ARAGÓN
+"Palmas, Las",1090.2,2012,Número de Habitantes,CANARIAS
+Santa Cruz de Tenerife,997.5,2012,Número de Habitantes,CANARIAS
+Ávila,170.1,2012,Número de Habitantes,CASTILLA Y LEÓN
+Burgos,370.3,2012,Número de Habitantes,CASTILLA Y LEÓN
+León,490.3,2012,Número de Habitantes,CASTILLA Y LEÓN
+Palencia,169.4,2012,Número de Habitantes,CASTILLA Y LEÓN
+Salamanca,348.1,2012,Número de Habitantes,CASTILLA Y LEÓN
+Segovia,161.9,2012,Número de Habitantes,CASTILLA Y LEÓN
+Soria,93.9,2012,Número de Habitantes,CASTILLA Y LEÓN
+Valladolid,531.6,2012,Número de Habitantes,CASTILLA Y LEÓN
+Zamora,190.0,2012,Número de Habitantes,CASTILLA Y LEÓN
+Albacete,400.1,2012,Número de Habitantes,CASTILLA - LA MANCHA
+Ciudad Real,524.0,2012,Número de Habitantes,CASTILLA - LA MANCHA
+Cuenca,212.7,2012,Número de Habitantes,CASTILLA - LA MANCHA
+Guadalajara,257.2,2012,Número de Habitantes,CASTILLA - LA MANCHA
+Toledo,704.2,2012,Número de Habitantes,CASTILLA - LA MANCHA
+Barcelona,5507.3,2012,Número de Habitantes,CATALUÑA
+Girona,750.5,2012,Número de Habitantes,CATALUÑA
+Lleida,437.0,2012,Número de Habitantes,CATALUÑA
+Tarragona,804.7,2012,Número de Habitantes,CATALUÑA
+Alicante/Alacant,1852.4,2012,Número de Habitantes,COMUNITAT VALENCIANA
+Castellón/Castelló,590.1,2012,Número de Habitantes,COMUNITAT VALENCIANA
+Valencia/València,2556.6,2012,Número de Habitantes,COMUNITAT VALENCIANA
+Badajoz,690.8,2012,Número de Habitantes,EXTREMADURA
+Cáceres,411.1,2012,Número de Habitantes,EXTREMADURA
+"Coruña, A",1139.1,2012,Número de Habitantes,GALICIA
+Lugo,345.8,2012,Número de Habitantes,GALICIA
+Ourense,326.2,2012,Número de Habitantes,GALICIA
+Pontevedra,953.4,2012,Número de Habitantes,GALICIA
+Araba/Álava,319.8,2012,Número de Habitantes,PAÍS VASCO
+Bizkaia,1152.6,2012,Número de Habitantes,PAÍS VASCO
+Gipuzkoa,708.3,2012,Número de Habitantes,PAÍS VASCO
+Total Nacional,46749.3,2012,Número de Habitantes,MELILLA
+Almería,0.014761718357280216,2012,Estructura Porcentual,ANDALUCÍA
+Cádiz,0.02662927573247086,2012,Estructura Porcentual,ANDALUCÍA
+Córdoba,0.01713394639064114,2012,Estructura Porcentual,ANDALUCÍA
+Granada,0.019711525092354323,2012,Estructura Porcentual,ANDALUCÍA
+Huelva,0.011118883063489718,2012,Estructura Porcentual,ANDALUCÍA
+Jaén,0.014209838436083533,2012,Estructura Porcentual,ANDALUCÍA
+Málaga,0.034293561614826315,2012,Estructura Porcentual,ANDALUCÍA
+Sevilla,0.041356768978359035,2012,Estructura Porcentual,ANDALUCÍA
+Huesca,0.004812906289505939,2012,Estructura Porcentual,ARAGÓN
+Teruel,0.003033200497119743,2012,Estructura Porcentual,ARAGÓN
+Zaragoza,0.02081742400420969,2012,Estructura Porcentual,ARAGÓN
+"Palmas, Las",0.023320135274752775,2012,Estructura Porcentual,CANARIAS
+Santa Cruz de Tenerife,0.02133721788347633,2012,Estructura Porcentual,CANARIAS
+Ávila,0.0036385571548664896,2012,Estructura Porcentual,CASTILLA Y LEÓN
+Burgos,0.007920974217795774,2012,Estructura Porcentual,CASTILLA Y LEÓN
+León,0.01048785757219894,2012,Estructura Porcentual,CASTILLA Y LEÓN
+Palencia,0.0036235836686324715,2012,Estructura Porcentual,CASTILLA Y LEÓN
+Salamanca,0.007446100797231189,2012,Estructura Porcentual,CASTILLA Y LEÓN
+Segovia,0.0034631534589822733,2012,Estructura Porcentual,CASTILLA Y LEÓN
+Soria,0.0020085862248204788,2012,Estructura Porcentual,CASTILLA Y LEÓN
+Valladolid,0.011371293260006032,2012,Estructura Porcentual,CASTILLA Y LEÓN
+Zamora,0.004064231977805015,2012,Estructura Porcentual,CASTILLA Y LEÓN
+Albacete,0.00855841691747256,2012,Estructura Porcentual,CASTILLA - LA MANCHA
+Ciudad Real,0.011208723980893832,2012,Estructura Porcentual,CASTILLA - LA MANCHA
+Cuenca,0.004549800745679614,2012,Estructura Porcentual,CASTILLA - LA MANCHA
+Guadalajara,0.005501686656270788,2012,Estructura Porcentual,CASTILLA - LA MANCHA
+Toledo,0.015063327151422588,2012,Estructura Porcentual,CASTILLA - LA MANCHA
+Barcelona,0.11780497248087136,2012,Estructura Porcentual,CATALUÑA
+Girona,0.01605371631232981,2012,Estructura Porcentual,CATALUÑA
+Lleida,0.009347733548951534,2012,Estructura Porcentual,CATALUÑA
+Tarragona,0.01721309196073524,2012,Estructura Porcentual,CATALUÑA
+Alicante/Alacant,0.03962412271413689,2012,Estructura Porcentual,COMUNITAT VALENCIANA
+Castellón/Castelló,0.012622648895277576,2012,Estructura Porcentual,COMUNITAT VALENCIANA
+Valencia/València,0.05468744986555948,2012,Estructura Porcentual,COMUNITAT VALENCIANA
+Badajoz,0.014776691843514232,2012,Estructura Porcentual,EXTREMADURA
+Cáceres,0.00879371455829285,2012,Estructura Porcentual,EXTREMADURA
+"Coruña, A",0.024366140241672066,2012,Estructura Porcentual,GALICIA
+Lugo,0.007396902199605128,2012,Estructura Porcentual,GALICIA
+Ourense,0.0069776445850526095,2012,Estructura Porcentual,GALICIA
+Pontevedra,0.020393888250733166,2012,Estructura Porcentual,GALICIA
+Araba/Álava,0.0068407441394844415,2012,Estructura Porcentual,PAÍS VASCO
+Bizkaia,0.02465491461904242,2012,Estructura Porcentual,PAÍS VASCO
+Gipuzkoa,0.015151028999364694,2012,Estructura Porcentual,PAÍS VASCO
+Total Nacional,1.0,2012,Estructura Porcentual,MELILLA
+Almería,0.0039278440500436496,2012,Tasa de Variación Interanual,ANDALUCÍA
+Cádiz,0.0020928922160510233,2012,Tasa de Variación Interanual,ANDALUCÍA
+Córdoba,-0.0013714000748036304,2012,Tasa de Variación Interanual,ANDALUCÍA
+Granada,0.0006515365403410023,2012,Tasa de Variación Interanual,ANDALUCÍA
+Huelva,0.0011556240369798854,2012,Tasa de Variación Interanual,ANDALUCÍA
+Jaén,-0.004943079688436325,2012,Tasa de Variación Interanual,ANDALUCÍA
+Málaga,0.009571788413098359,2012,Tasa de Variación Interanual,ANDALUCÍA
+Sevilla,0.004259297735300205,2012,Tasa de Variación Interanual,ANDALUCÍA
+Huesca,-0.0048651039363113435,2012,Tasa de Variación Interanual,ARAGÓN
+Teruel,-0.01184668989547033,2012,Tasa de Variación Interanual,ARAGÓN
+Zaragoza,-0.0016413623307344194,2012,Tasa de Variación Interanual,ARAGÓN
+"Palmas, Las",0.007020136707925451,2012,Tasa de Variación Interanual,CANARIAS
+Santa Cruz de Tenerife,0.006152915069598475,2012,Tasa de Variación Interanual,CANARIAS
+Ávila,-0.01104651162790704,2012,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Burgos,-0.006439495572846732,2012,Tasa de Variación Interanual,CASTILLA Y LEÓN
+León,-0.0062829347385487955,2012,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Palencia,-0.008196721311475419,2012,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Salamanca,-0.0059965733866360615,2012,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Segovia,-0.008573178199632658,2012,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Soria,-0.008447729672650395,2012,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Valladolid,-0.0013150479053164466,2012,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Zamora,-0.01041666666666663,2012,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Albacete,-0.0029902815848492637,2012,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Ciudad Real,-0.004370131103933028,2012,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Cuenca,-0.013450834879406348,2012,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Guadalajara,0.00351150994927818,2012,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Toledo,0.0005683432793408549,2012,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Barcelona,-0.0008345579564215111,2012,Tasa de Variación Interanual,CATALUÑA
+Girona,0.0013342228152102287,2012,Tasa de Variación Interanual,CATALUÑA
+Lleida,-0.0006860278984679447,2012,Tasa de Variación Interanual,CATALUÑA
+Tarragona,-0.0008691333498881404,2012,Tasa de Variación Interanual,CATALUÑA
+Alicante/Alacant,0.0025979649274736616,2012,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Castellón/Castelló,-0.007401177460050423,2012,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Valencia/València,-0.0013281250000000133,2012,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Badajoz,-0.00014473874656251162,2012,Tasa de Variación Interanual,EXTREMADURA
+Cáceres,-0.003635482307319471,2012,Tasa de Variación Interanual,EXTREMADURA
+"Coruña, A",-0.0007894736842105621,2012,Tasa de Variación Interanual,GALICIA
+Lugo,-0.0077474892395982264,2012,Tasa de Variación Interanual,GALICIA
+Ourense,-0.008510638297872353,2012,Tasa de Variación Interanual,GALICIA
+Pontevedra,-0.0007336757153338924,2012,Tasa de Variación Interanual,GALICIA
+Araba/Álava,-0.0021840873634945135,2012,Tasa de Variación Interanual,PAÍS VASCO
+Bizkaia,-0.002854918245523086,2012,Tasa de Variación Interanual,PAÍS VASCO
+Gipuzkoa,0.000989259468626269,2012,Tasa de Variación Interanual,PAÍS VASCO
+Total Nacional,0.0002781563795166697,2012,Tasa de Variación Interanual,MELILLA
+Almería,691.2,2013,Número de Habitantes,ANDALUCÍA
+Cádiz,1245.6,2013,Número de Habitantes,ANDALUCÍA
+Córdoba,798.3,2013,Número de Habitantes,ANDALUCÍA
+Granada,920.1,2013,Número de Habitantes,ANDALUCÍA
+Huelva,520.6,2013,Número de Habitantes,ANDALUCÍA
+Jaén,658.5,2013,Número de Habitantes,ANDALUCÍA
+Málaga,1612.6,2013,Número de Habitantes,ANDALUCÍA
+Sevilla,1934.4,2013,Número de Habitantes,ANDALUCÍA
+Huesca,224.1,2013,Número de Habitantes,ARAGÓN
+Teruel,140.3,2013,Número de Habitantes,ARAGÓN
+Zaragoza,969.5,2013,Número de Habitantes,ARAGÓN
+"Palmas, Las",1094.6,2013,Número de Habitantes,CANARIAS
+Santa Cruz de Tenerife,1001.6,2013,Número de Habitantes,CANARIAS
+Ávila,168.2,2013,Número de Habitantes,CASTILLA Y LEÓN
+Burgos,367.2,2013,Número de Habitantes,CASTILLA Y LEÓN
+León,486.1,2013,Número de Habitantes,CASTILLA Y LEÓN
+Palencia,167.8,2013,Número de Habitantes,CASTILLA Y LEÓN
+Salamanca,345.5,2013,Número de Habitantes,CASTILLA Y LEÓN
+Segovia,160.0,2013,Número de Habitantes,CASTILLA Y LEÓN
+Soria,92.8,2013,Número de Habitantes,CASTILLA Y LEÓN
+Valladolid,529.7,2013,Número de Habitantes,CASTILLA Y LEÓN
+Zamora,187.4,2013,Número de Habitantes,CASTILLA Y LEÓN
+Albacete,397.2,2013,Número de Habitantes,CASTILLA - LA MANCHA
+Ciudad Real,520.2,2013,Número de Habitantes,CASTILLA - LA MANCHA
+Cuenca,209.5,2013,Número de Habitantes,CASTILLA - LA MANCHA
+Guadalajara,255.7,2013,Número de Habitantes,CASTILLA - LA MANCHA
+Toledo,700.4,2013,Número de Habitantes,CASTILLA - LA MANCHA
+Barcelona,5476.1,2013,Número de Habitantes,CATALUÑA
+Girona,747.6,2013,Número de Habitantes,CATALUÑA
+Lleida,433.9,2013,Número de Habitantes,CATALUÑA
+Tarragona,798.7,2013,Número de Habitantes,CATALUÑA
+Alicante/Alacant,1848.6,2013,Número de Habitantes,COMUNITAT VALENCIANA
+Castellón/Castelló,583.1,2013,Número de Habitantes,COMUNITAT VALENCIANA
+Valencia/València,2538.3,2013,Número de Habitantes,COMUNITAT VALENCIANA
+Badajoz,689.5,2013,Número de Habitantes,EXTREMADURA
+Cáceres,409.0,2013,Número de Habitantes,EXTREMADURA
+"Coruña, A",1134.9,2013,Número de Habitantes,GALICIA
+Lugo,342.8,2013,Número de Habitantes,GALICIA
+Ourense,323.0,2013,Número de Habitantes,GALICIA
+Pontevedra,951.4,2013,Número de Habitantes,GALICIA
+Araba/Álava,320.3,2013,Número de Habitantes,PAÍS VASCO
+Bizkaia,1146.2,2013,Número de Habitantes,PAÍS VASCO
+Gipuzkoa,708.3,2013,Número de Habitantes,PAÍS VASCO
+Total Nacional,46581.1,2013,Número de Habitantes,MELILLA
+Almería,0.014838636270933922,2013,Estructura Porcentual,ANDALUCÍA
+Cádiz,0.0267404591132455,2013,Estructura Porcentual,ANDALUCÍA
+Córdoba,0.017137852047289567,2013,Estructura Porcentual,ANDALUCÍA
+Granada,0.019752646459615598,2013,Estructura Porcentual,ANDALUCÍA
+Huelva,0.011176206658923899,2013,Estructura Porcentual,ANDALUCÍA
+Jaén,0.014136634815407967,2013,Estructura Porcentual,ANDALUCÍA
+Málaga,0.03461919104529519,2013,Estructura Porcentual,ANDALUCÍA
+Sevilla,0.04152757234157201,2013,Estructura Porcentual,ANDALUCÍA
+Huesca,0.004810964103466857,2013,Estructura Porcentual,ARAGÓN
+Teruel,0.0030119511990914774,2013,Estructura Porcentual,ARAGÓN
+Zaragoza,0.02081316241995144,2013,Estructura Porcentual,ARAGÓN
+"Palmas, Las",0.023498801015862655,2013,Estructura Porcentual,CANARIAS
+Santa Cruz de Tenerife,0.021502283114825542,2013,Estructura Porcentual,CANARIAS
+Ávila,0.0036109065694026115,2013,Estructura Porcentual,CASTILLA Y LEÓN
+Burgos,0.007883025518933644,2013,Estructura Porcentual,CASTILLA Y LEÓN
+León,0.010435562921442388,2013,Estructura Porcentual,CASTILLA Y LEÓN
+Palencia,0.0036023193956347104,2013,Estructura Porcentual,CASTILLA Y LEÓN
+Salamanca,0.007417171342024985,2013,Estructura Porcentual,CASTILLA Y LEÓN
+Segovia,0.0034348695071606296,2013,Estructura Porcentual,CASTILLA Y LEÓN
+Soria,0.001992224314153165,2013,Estructura Porcentual,CASTILLA Y LEÓN
+Valladolid,0.011371564862143661,2013,Estructura Porcentual,CASTILLA Y LEÓN
+Zamora,0.004023090910261888,2013,Estructura Porcentual,CASTILLA Y LEÓN
+Albacete,0.008527063551526264,2013,Estructura Porcentual,CASTILLA - LA MANCHA
+Ciudad Real,0.011167619485155999,2013,Estructura Porcentual,CASTILLA - LA MANCHA
+Cuenca,0.004497532260938449,2013,Estructura Porcentual,CASTILLA - LA MANCHA
+Guadalajara,0.005489350831131081,2013,Estructura Porcentual,CASTILLA - LA MANCHA
+Toledo,0.015036141267595655,2013,Estructura Porcentual,CASTILLA - LA MANCHA
+Barcelona,0.11756055567601453,2013,Estructura Porcentual,CATALUÑA
+Girona,0.016049427772208042,2013,Estructura Porcentual,CATALUÑA
+Lleida,0.009314936744731233,2013,Estructura Porcentual,CATALUÑA
+Tarragona,0.01714643922105747,2013,Estructura Porcentual,CATALUÑA
+Alicante/Alacant,0.03968562356835712,2013,Estructura Porcentual,COMUNITAT VALENCIANA
+Castellón/Castelló,0.01251795256015852,2013,Estructura Porcentual,COMUNITAT VALENCIANA
+Valencia/València,0.05449205793766142,2013,Estructura Porcentual,COMUNITAT VALENCIANA
+Badajoz,0.014802140782420339,2013,Estructura Porcentual,EXTREMADURA
+Cáceres,0.008780385177679359,2013,Estructura Porcentual,EXTREMADURA
+"Coruña, A",0.02436395877297874,2013,Estructura Porcentual,GALICIA
+Lugo,0.0073592079190916496,2013,Estructura Porcentual,GALICIA
+Ourense,0.006934142817580521,2013,Estructura Porcentual,GALICIA
+Pontevedra,0.020424592806953894,2013,Estructura Porcentual,GALICIA
+Araba/Álava,0.006876179394647186,2013,Estructura Porcentual,PAÍS VASCO
+Bizkaia,0.02460654643192196,2013,Estructura Porcentual,PAÍS VASCO
+Gipuzkoa,0.015205737949511711,2013,Estructura Porcentual,PAÍS VASCO
+Total Nacional,1.0,2013,Estructura Porcentual,MELILLA
+Almería,0.0015939718881321507,2013,Tasa de Variación Interanual,ANDALUCÍA
+Cádiz,0.0005622941601732823,2013,Tasa de Variación Interanual,ANDALUCÍA
+Córdoba,-0.003370786516853963,2013,Tasa de Variación Interanual,ANDALUCÍA
+Granada,-0.0015192620727074724,2013,Tasa de Variación Interanual,ANDALUCÍA
+Huelva,0.0015390534821086987,2013,Tasa de Variación Interanual,ANDALUCÍA
+Jaén,-0.008730995032364852,2013,Tasa de Variación Interanual,ANDALUCÍA
+Málaga,0.005863273453093676,2013,Tasa de Variación Interanual,ANDALUCÍA
+Sevilla,0.0005172235440156214,2013,Tasa de Variación Interanual,ANDALUCÍA
+Huesca,-0.0040000000000000036,2013,Tasa de Variación Interanual,ARAGÓN
+Teruel,-0.010578279266572621,2013,Tasa de Variación Interanual,ARAGÓN
+Zaragoza,-0.003801890669954844,2013,Tasa de Variación Interanual,ARAGÓN
+"Palmas, Las",0.0040359567051915235,2013,Tasa de Variación Interanual,CANARIAS
+Santa Cruz de Tenerife,0.004110275689223064,2013,Tasa de Variación Interanual,CANARIAS
+Ávila,-0.011169900058788929,2013,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Burgos,-0.008371590602214485,2013,Tasa de Variación Interanual,CASTILLA Y LEÓN
+León,-0.008566183968998553,2013,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Palencia,-0.009445100354191216,2013,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Salamanca,-0.007469118069520331,2013,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Segovia,-0.011735639283508403,2013,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Soria,-0.011714589989350488,2013,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Valladolid,-0.003574115876598949,2013,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Zamora,-0.013684210526315743,2013,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Albacete,-0.007248187953011853,2013,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Ciudad Real,-0.007251908396946449,2013,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Cuenca,-0.015044663845792172,2013,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Guadalajara,-0.005832037325038897,2013,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Toledo,-0.005396194262993537,2013,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Barcelona,-0.0056652079966589275,2013,Tasa de Variación Interanual,CATALUÑA
+Girona,-0.0038640906062624714,2013,Tasa de Variación Interanual,CATALUÑA
+Lleida,-0.007093821510297582,2013,Tasa de Variación Interanual,CATALUÑA
+Tarragona,-0.007456194855225529,2013,Tasa de Variación Interanual,CATALUÑA
+Alicante/Alacant,-0.002051392787734918,2013,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Castellón/Castelló,-0.011862396204033177,2013,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Valencia/València,-0.007157944144566941,2013,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Badajoz,-0.0018818760856976757,2013,Tasa de Variación Interanual,EXTREMADURA
+Cáceres,-0.005108246168815445,2013,Tasa de Variación Interanual,EXTREMADURA
+"Coruña, A",-0.003687121411640626,2013,Tasa de Variación Interanual,GALICIA
+Lugo,-0.008675534991324452,2013,Tasa de Variación Interanual,GALICIA
+Ourense,-0.009809932556713585,2013,Tasa de Variación Interanual,GALICIA
+Pontevedra,-0.0020977554017201916,2013,Tasa de Variación Interanual,GALICIA
+Araba/Álava,0.0015634771732333519,2013,Tasa de Variación Interanual,PAÍS VASCO
+Bizkaia,-0.0055526635432933125,2013,Tasa de Variación Interanual,PAÍS VASCO
+Gipuzkoa,0.0,2013,Tasa de Variación Interanual,PAÍS VASCO
+Total Nacional,-0.0035979148350885337,2013,Tasa de Variación Interanual,MELILLA
+Almería,691.8,2014,Número de Habitantes,ANDALUCÍA
+Cádiz,1245.2,2014,Número de Habitantes,ANDALUCÍA
+Córdoba,795.4,2014,Número de Habitantes,ANDALUCÍA
+Granada,917.8,2014,Número de Habitantes,ANDALUCÍA
+Huelva,520.5,2014,Número de Habitantes,ANDALUCÍA
+Jaén,654.0,2014,Número de Habitantes,ANDALUCÍA
+Málaga,1622.7,2014,Número de Habitantes,ANDALUCÍA
+Sevilla,1934.1,2014,Número de Habitantes,ANDALUCÍA
+Huesca,223.2,2014,Número de Habitantes,ARAGÓN
+Teruel,138.7,2014,Número de Habitantes,ARAGÓN
+Zaragoza,965.8,2014,Número de Habitantes,ARAGÓN
+"Palmas, Las",1094.9,2014,Número de Habitantes,CANARIAS
+Santa Cruz de Tenerife,1002.4,2014,Número de Habitantes,CANARIAS
+Ávila,166.3,2014,Número de Habitantes,CASTILLA Y LEÓN
+Burgos,364.1,2014,Número de Habitantes,CASTILLA Y LEÓN
+León,480.9,2014,Número de Habitantes,CASTILLA Y LEÓN
+Palencia,166.5,2014,Número de Habitantes,CASTILLA Y LEÓN
+Salamanca,342.8,2014,Número de Habitantes,CASTILLA Y LEÓN
+Segovia,158.1,2014,Número de Habitantes,CASTILLA Y LEÓN
+Soria,91.8,2014,Número de Habitantes,CASTILLA Y LEÓN
+Valladolid,527.6,2014,Número de Habitantes,CASTILLA Y LEÓN
+Zamora,185.0,2014,Número de Habitantes,CASTILLA Y LEÓN
+Albacete,394.9,2014,Número de Habitantes,CASTILLA - LA MANCHA
+Ciudad Real,516.0,2014,Número de Habitantes,CASTILLA - LA MANCHA
+Cuenca,206.7,2014,Número de Habitantes,CASTILLA - LA MANCHA
+Guadalajara,254.5,2014,Número de Habitantes,CASTILLA - LA MANCHA
+Toledo,695.3,2014,Número de Habitantes,CASTILLA - LA MANCHA
+Barcelona,5451.0,2014,Número de Habitantes,CATALUÑA
+Girona,743.6,2014,Número de Habitantes,CATALUÑA
+Lleida,431.5,2014,Número de Habitantes,CATALUÑA
+Tarragona,793.6,2014,Número de Habitantes,CATALUÑA
+Alicante/Alacant,1845.3,2014,Número de Habitantes,COMUNITAT VALENCIANA
+Castellón/Castelló,578.2,2014,Número de Habitantes,COMUNITAT VALENCIANA
+Valencia/València,2528.2,2014,Número de Habitantes,COMUNITAT VALENCIANA
+Badajoz,687.4,2014,Número de Habitantes,EXTREMADURA
+Cáceres,406.8,2014,Número de Habitantes,EXTREMADURA
+"Coruña, A",1129.3,2014,Número de Habitantes,GALICIA
+Lugo,339.6,2014,Número de Habitantes,GALICIA
+Ourense,319.8,2014,Número de Habitantes,GALICIA
+Pontevedra,948.9,2014,Número de Habitantes,GALICIA
+Araba/Álava,321.0,2014,Número de Habitantes,PAÍS VASCO
+Bizkaia,1141.6,2014,Número de Habitantes,PAÍS VASCO
+Gipuzkoa,709.1,2014,Número de Habitantes,PAÍS VASCO
+Total Nacional,46433.1,2014,Número de Habitantes,MELILLA
+Almería,0.014898854480962934,2014,Estructura Porcentual,ANDALUCÍA
+Cádiz,0.026817076611296686,2014,Estructura Porcentual,ANDALUCÍA
+Córdoba,0.01713002147175183,2014,Estructura Porcentual,ANDALUCÍA
+Granada,0.019766072047741806,2014,Estructura Porcentual,ANDALUCÍA
+Huelva,0.011209675856231869,2014,Estructura Porcentual,ANDALUCÍA
+Jaén,0.014084780038377796,2014,Estructura Porcentual,ANDALUCÍA
+Málaga,0.03494705285669059,2014,Estructura Porcentual,ANDALUCÍA
+Sevilla,0.04165347564560626,2014,Estructura Porcentual,ANDALUCÍA
+Huesca,0.004806915756217009,2014,Estructura Porcentual,ARAGÓN
+Teruel,0.00298709325890367,2014,Estructura Porcentual,ARAGÓN
+Zaragoza,0.02079981737165944,2014,Estructura Porcentual,ARAGÓN
+"Palmas, Las",0.023580161565779585,2014,Estructura Porcentual,CANARIAS
+Santa Cruz de Tenerife,0.021588048181146638,2014,Estructura Porcentual,CANARIAS
+Ávila,0.0035814968201563113,2014,Estructura Porcentual,CASTILLA Y LEÓN
+Burgos,0.007841389009133571,2014,Estructura Porcentual,CASTILLA Y LEÓN
+León,0.01035683596399982,2014,Estructura Porcentual,CASTILLA Y LEÓN
+Palencia,0.0035858040923393013,2014,Estructura Porcentual,CASTILLA Y LEÓN
+Salamanca,0.00738266452164512,2014,Estructura Porcentual,CASTILLA Y LEÓN
+Segovia,0.003404898660653715,2014,Estructura Porcentual,CASTILLA Y LEÓN
+Soria,0.0019770379319924794,2014,Estructura Porcentual,CASTILLA Y LEÓN
+Valladolid,0.011362584018728021,2014,Estructura Porcentual,CASTILLA Y LEÓN
+Zamora,0.00398422676926589,2014,Estructura Porcentual,CASTILLA Y LEÓN
+Albacete,0.008504708925314054,2014,Estructura Porcentual,CASTILLA - LA MANCHA
+Ciudad Real,0.011112762232114591,2014,Estructura Porcentual,CASTILLA - LA MANCHA
+Cuenca,0.004451565801120321,2014,Estructura Porcentual,CASTILLA - LA MANCHA
+Guadalajara,0.005481003852854968,2014,Estructura Porcentual,CASTILLA - LA MANCHA
+Toledo,0.014974231744165262,2014,Estructura Porcentual,CASTILLA - LA MANCHA
+Barcelona,0.11739470334739659,2014,Estructura Porcentual,CATALUÑA
+Girona,0.016014437976357383,2014,Estructura Porcentual,CATALUÑA
+Lleida,0.009292939734801251,2014,Estructura Porcentual,CATALUÑA
+Tarragona,0.01709125602210492,2014,Estructura Porcentual,CATALUÑA
+Alicante/Alacant,0.039741046796358634,2014,Estructura Porcentual,COMUNITAT VALENCIANA
+Castellón/Castelló,0.012452323881024529,2014,Estructura Porcentual,COMUNITAT VALENCIANA
+Valencia/València,0.054448227665178504,2014,Estructura Porcentual,COMUNITAT VALENCIANA
+Badajoz,0.01480409449293715,2014,Estructura Porcentual,EXTREMADURA
+Cáceres,0.008760991620201969,2014,Estructura Porcentual,EXTREMADURA
+"Coruña, A",0.02432101238125389,2014,Estructura Porcentual,GALICIA
+Lugo,0.007313748166717278,2014,Estructura Porcentual,GALICIA
+Ourense,0.006887328220601252,2014,Estructura Porcentual,GALICIA
+Pontevedra,0.020435852872196774,2014,Estructura Porcentual,GALICIA
+Araba/Álava,0.006913171853699193,2014,Estructura Porcentual,PAÍS VASCO
+Bizkaia,0.024585909620507784,2014,Estructura Porcentual,PAÍS VASCO
+Gipuzkoa,0.015271433524791583,2014,Estructura Porcentual,PAÍS VASCO
+Total Nacional,1.0,2014,Estructura Porcentual,MELILLA
+Almería,0.0008680555555553582,2014,Tasa de Variación Interanual,ANDALUCÍA
+Cádiz,-0.00032113037893377605,2014,Tasa de Variación Interanual,ANDALUCÍA
+Córdoba,-0.0036327195289991288,2014,Tasa de Variación Interanual,ANDALUCÍA
+Granada,-0.002499728290403236,2014,Tasa de Variación Interanual,ANDALUCÍA
+Huelva,-0.00019208605455245387,2014,Tasa de Variación Interanual,ANDALUCÍA
+Jaén,-0.006833712984054663,2014,Tasa de Variación Interanual,ANDALUCÍA
+Málaga,0.006263177477365822,2014,Tasa de Variación Interanual,ANDALUCÍA
+Sevilla,-0.00015508684863529965,2014,Tasa de Variación Interanual,ANDALUCÍA
+Huesca,-0.004016064257028162,2014,Tasa de Variación Interanual,ARAGÓN
+Teruel,-0.01140413399857465,2014,Tasa de Variación Interanual,ARAGÓN
+Zaragoza,-0.0038164002062919256,2014,Tasa de Variación Interanual,ARAGÓN
+"Palmas, Las",0.00027407272062873744,2014,Tasa de Variación Interanual,CANARIAS
+Santa Cruz de Tenerife,0.0007987220447283061,2014,Tasa de Variación Interanual,CANARIAS
+Ávila,-0.011296076099880925,2014,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Burgos,-0.008442265795206905,2014,Tasa de Variación Interanual,CASTILLA Y LEÓN
+León,-0.010697387368854283,2014,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Palencia,-0.007747318235995282,2014,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Salamanca,-0.007814761215629518,2014,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Segovia,-0.01187500000000008,2014,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Soria,-0.010775862068965525,2014,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Valladolid,-0.003964508212195628,2014,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Zamora,-0.012806830309498474,2014,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Albacete,-0.005790533736153125,2014,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Ciudad Real,-0.008073817762399127,2014,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Cuenca,-0.013365155131265016,2014,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Guadalajara,-0.00469299960891667,2014,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Toledo,-0.007281553398058249,2014,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Barcelona,-0.004583553989152889,2014,Tasa de Variación Interanual,CATALUÑA
+Girona,-0.005350454788657033,2014,Tasa de Variación Interanual,CATALUÑA
+Lleida,-0.005531228393639065,2014,Tasa de Variación Interanual,CATALUÑA
+Tarragona,-0.006385376236384133,2014,Tasa de Variación Interanual,CATALUÑA
+Alicante/Alacant,-0.0017851346965270798,2014,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Castellón/Castelló,-0.008403361344537785,2014,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Valencia/València,-0.00397904109049374,2014,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Badajoz,-0.003045685279187804,2014,Tasa de Variación Interanual,EXTREMADURA
+Cáceres,-0.005378973105134466,2014,Tasa de Variación Interanual,EXTREMADURA
+"Coruña, A",-0.004934355449819461,2014,Tasa de Variación Interanual,GALICIA
+Lugo,-0.009334889148191361,2014,Tasa de Variación Interanual,GALICIA
+Ourense,-0.009907120743034015,2014,Tasa de Variación Interanual,GALICIA
+Pontevedra,-0.0026277065377339204,2014,Tasa de Variación Interanual,GALICIA
+Araba/Álava,0.0021854511395567044,2014,Tasa de Variación Interanual,PAÍS VASCO
+Bizkaia,-0.004013261210958019,2014,Tasa de Variación Interanual,PAÍS VASCO
+Gipuzkoa,0.0011294649159960812,2014,Tasa de Variación Interanual,PAÍS VASCO
+Total Nacional,-0.0031772542941236326,2014,Tasa de Variación Interanual,MELILLA
+Almería,696.9,2015,Número de Habitantes,ANDALUCÍA
+Cádiz,1244.4,2015,Número de Habitantes,ANDALUCÍA
+Córdoba,792.0,2015,Número de Habitantes,ANDALUCÍA
+Granada,916.0,2015,Número de Habitantes,ANDALUCÍA
+Huelva,520.2,2015,Número de Habitantes,ANDALUCÍA
+Jaén,649.2,2015,Número de Habitantes,ANDALUCÍA
+Málaga,1632.4,2015,Número de Habitantes,ANDALUCÍA
+Sevilla,1934.9,2015,Número de Habitantes,ANDALUCÍA
+Huesca,221.9,2015,Número de Habitantes,ARAGÓN
+Teruel,136.9,2015,Número de Habitantes,ARAGÓN
+Zaragoza,962.1,2015,Número de Habitantes,ARAGÓN
+"Palmas, Las",1097.4,2015,Número de Habitantes,CANARIAS
+Santa Cruz de Tenerife,1001.8,2015,Número de Habitantes,CANARIAS
+Ávila,164.5,2015,Número de Habitantes,CASTILLA Y LEÓN
+Burgos,361.7,2015,Número de Habitantes,CASTILLA Y LEÓN
+León,475.8,2015,Número de Habitantes,CASTILLA Y LEÓN
+Palencia,165.0,2015,Número de Habitantes,CASTILLA Y LEÓN
+Salamanca,339.7,2015,Número de Habitantes,CASTILLA Y LEÓN
+Segovia,156.7,2015,Número de Habitantes,CASTILLA Y LEÓN
+Soria,90.8,2015,Número de Habitantes,CASTILLA Y LEÓN
+Valladolid,525.7,2015,Número de Habitantes,CASTILLA Y LEÓN
+Zamora,182.3,2015,Número de Habitantes,CASTILLA Y LEÓN
+Albacete,392.7,2015,Número de Habitantes,CASTILLA - LA MANCHA
+Ciudad Real,511.1,2015,Número de Habitantes,CASTILLA - LA MANCHA
+Cuenca,203.9,2015,Número de Habitantes,CASTILLA - LA MANCHA
+Guadalajara,254.0,2015,Número de Habitantes,CASTILLA - LA MANCHA
+Toledo,692.4,2015,Número de Habitantes,CASTILLA - LA MANCHA
+Barcelona,5457.9,2015,Número de Habitantes,CATALUÑA
+Girona,744.0,2015,Número de Habitantes,CATALUÑA
+Lleida,430.1,2015,Número de Habitantes,CATALUÑA
+Tarragona,792.0,2015,Número de Habitantes,CATALUÑA
+Alicante/Alacant,1835.7,2015,Número de Habitantes,COMUNITAT VALENCIANA
+Castellón/Castelló,576.0,2015,Número de Habitantes,COMUNITAT VALENCIANA
+Valencia/València,2525.5,2015,Número de Habitantes,COMUNITAT VALENCIANA
+Badajoz,684.0,2015,Número de Habitantes,EXTREMADURA
+Cáceres,404.4,2015,Número de Habitantes,EXTREMADURA
+"Coruña, A",1124.3,2015,Número de Habitantes,GALICIA
+Lugo,336.7,2015,Número de Habitantes,GALICIA
+Ourense,315.9,2015,Número de Habitantes,GALICIA
+Pontevedra,946.5,2015,Número de Habitantes,GALICIA
+Araba/Álava,322.1,2015,Número de Habitantes,PAÍS VASCO
+Bizkaia,1139.8,2015,Número de Habitantes,PAÍS VASCO
+Gipuzkoa,710.0,2015,Número de Habitantes,PAÍS VASCO
+Total Nacional,46384.4,2015,Número de Habitantes,MELILLA
+Almería,0.015024447874716499,2015,Estructura Porcentual,ANDALUCÍA
+Cádiz,0.02682798527091005,2015,Estructura Porcentual,ANDALUCÍA
+Córdoba,0.017074706151206008,2015,Estructura Porcentual,ANDALUCÍA
+Granada,0.019748018730435232,2015,Estructura Porcentual,ANDALUCÍA
+Huelva,0.011214977449314857,2015,Estructura Porcentual,ANDALUCÍA
+Jaén,0.013996084890609774,2015,Estructura Porcentual,ANDALUCÍA
+Málaga,0.035192866567207944,2015,Estructura Porcentual,ANDALUCÍA
+Sevilla,0.04171445572218246,2015,Estructura Porcentual,ANDALUCÍA
+Huesca,0.0047839359784755215,2015,Estructura Porcentual,ARAGÓN
+Teruel,0.0029514233233587156,2015,Estructura Porcentual,ARAGÓN
+Zaragoza,0.020741887358680936,2015,Estructura Porcentual,ARAGÓN
+"Palmas, Las",0.023658816326178632,2015,Estructura Porcentual,CANARIAS
+Santa Cruz de Tenerife,0.021597778563482547,2015,Estructura Porcentual,CANARIAS
+Ávila,0.003546450961961349,2015,Estructura Porcentual,CASTILLA Y LEÓN
+Burgos,0.0077978803218323395,2015,Estructura Porcentual,CASTILLA Y LEÓN
+León,0.010257759074171488,2015,Estructura Porcentual,CASTILLA Y LEÓN
+Palencia,0.0035572304481679183,2015,Estructura Porcentual,CASTILLA Y LEÓN
+Salamanca,0.007323582928743284,2015,Estructura Porcentual,CASTILLA Y LEÓN
+Segovia,0.0033782909771388654,2015,Estructura Porcentual,CASTILLA Y LEÓN
+Soria,0.001957554695113012,2015,Estructura Porcentual,CASTILLA Y LEÓN
+Valladolid,0.01133355179758712,2015,Estructura Porcentual,CASTILLA Y LEÓN
+Zamora,0.003930200670915222,2015,Estructura Porcentual,CASTILLA Y LEÓN
+Albacete,0.008466208466639646,2015,Estructura Porcentual,CASTILLA - LA MANCHA
+Ciudad Real,0.011018790800355291,2015,Estructura Porcentual,CASTILLA - LA MANCHA
+Cuenca,0.004395874475039022,2015,Estructura Porcentual,CASTILLA - LA MANCHA
+Guadalajara,0.00547597899293728,2015,Estructura Porcentual,CASTILLA - LA MANCHA
+Toledo,0.014927432498857373,2015,Estructura Porcentual,CASTILLA - LA MANCHA
+Barcelona,0.1176667155336708,2015,Estructura Porcentual,CATALUÑA
+Girona,0.016039875475375342,2015,Estructura Porcentual,CATALUÑA
+Lleida,0.00927251403489104,2015,Estructura Porcentual,CATALUÑA
+Tarragona,0.017074706151206008,2015,Estructura Porcentual,CATALUÑA
+Alicante/Alacant,0.039575805658799076,2015,Estructura Porcentual,COMUNITAT VALENCIANA
+Castellón/Castelló,0.012417968109968007,2015,Estructura Porcentual,COMUNITAT VALENCIANA
+Valencia/València,0.05444718482938229,2015,Estructura Porcentual,COMUNITAT VALENCIANA
+Badajoz,0.014746337130587006,2015,Estructura Porcentual,EXTREMADURA
+Cáceres,0.00871844844387337,2015,Estructura Porcentual,EXTREMADURA
+"Coruña, A",0.024238752684092063,2015,Estructura Porcentual,GALICIA
+Lugo,0.007258906011503867,2015,Estructura Porcentual,GALICIA
+Ourense,0.006810479385310578,2015,Estructura Porcentual,GALICIA
+Pontevedra,0.02040556738903597,2015,Estructura Porcentual,GALICIA
+Araba/Álava,0.00694414501427204,2015,Estructura Porcentual,PAÍS VASCO
+Bizkaia,0.024572916756495717,2015,Estructura Porcentual,PAÍS VASCO
+Gipuzkoa,0.015306870413328618,2015,Estructura Porcentual,PAÍS VASCO
+Total Nacional,1.0,2015,Estructura Porcentual,MELILLA
+Almería,0.007372072853425893,2015,Tasa de Variación Interanual,ANDALUCÍA
+Cádiz,-0.0006424670735624138,2015,Tasa de Variación Interanual,ANDALUCÍA
+Córdoba,-0.004274578828262432,2015,Tasa de Variación Interanual,ANDALUCÍA
+Granada,-0.0019612115929396046,2015,Tasa de Variación Interanual,ANDALUCÍA
+Huelva,-0.0005763688760805907,2015,Tasa de Variación Interanual,ANDALUCÍA
+Jaén,-0.007339449541284293,2015,Tasa de Variación Interanual,ANDALUCÍA
+Málaga,0.005977691501817928,2015,Tasa de Variación Interanual,ANDALUCÍA
+Sevilla,0.00041362907812425576,2015,Tasa de Variación Interanual,ANDALUCÍA
+Huesca,-0.005824372759856589,2015,Tasa de Variación Interanual,ARAGÓN
+Teruel,-0.012977649603460595,2015,Tasa de Variación Interanual,ARAGÓN
+Zaragoza,-0.003831020915303296,2015,Tasa de Variación Interanual,ARAGÓN
+"Palmas, Las",0.0022833135446158614,2015,Tasa de Variación Interanual,CANARIAS
+Santa Cruz de Tenerife,-0.0005985634477254642,2015,Tasa de Variación Interanual,CANARIAS
+Ávila,-0.010823812387252052,2015,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Burgos,-0.006591595715462861,2015,Tasa de Variación Interanual,CASTILLA Y LEÓN
+León,-0.010605115408608756,2015,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Palencia,-0.009009009009009028,2015,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Salamanca,-0.00904317386231046,2015,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Segovia,-0.008855154965211942,2015,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Soria,-0.01089324618736387,2015,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Valladolid,-0.0036012130401819054,2015,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Zamora,-0.014594594594594557,2015,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Albacete,-0.005571030640668551,2015,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Ciudad Real,-0.009496124031007747,2015,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Cuenca,-0.013546202225447446,2015,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Guadalajara,-0.0019646365422396617,2015,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Toledo,-0.00417086149863366,2015,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Barcelona,0.0012658227848101333,2015,Tasa de Variación Interanual,CATALUÑA
+Girona,0.0005379236148466138,2015,Tasa de Variación Interanual,CATALUÑA
+Lleida,-0.0032444959443800325,2015,Tasa de Variación Interanual,CATALUÑA
+Tarragona,-0.0020161290322581182,2015,Tasa de Variación Interanual,CATALUÑA
+Alicante/Alacant,-0.005202406112827185,2015,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Castellón/Castelló,-0.003804911795226684,2015,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Valencia/València,-0.0010679534846925742,2015,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Badajoz,-0.004946173988943814,2015,Tasa de Variación Interanual,EXTREMADURA
+Cáceres,-0.005899705014749346,2015,Tasa de Variación Interanual,EXTREMADURA
+"Coruña, A",-0.004427521473479135,2015,Tasa de Variación Interanual,GALICIA
+Lugo,-0.008539458186101356,2015,Tasa de Variación Interanual,GALICIA
+Ourense,-0.012195121951219634,2015,Tasa de Variación Interanual,GALICIA
+Pontevedra,-0.0025292443882389826,2015,Tasa de Variación Interanual,GALICIA
+Araba/Álava,0.003426791277258534,2015,Tasa de Variación Interanual,PAÍS VASCO
+Bizkaia,-0.0015767344078485568,2015,Tasa de Variación Interanual,PAÍS VASCO
+Gipuzkoa,0.0012692144972499264,2015,Tasa de Variación Interanual,PAÍS VASCO
+Total Nacional,-0.0010488207765579904,2015,Tasa de Variación Interanual,MELILLA
+Almería,702.4,2016,Número de Habitantes,ANDALUCÍA
+Cádiz,1244.0,2016,Número de Habitantes,ANDALUCÍA
+Córdoba,789.0,2016,Número de Habitantes,ANDALUCÍA
+Granada,914.8,2016,Número de Habitantes,ANDALUCÍA
+Huelva,519.6,2016,Número de Habitantes,ANDALUCÍA
+Jaén,644.6,2016,Número de Habitantes,ANDALUCÍA
+Málaga,1640.7,2016,Número de Habitantes,ANDALUCÍA
+Sevilla,1935.7,2016,Número de Habitantes,ANDALUCÍA
+Huesca,221.0,2016,Número de Habitantes,ARAGÓN
+Teruel,135.7,2016,Número de Habitantes,ARAGÓN
+Zaragoza,959.6,2016,Número de Habitantes,ARAGÓN
+"Palmas, Las",1101.8,2016,Número de Habitantes,CANARIAS
+Santa Cruz de Tenerife,1005.1,2016,Número de Habitantes,CANARIAS
+Ávila,162.7,2016,Número de Habitantes,CASTILLA Y LEÓN
+Burgos,359.2,2016,Número de Habitantes,CASTILLA Y LEÓN
+León,470.9,2016,Número de Habitantes,CASTILLA Y LEÓN
+Palencia,163.8,2016,Número de Habitantes,CASTILLA Y LEÓN
+Salamanca,336.8,2016,Número de Habitantes,CASTILLA Y LEÓN
+Segovia,155.4,2016,Número de Habitantes,CASTILLA Y LEÓN
+Soria,89.9,2016,Número de Habitantes,CASTILLA Y LEÓN
+Valladolid,524.0,2016,Número de Habitantes,CASTILLA Y LEÓN
+Zamora,179.6,2016,Número de Habitantes,CASTILLA Y LEÓN
+Albacete,390.8,2016,Número de Habitantes,CASTILLA - LA MANCHA
+Ciudad Real,506.3,2016,Número de Habitantes,CASTILLA - LA MANCHA
+Cuenca,201.5,2016,Número de Habitantes,CASTILLA - LA MANCHA
+Guadalajara,254.3,2016,Número de Habitantes,CASTILLA - LA MANCHA
+Toledo,690.9,2016,Número de Habitantes,CASTILLA - LA MANCHA
+Barcelona,5483.9,2016,Número de Habitantes,CATALUÑA
+Girona,747.3,2016,Número de Habitantes,CATALUÑA
+Lleida,429.5,2016,Número de Habitantes,CATALUÑA
+Tarragona,792.2,2016,Número de Habitantes,CATALUÑA
+Alicante/Alacant,1834.9,2016,Número de Habitantes,COMUNITAT VALENCIANA
+Castellón/Castelló,574.8,2016,Número de Habitantes,COMUNITAT VALENCIANA
+Valencia/València,2526.6,2016,Número de Habitantes,COMUNITAT VALENCIANA
+Badajoz,680.8,2016,Número de Habitantes,EXTREMADURA
+Cáceres,401.6,2016,Número de Habitantes,EXTREMADURA
+"Coruña, A",1120.7,2016,Número de Habitantes,GALICIA
+Lugo,334.3,2016,Número de Habitantes,GALICIA
+Ourense,312.6,2016,Número de Habitantes,GALICIA
+Pontevedra,944.4,2016,Número de Habitantes,GALICIA
+Araba/Álava,324.0,2016,Número de Habitantes,PAÍS VASCO
+Bizkaia,1140.7,2016,Número de Habitantes,PAÍS VASCO
+Gipuzkoa,712.1,2016,Número de Habitantes,PAÍS VASCO
+Total Nacional,46427.1,2016,Número de Habitantes,MELILLA
+Almería,0.015129094860544812,2016,Estructura Porcentual,ANDALUCÍA
+Cádiz,0.02679469533957538,2016,Estructura Porcentual,ANDALUCÍA
+Córdoba,0.01699438474511654,2016,Estructura Porcentual,ANDALUCÍA
+Granada,0.019704009080903178,2016,Estructura Porcentual,ANDALUCÍA
+Huelva,0.01119173930743036,2016,Estructura Porcentual,ANDALUCÍA
+Jaén,0.013884132327886085,2016,Estructura Porcentual,ANDALUCÍA
+Málaga,0.035339273829293666,2016,Estructura Porcentual,ANDALUCÍA
+Sevilla,0.04169332135756918,2016,Estructura Porcentual,ANDALUCÍA
+Huesca,0.004760150860165722,2016,Estructura Porcentual,ARAGÓN
+Teruel,0.002922861863006735,2016,Estructura Porcentual,ARAGÓN
+Zaragoza,0.020668962739434513,2016,Estructura Porcentual,ARAGÓN
+"Palmas, Las",0.023731829039504944,2016,Estructura Porcentual,CANARIAS
+Santa Cruz de Tenerife,0.021648993798880398,2016,Estructura Porcentual,CANARIAS
+Ávila,0.0035044187554251717,2016,Estructura Porcentual,CASTILLA Y LEÓN
+Burgos,0.007736860583581572,2016,Estructura Porcentual,CASTILLA Y LEÓN
+León,0.010142782986660808,2016,Estructura Porcentual,CASTILLA Y LEÓN
+Palencia,0.0035281118140051827,2016,Estructura Porcentual,CASTILLA Y LEÓN
+Salamanca,0.007254383754315906,2016,Estructura Porcentual,CASTILLA Y LEÓN
+Segovia,0.0033471830030305577,2016,Estructura Porcentual,CASTILLA Y LEÓN
+Soria,0.0019363690603117578,2016,Estructura Porcentual,CASTILLA Y LEÓN
+Valladolid,0.0112865115417504,2016,Estructura Porcentual,CASTILLA Y LEÓN
+Zamora,0.003868430291790786,2016,Estructura Porcentual,CASTILLA Y LEÓN
+Albacete,0.00841749753915278,2016,Estructura Porcentual,CASTILLA - LA MANCHA
+Ciudad Real,0.01090526869005387,2016,Estructura Porcentual,CASTILLA - LA MANCHA
+Cuenca,0.004340137548974629,2016,Estructura Porcentual,CASTILLA - LA MANCHA
+Guadalajara,0.005477404360815128,2016,Estructura Porcentual,CASTILLA - LA MANCHA
+Toledo,0.014881394702662884,2016,Estructura Porcentual,CASTILLA - LA MANCHA
+Barcelona,0.11811851267901721,2016,Estructura Porcentual,CATALUÑA
+Girona,0.016096202433492506,2016,Estructura Porcentual,CATALUÑA
+Lleida,0.009251062418285872,2016,Estructura Porcentual,CATALUÑA
+Tarragona,0.017063310006440204,2016,Estructura Porcentual,CATALUÑA
+Alicante/Alacant,0.039522175625873686,2016,Estructura Porcentual,COMUNITAT VALENCIANA
+Castellón/Castelló,0.012380700065263607,2016,Estructura Porcentual,COMUNITAT VALENCIANA
+Valencia/València,0.054420801643867485,2016,Estructura Porcentual,COMUNITAT VALENCIANA
+Badajoz,0.014663849346610061,2016,Estructura Porcentual,EXTREMADURA
+Cáceres,0.008650120296120155,2016,Estructura Porcentual,EXTREMADURA
+"Coruña, A",0.02413891886419785,2016,Estructura Porcentual,GALICIA
+Lugo,0.0072005358939067916,2016,Estructura Porcentual,GALICIA
+Ourense,0.006733136465555678,2016,Estructura Porcentual,GALICIA
+Pontevedra,0.020341567748147094,2016,Estructura Porcentual,GALICIA
+Araba/Álava,0.00697868270902124,2016,Estructura Porcentual,PAÍS VASCO
+Bizkaia,0.02456970174747077,2016,Estructura Porcentual,PAÍS VASCO
+Gipuzkoa,0.015338024558932177,2016,Estructura Porcentual,PAÍS VASCO
+Total Nacional,1.0,2016,Estructura Porcentual,MELILLA
+Almería,0.00789209355718179,2016,Tasa de Variación Interanual,ANDALUCÍA
+Cádiz,-0.00032144005143053267,2016,Tasa de Variación Interanual,ANDALUCÍA
+Córdoba,-0.0037878787878787845,2016,Tasa de Variación Interanual,ANDALUCÍA
+Granada,-0.0013100436681223737,2016,Tasa de Variación Interanual,ANDALUCÍA
+Huelva,-0.0011534025374856371,2016,Tasa de Variación Interanual,ANDALUCÍA
+Jaén,-0.007085643869377711,2016,Tasa de Variación Interanual,ANDALUCÍA
+Málaga,0.005084538103405922,2016,Tasa de Variación Interanual,ANDALUCÍA
+Sevilla,0.0004134580598480486,2016,Tasa de Variación Interanual,ANDALUCÍA
+Huesca,-0.004055881027489883,2016,Tasa de Variación Interanual,ARAGÓN
+Teruel,-0.008765522279035931,2016,Tasa de Variación Interanual,ARAGÓN
+Zaragoza,-0.002598482486228071,2016,Tasa de Variación Interanual,ARAGÓN
+"Palmas, Las",0.004009476945507462,2016,Tasa de Variación Interanual,CANARIAS
+Santa Cruz de Tenerife,0.0032940706727890845,2016,Tasa de Variación Interanual,CANARIAS
+Ávila,-0.01094224924012166,2016,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Burgos,-0.006911805363560952,2016,Tasa de Variación Interanual,CASTILLA Y LEÓN
+León,-0.010298444724674338,2016,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Palencia,-0.0072727272727272085,2016,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Salamanca,-0.008536944362672827,2016,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Segovia,-0.00829610721123153,2016,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Soria,-0.009911894273127664,2016,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Valladolid,-0.0032337835267263193,2016,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Zamora,-0.014810751508502529,2016,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Albacete,-0.004838298955946008,2016,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Ciudad Real,-0.009391508511054636,2016,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Cuenca,-0.011770475723393847,2016,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Guadalajara,0.0011811023622048111,2016,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Toledo,-0.002166377816291143,2016,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Barcelona,0.0047637369684310205,2016,Tasa de Variación Interanual,CATALUÑA
+Girona,0.004435483870967705,2016,Tasa de Variación Interanual,CATALUÑA
+Lleida,-0.0013950244129272704,2016,Tasa de Variación Interanual,CATALUÑA
+Tarragona,0.00025252525252539293,2016,Tasa de Variación Interanual,CATALUÑA
+Alicante/Alacant,-0.0004358010568175086,2016,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Castellón/Castelló,-0.002083333333333437,2016,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Valencia/València,0.00043555731538313935,2016,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Badajoz,-0.004678362573099504,2016,Tasa de Variación Interanual,EXTREMADURA
+Cáceres,-0.006923837784371778,2016,Tasa de Variación Interanual,EXTREMADURA
+"Coruña, A",-0.00320199235079599,2016,Tasa de Variación Interanual,GALICIA
+Lugo,-0.007128007128007097,2016,Tasa de Variación Interanual,GALICIA
+Ourense,-0.010446343779677014,2016,Tasa de Variación Interanual,GALICIA
+Pontevedra,-0.0022187004754358197,2016,Tasa de Variación Interanual,GALICIA
+Araba/Álava,0.005898789195901921,2016,Tasa de Variación Interanual,PAÍS VASCO
+Bizkaia,0.0007896122126689331,2016,Tasa de Variación Interanual,PAÍS VASCO
+Gipuzkoa,0.0029577464788732577,2016,Tasa de Variación Interanual,PAÍS VASCO
+Total Nacional,0.0009205681220409989,2016,Tasa de Variación Interanual,MELILLA
+Almería,706.2,2017,Número de Habitantes,ANDALUCÍA
+Cádiz,1243.2,2017,Número de Habitantes,ANDALUCÍA
+Córdoba,785.5,2017,Número de Habitantes,ANDALUCÍA
+Granada,914.2,2017,Número de Habitantes,ANDALUCÍA
+Huelva,519.6,2017,Número de Habitantes,ANDALUCÍA
+Jaén,639.9,2017,Número de Habitantes,ANDALUCÍA
+Málaga,1643.4,2017,Número de Habitantes,ANDALUCÍA
+Sevilla,1936.5,2017,Número de Habitantes,ANDALUCÍA
+Huesca,220.4,2017,Número de Habitantes,ARAGÓN
+Teruel,134.6,2017,Número de Habitantes,ARAGÓN
+Zaragoza,960.2,2017,Número de Habitantes,ARAGÓN
+"Palmas, Las",1107.5,2017,Número de Habitantes,CANARIAS
+Santa Cruz de Tenerife,1012.8,2017,Número de Habitantes,CANARIAS
+Ávila,160.6,2017,Número de Habitantes,CASTILLA Y LEÓN
+Burgos,357.2,2017,Número de Habitantes,CASTILLA Y LEÓN
+León,466.0,2017,Número de Habitantes,CASTILLA Y LEÓN
+Palencia,162.5,2017,Número de Habitantes,CASTILLA Y LEÓN
+Salamanca,334.1,2017,Número de Habitantes,CASTILLA Y LEÓN
+Segovia,154.0,2017,Número de Habitantes,CASTILLA Y LEÓN
+Soria,89.3,2017,Número de Habitantes,CASTILLA Y LEÓN
+Valladolid,521.1,2017,Número de Habitantes,CASTILLA Y LEÓN
+Zamora,176.7,2017,Número de Habitantes,CASTILLA Y LEÓN
+Albacete,389.0,2017,Número de Habitantes,CASTILLA - LA MANCHA
+Ciudad Real,500.7,2017,Número de Habitantes,CASTILLA - LA MANCHA
+Cuenca,199.5,2017,Número de Habitantes,CASTILLA - LA MANCHA
+Guadalajara,255.5,2017,Número de Habitantes,CASTILLA - LA MANCHA
+Toledo,689.4,2017,Número de Habitantes,CASTILLA - LA MANCHA
+Barcelona,5519.3,2017,Número de Habitantes,CATALUÑA
+Girona,753.4,2017,Número de Habitantes,CATALUÑA
+Lleida,429.8,2017,Número de Habitantes,CATALUÑA
+Tarragona,793.1,2017,Número de Habitantes,CATALUÑA
+Alicante/Alacant,1832.8,2017,Número de Habitantes,COMUNITAT VALENCIANA
+Castellón/Castelló,574.5,2017,Número de Habitantes,COMUNITAT VALENCIANA
+Valencia/València,2533.0,2017,Número de Habitantes,COMUNITAT VALENCIANA
+Badajoz,676.9,2017,Número de Habitantes,EXTREMADURA
+Cáceres,398.2,2017,Número de Habitantes,EXTREMADURA
+"Coruña, A",1118.6,2017,Número de Habitantes,GALICIA
+Lugo,332.0,2017,Número de Habitantes,GALICIA
+Ourense,309.9,2017,Número de Habitantes,GALICIA
+Pontevedra,942.3,2017,Número de Habitantes,GALICIA
+Araba/Álava,326.3,2017,Número de Habitantes,PAÍS VASCO
+Bizkaia,1142.0,2017,Número de Habitantes,PAÍS VASCO
+Gipuzkoa,713.7,2017,Número de Habitantes,PAÍS VASCO
+Total Nacional,46510.5,2017,Número de Habitantes,MELILLA
+Almería,0.015183668203953947,2017,Estructura Porcentual,ANDALUCÍA
+Cádiz,0.026729448189118588,2017,Estructura Porcentual,ANDALUCÍA
+Córdoba,0.01688865954999409,2017,Estructura Porcentual,ANDALUCÍA
+Granada,0.019655776652583827,2017,Estructura Porcentual,ANDALUCÍA
+Huelva,0.01117167091301964,2017,Estructura Porcentual,ANDALUCÍA
+Jaén,0.01375818363595317,2017,Estructura Porcentual,ANDALUCÍA
+Málaga,0.03533395684845358,2017,Estructura Porcentual,ANDALUCÍA
+Sevilla,0.04163575966717193,2017,Estructura Porcentual,ANDALUCÍA
+Huesca,0.004738714913836661,2017,Estructura Porcentual,ARAGÓN
+Teruel,0.0028939701787768354,2017,Estructura Porcentual,ARAGÓN
+Zaragoza,0.020644800636415436,2017,Estructura Porcentual,ARAGÓN
+"Palmas, Las",0.02381182743681534,2017,Estructura Porcentual,CANARIAS
+Santa Cruz de Tenerife,0.02177572806140549,2017,Estructura Porcentual,CANARIAS
+Ávila,0.0034529837348555702,2017,Estructura Porcentual,CASTILLA Y LEÓN
+Burgos,0.007679986239666312,2017,Estructura Porcentual,CASTILLA Y LEÓN
+León,0.010019242966641941,2017,Estructura Porcentual,CASTILLA Y LEÓN
+Palencia,0.0034938347254920934,2017,Estructura Porcentual,CASTILLA Y LEÓN
+Salamanca,0.007183324195611744,2017,Estructura Porcentual,CASTILLA Y LEÓN
+Segovia,0.0033110802936971223,2017,Estructura Porcentual,CASTILLA Y LEÓN
+Soria,0.001919996559916578,2017,Estructura Porcentual,CASTILLA Y LEÓN
+Valladolid,0.011203921695101107,2017,Estructura Porcentual,CASTILLA Y LEÓN
+Zamora,0.0037991421291966327,2017,Estructura Porcentual,CASTILLA Y LEÓN
+Albacete,0.00836370281979338,2017,Estructura Porcentual,CASTILLA - LA MANCHA
+Ciudad Real,0.010765311058793175,2017,Estructura Porcentual,CASTILLA - LA MANCHA
+Cuenca,0.004289354016834908,2017,Estructura Porcentual,CASTILLA - LA MANCHA
+Guadalajara,0.005493383214542953,2017,Estructura Porcentual,CASTILLA - LA MANCHA
+Toledo,0.014822459444641532,2017,Estructura Porcentual,CASTILLA - LA MANCHA
+Barcelona,0.1186678276948216,2017,Estructura Porcentual,CATALUÑA
+Girona,0.016198492813450725,2017,Estructura Porcentual,CATALUÑA
+Lleida,0.009240924092409241,2017,Estructura Porcentual,CATALUÑA
+Tarragona,0.01705206351254018,2017,Estructura Porcentual,CATALUÑA
+Alicante/Alacant,0.03940615559927328,2017,Estructura Porcentual,COMUNITAT VALENCIANA
+Castellón/Castelló,0.012352049537201277,2017,Estructura Porcentual,COMUNITAT VALENCIANA
+Valencia/València,0.054460820674901364,2017,Estructura Porcentual,COMUNITAT VALENCIANA
+Badajoz,0.014553702927295986,2017,Estructura Porcentual,EXTREMADURA
+Cáceres,0.008561507616559702,2017,Estructura Porcentual,EXTREMADURA
+"Coruña, A",0.024050483224218187,2017,Estructura Porcentual,GALICIA
+Lugo,0.007138173100697692,2017,Estructura Porcentual,GALICIA
+Ourense,0.006663011578030766,2017,Estructura Porcentual,GALICIA
+Pontevedra,0.020259941303576612,2017,Estructura Porcentual,GALICIA
+Araba/Álava,0.007015620128788124,2017,Estructura Porcentual,PAÍS VASCO
+Bizkaia,0.02455359542468905,2017,Estructura Porcentual,PAÍS VASCO
+Gipuzkoa,0.015344922114361274,2017,Estructura Porcentual,PAÍS VASCO
+Total Nacional,1.0,2017,Estructura Porcentual,MELILLA
+Almería,0.005410022779043455,2017,Tasa de Variación Interanual,ANDALUCÍA
+Cádiz,-0.0006430868167202064,2017,Tasa de Variación Interanual,ANDALUCÍA
+Córdoba,-0.004435994930291454,2017,Tasa de Variación Interanual,ANDALUCÍA
+Granada,-0.0006558810668997328,2017,Tasa de Variación Interanual,ANDALUCÍA
+Huelva,0.0,2017,Tasa de Variación Interanual,ANDALUCÍA
+Jaén,-0.00729134346881799,2017,Tasa de Variación Interanual,ANDALUCÍA
+Málaga,0.001645639056500281,2017,Tasa de Variación Interanual,ANDALUCÍA
+Sevilla,0.00041328718293121014,2017,Tasa de Variación Interanual,ANDALUCÍA
+Huesca,-0.002714932126696823,2017,Tasa de Variación Interanual,ARAGÓN
+Teruel,-0.008106116433308719,2017,Tasa de Variación Interanual,ARAGÓN
+Zaragoza,0.0006252605252188292,2017,Tasa de Variación Interanual,ARAGÓN
+"Palmas, Las",0.005173352695589051,2017,Tasa de Variación Interanual,CANARIAS
+Santa Cruz de Tenerife,0.007660929260770111,2017,Tasa de Variación Interanual,CANARIAS
+Ávila,-0.012907191149354569,2017,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Burgos,-0.0055679287305122616,2017,Tasa de Variación Interanual,CASTILLA Y LEÓN
+León,-0.010405606285835534,2017,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Palencia,-0.00793650793650802,2017,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Salamanca,-0.008016627078384797,2017,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Segovia,-0.009009009009009028,2017,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Soria,-0.006674082313681939,2017,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Valladolid,-0.0055343511450380856,2017,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Zamora,-0.01614699331848557,2017,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Albacete,-0.004605936540429956,2017,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Ciudad Real,-0.011060635986569256,2017,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Cuenca,-0.00992555831265507,2017,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Guadalajara,0.004718836020448203,2017,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Toledo,-0.002171081198436786,2017,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Barcelona,0.0064552599427416535,2017,Tasa de Variación Interanual,CATALUÑA
+Girona,0.008162719122173145,2017,Tasa de Variación Interanual,CATALUÑA
+Lleida,0.0006984866123400657,2017,Tasa de Variación Interanual,CATALUÑA
+Tarragona,0.0011360767482959666,2017,Tasa de Variación Interanual,CATALUÑA
+Alicante/Alacant,-0.0011444765382310207,2017,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Castellón/Castelló,-0.0005219206680583399,2017,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Valencia/València,0.002533048365392254,2017,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Badajoz,-0.005728554641598049,2017,Tasa de Variación Interanual,EXTREMADURA
+Cáceres,-0.008466135458167434,2017,Tasa de Variación Interanual,EXTREMADURA
+"Coruña, A",-0.0018738288569645212,2017,Tasa de Variación Interanual,GALICIA
+Lugo,-0.006880047861202554,2017,Tasa de Variación Interanual,GALICIA
+Ourense,-0.008637236084453104,2017,Tasa de Variación Interanual,GALICIA
+Pontevedra,-0.0022236340533672294,2017,Tasa de Variación Interanual,GALICIA
+Araba/Álava,0.007098765432098864,2017,Tasa de Variación Interanual,PAÍS VASCO
+Bizkaia,0.00113965109143499,2017,Tasa de Variación Interanual,PAÍS VASCO
+Gipuzkoa,0.0022468754388429435,2017,Tasa de Variación Interanual,PAÍS VASCO
+Total Nacional,0.00179636462324817,2017,Tasa de Variación Interanual,MELILLA
+Almería,708.6,2018,Número de Habitantes,ANDALUCÍA
+Cádiz,1242.4,2018,Número de Habitantes,ANDALUCÍA
+Córdoba,782.1,2018,Número de Habitantes,ANDALUCÍA
+Granada,915.3,2018,Número de Habitantes,ANDALUCÍA
+Huelva,520.9,2018,Número de Habitantes,ANDALUCÍA
+Jaén,635.1,2018,Número de Habitantes,ANDALUCÍA
+Málaga,1649.1,2018,Número de Habitantes,ANDALUCÍA
+Sevilla,1938.5,2018,Número de Habitantes,ANDALUCÍA
+Huesca,220.5,2018,Número de Habitantes,ARAGÓN
+Teruel,134.0,2018,Número de Habitantes,ARAGÓN
+Zaragoza,961.4,2018,Número de Habitantes,ARAGÓN
+"Palmas, Las",1115.5,2018,Número de Habitantes,CANARIAS
+Santa Cruz de Tenerife,1023.7,2018,Número de Habitantes,CANARIAS
+Ávila,159.3,2018,Número de Habitantes,CASTILLA Y LEÓN
+Burgos,356.4,2018,Número de Habitantes,CASTILLA Y LEÓN
+León,461.8,2018,Número de Habitantes,CASTILLA Y LEÓN
+Palencia,161.4,2018,Número de Habitantes,CASTILLA Y LEÓN
+Salamanca,332.5,2018,Número de Habitantes,CASTILLA Y LEÓN
+Segovia,153.5,2018,Número de Habitantes,CASTILLA Y LEÓN
+Soria,88.9,2018,Número de Habitantes,CASTILLA Y LEÓN
+Valladolid,520.4,2018,Número de Habitantes,CASTILLA Y LEÓN
+Zamora,174.4,2018,Número de Habitantes,CASTILLA Y LEÓN
+Albacete,387.8,2018,Número de Habitantes,CASTILLA - LA MANCHA
+Ciudad Real,496.3,2018,Número de Habitantes,CASTILLA - LA MANCHA
+Cuenca,198.1,2018,Número de Habitantes,CASTILLA - LA MANCHA
+Guadalajara,257.2,2018,Número de Habitantes,CASTILLA - LA MANCHA
+Toledo,692.7,2018,Número de Habitantes,CASTILLA - LA MANCHA
+Barcelona,5581.5,2018,Número de Habitantes,CATALUÑA
+Girona,760.1,2018,Número de Habitantes,CATALUÑA
+Lleida,431.0,2018,Número de Habitantes,CATALUÑA
+Tarragona,798.4,2018,Número de Habitantes,CATALUÑA
+Alicante/Alacant,1841.8,2018,Número de Habitantes,COMUNITAT VALENCIANA
+Castellón/Castelló,576.6,2018,Número de Habitantes,COMUNITAT VALENCIANA
+Valencia/València,2543.6,2018,Número de Habitantes,COMUNITAT VALENCIANA
+Badajoz,674.1,2018,Número de Habitantes,EXTREMADURA
+Cáceres,395.3,2018,Número de Habitantes,EXTREMADURA
+"Coruña, A",1118.9,2018,Número de Habitantes,GALICIA
+Lugo,329.5,2018,Número de Habitantes,GALICIA
+Ourense,308.0,2018,Número de Habitantes,GALICIA
+Pontevedra,942.5,2018,Número de Habitantes,GALICIA
+Araba/Álava,328.6,2018,Número de Habitantes,PAÍS VASCO
+Bizkaia,1144.7,2018,Número de Habitantes,PAÍS VASCO
+Gipuzkoa,716.9,2018,Número de Habitantes,PAÍS VASCO
+Total Nacional,46715.4,2018,Número de Habitantes,MELILLA
+Almería,0.015168445523317793,2018,Estructura Porcentual,ANDALUCÍA
+Cádiz,0.026595084276277204,2018,Estructura Porcentual,ANDALUCÍA
+Córdoba,0.01674180248911494,2018,Estructura Porcentual,ANDALUCÍA
+Granada,0.019593110623049356,2018,Estructura Porcentual,ANDALUCÍA
+Huelva,0.011150498550799094,2018,Estructura Porcentual,ANDALUCÍA
+Jaén,0.013595088557520646,2018,Estructura Porcentual,ANDALUCÍA
+Málaga,0.03530099282035474,2018,Estructura Porcentual,ANDALUCÍA
+Sevilla,0.04149595208432337,2018,Estructura Porcentual,ANDALUCÍA
+Huesca,0.004720070897391438,2018,Estructura Porcentual,ARAGÓN
+Teruel,0.0028684331077118035,2018,Estructura Porcentual,ARAGÓN
+Zaragoza,0.020579937236971105,2018,Estructura Porcentual,ARAGÓN
+"Palmas, Las",0.02387863531083968,2018,Estructura Porcentual,CANARIAS
+Santa Cruz de Tenerife,0.02191354456988488,2018,Estructura Porcentual,CANARIAS
+Ávila,0.00341001040342157,2018,Estructura Porcentual,CASTILLA Y LEÓN
+Burgos,0.007629175817824528,2018,Estructura Porcentual,CASTILLA Y LEÓN
+León,0.009885391112994859,2018,Estructura Porcentual,CASTILLA Y LEÓN
+Palencia,0.0034549634595872026,2018,Estructura Porcentual,CASTILLA Y LEÓN
+Salamanca,0.007117567226225184,2018,Estructura Porcentual,CASTILLA Y LEÓN
+Segovia,0.0032858543435355363,2018,Estructura Porcentual,CASTILLA Y LEÓN
+Soria,0.0019030127110117863,2018,Estructura Porcentual,CASTILLA Y LEÓN
+Valladolid,0.011139795442188228,2018,Estructura Porcentual,CASTILLA Y LEÓN
+Zamora,0.003733244283469691,2018,Estructura Porcentual,CASTILLA Y LEÓN
+Albacete,0.008301331038586848,2018,Estructura Porcentual,CASTILLA - LA MANCHA
+Ciudad Real,0.010623905607144539,2018,Estructura Porcentual,CASTILLA - LA MANCHA
+Cuenca,0.004240571631624689,2018,Estructura Porcentual,CASTILLA - LA MANCHA
+Guadalajara,0.005505679069428925,2018,Estructura Porcentual,CASTILLA - LA MANCHA
+Toledo,0.014828086669492287,2018,Estructura Porcentual,CASTILLA - LA MANCHA
+Barcelona,0.11947880142308531,2018,Estructura Porcentual,CATALUÑA
+Girona,0.016270865710236882,2018,Estructura Porcentual,CATALUÑA
+Lleida,0.009226079622565577,2018,Estructura Porcentual,CATALUÑA
+Tarragona,0.017090723829829135,2018,Estructura Porcentual,CATALUÑA
+Alicante/Alacant,0.039425970878982086,2018,Estructura Porcentual,COMUNITAT VALENCIANA
+Castellón/Castelló,0.012342824850049448,2018,Estructura Porcentual,COMUNITAT VALENCIANA
+Valencia/València,0.05444885412519212,2018,Estructura Porcentual,COMUNITAT VALENCIANA
+Badajoz,0.014429931029168112,2018,Estructura Porcentual,EXTREMADURA
+Cáceres,0.008461877667749822,2018,Estructura Porcentual,EXTREMADURA
+"Coruña, A",0.023951416449393564,2018,Estructura Porcentual,GALICIA
+Lugo,0.007053348574559995,2018,Estructura Porcentual,GALICIA
+Ourense,0.006593114904292803,2018,Estructura Porcentual,GALICIA
+Pontevedra,0.02017535973148041,2018,Estructura Porcentual,GALICIA
+Araba/Álava,0.007034082979060438,2018,Estructura Porcentual,PAÍS VASCO
+Bizkaia,0.02450369685371419,2018,Estructura Porcentual,PAÍS VASCO
+Gipuzkoa,0.01534611712625815,2018,Estructura Porcentual,PAÍS VASCO
+Total Nacional,1.0,2018,Estructura Porcentual,MELILLA
+Almería,0.003398470688190214,2018,Tasa de Variación Interanual,ANDALUCÍA
+Cádiz,-0.0006435006435006052,2018,Tasa de Variación Interanual,ANDALUCÍA
+Córdoba,-0.004328453214513028,2018,Tasa de Variación Interanual,ANDALUCÍA
+Granada,0.0012032378035440328,2018,Tasa de Variación Interanual,ANDALUCÍA
+Huelva,0.0025019245573516535,2018,Tasa de Variación Interanual,ANDALUCÍA
+Jaén,-0.0075011720581340535,2018,Tasa de Variación Interanual,ANDALUCÍA
+Málaga,0.0034684191310696555,2018,Tasa de Variación Interanual,ANDALUCÍA
+Sevilla,0.0010327911179963678,2018,Tasa de Variación Interanual,ANDALUCÍA
+Huesca,0.00045372050816694376,2018,Tasa de Variación Interanual,ARAGÓN
+Teruel,-0.004457652303120341,2018,Tasa de Variación Interanual,ARAGÓN
+Zaragoza,0.0012497396375754644,2018,Tasa de Variación Interanual,ARAGÓN
+"Palmas, Las",0.007223476297968379,2018,Tasa de Variación Interanual,CANARIAS
+Santa Cruz de Tenerife,0.010762243285939999,2018,Tasa de Variación Interanual,CANARIAS
+Ávila,-0.008094645080946372,2018,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Burgos,-0.002239641657334812,2018,Tasa de Variación Interanual,CASTILLA Y LEÓN
+León,-0.009012875536480669,2018,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Palencia,-0.00676923076923075,2018,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Salamanca,-0.0047889853337325095,2018,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Segovia,-0.0032467532467532756,2018,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Soria,-0.004479283314669513,2018,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Valladolid,-0.001343312224141302,2018,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Zamora,-0.013016411997736177,2018,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Albacete,-0.0030848329048842604,2018,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Ciudad Real,-0.008787697223886504,2018,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Cuenca,-0.007017543859649145,2018,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Guadalajara,0.006653620352250478,2018,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Toledo,0.004786771105309118,2018,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Barcelona,0.01126954505100275,2018,Tasa de Variación Interanual,CATALUÑA
+Girona,0.008893018316963097,2018,Tasa de Variación Interanual,CATALUÑA
+Lleida,0.0027919962773381712,2018,Tasa de Variación Interanual,CATALUÑA
+Tarragona,0.006682637750598852,2018,Tasa de Variación Interanual,CATALUÑA
+Alicante/Alacant,0.00491051942383236,2018,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Castellón/Castelló,0.0036553524804177062,2018,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Valencia/València,0.004184761152783212,2018,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Badajoz,-0.00413650465356763,2018,Tasa de Variación Interanual,EXTREMADURA
+Cáceres,-0.007282772476142618,2018,Tasa de Variación Interanual,EXTREMADURA
+"Coruña, A",0.0002681923833365296,2018,Tasa de Variación Interanual,GALICIA
+Lugo,-0.0075301204819276935,2018,Tasa de Variación Interanual,GALICIA
+Ourense,-0.0061310100032268,2018,Tasa de Variación Interanual,GALICIA
+Pontevedra,0.0002122466305847226,2018,Tasa de Variación Interanual,GALICIA
+Araba/Álava,0.007048728164265938,2018,Tasa de Variación Interanual,PAÍS VASCO
+Bizkaia,0.002364273204903622,2018,Tasa de Variación Interanual,PAÍS VASCO
+Gipuzkoa,0.0044836766148239615,2018,Tasa de Variación Interanual,PAÍS VASCO
+Total Nacional,0.004405456832328181,2018,Tasa de Variación Interanual,MELILLA
+Almería,718.7,2019,Número de Habitantes,ANDALUCÍA
+Cádiz,1244.3,2019,Número de Habitantes,ANDALUCÍA
+Córdoba,781.2,2019,Número de Habitantes,ANDALUCÍA
+Granada,918.7,2019,Número de Habitantes,ANDALUCÍA
+Huelva,523.9,2019,Número de Habitantes,ANDALUCÍA
+Jaén,631.6,2019,Número de Habitantes,ANDALUCÍA
+Málaga,1670.2,2019,Número de Habitantes,ANDALUCÍA
+Sevilla,1943.6,2019,Número de Habitantes,ANDALUCÍA
+Huesca,221.6,2019,Número de Habitantes,ARAGÓN
+Teruel,133.8,2019,Número de Habitantes,ARAGÓN
+Zaragoza,969.0,2019,Número de Habitantes,ARAGÓN
+"Palmas, Las",1125.3,2019,Número de Habitantes,CANARIAS
+Santa Cruz de Tenerife,1037.7,2019,Número de Habitantes,CANARIAS
+Ávila,158.8,2019,Número de Habitantes,CASTILLA Y LEÓN
+Burgos,356.7,2019,Número de Habitantes,CASTILLA Y LEÓN
+León,458.1,2019,Número de Habitantes,CASTILLA Y LEÓN
+Palencia,160.6,2019,Número de Habitantes,CASTILLA Y LEÓN
+Salamanca,331.2,2019,Número de Habitantes,CASTILLA Y LEÓN
+Segovia,153.5,2019,Número de Habitantes,CASTILLA Y LEÓN
+Soria,89.0,2019,Número de Habitantes,CASTILLA Y LEÓN
+Valladolid,520.4,2019,Número de Habitantes,CASTILLA Y LEÓN
+Zamora,172.2,2019,Número de Habitantes,CASTILLA Y LEÓN
+Albacete,387.7,2019,Número de Habitantes,CASTILLA - LA MANCHA
+Ciudad Real,494.8,2019,Número de Habitantes,CASTILLA - LA MANCHA
+Cuenca,197.4,2019,Número de Habitantes,CASTILLA - LA MANCHA
+Guadalajara,260.8,2019,Número de Habitantes,CASTILLA - LA MANCHA
+Toledo,700.0,2019,Número de Habitantes,CASTILLA - LA MANCHA
+Barcelona,5659.7,2019,Número de Habitantes,CATALUÑA
+Girona,770.2,2019,Número de Habitantes,CATALUÑA
+Lleida,434.4,2019,Número de Habitantes,CATALUÑA
+Tarragona,808.7,2019,Número de Habitantes,CATALUÑA
+Alicante/Alacant,1865.8,2019,Número de Habitantes,COMUNITAT VALENCIANA
+Castellón/Castelló,581.5,2019,Número de Habitantes,COMUNITAT VALENCIANA
+Valencia/València,2567.7,2019,Número de Habitantes,COMUNITAT VALENCIANA
+Badajoz,672.1,2019,Número de Habitantes,EXTREMADURA
+Cáceres,393.5,2019,Número de Habitantes,EXTREMADURA
+"Coruña, A",1119.9,2019,Número de Habitantes,GALICIA
+Lugo,328.2,2019,Número de Habitantes,GALICIA
+Ourense,306.7,2019,Número de Habitantes,GALICIA
+Pontevedra,943.8,2019,Número de Habitantes,GALICIA
+Araba/Álava,331.3,2019,Número de Habitantes,PAÍS VASCO
+Bizkaia,1150.1,2019,Número de Habitantes,PAÍS VASCO
+Gipuzkoa,721.7,2019,Número de Habitantes,PAÍS VASCO
+Total Nacional,47087.8,2019,Número de Habitantes,MELILLA
+Almería,0.01526297682202184,2019,Estructura Porcentual,ANDALUCÍA
+Cádiz,0.026425103742370632,2019,Estructura Porcentual,ANDALUCÍA
+Córdoba,0.016590284532299236,2019,Estructura Porcentual,ANDALUCÍA
+Granada,0.01951036149490951,2019,Estructura Porcentual,ANDALUCÍA
+Huelva,0.011126024150629249,2019,Estructura Porcentual,ANDALUCÍA
+Jaén,0.01341324079697926,2019,Estructura Porcentual,ANDALUCÍA
+Málaga,0.03546990940328493,2019,Estructura Porcentual,ANDALUCÍA
+Sevilla,0.041276084251122364,2019,Estructura Porcentual,ANDALUCÍA
+Huesca,0.004706102217559537,2019,Estructura Porcentual,ARAGÓN
+Teruel,0.0028415003461618508,2019,Estructura Porcentual,ARAGÓN
+Zaragoza,0.020578578740140758,2019,Estructura Porcentual,ARAGÓN
+"Palmas, Las",0.023897909862002468,2019,Estructura Porcentual,CANARIAS
+Santa Cruz de Tenerife,0.022037555375277674,2019,Estructura Porcentual,CANARIAS
+Ávila,0.0033724234302728094,2019,Estructura Porcentual,CASTILLA Y LEÓN
+Burgos,0.0075752105640951575,2019,Estructura Porcentual,CASTILLA Y LEÓN
+León,0.009728634593249207,2019,Estructura Porcentual,CASTILLA Y LEÓN
+Palencia,0.003410649892328798,2019,Estructura Porcentual,CASTILLA Y LEÓN
+Salamanca,0.00703366901830198,2019,Estructura Porcentual,CASTILLA Y LEÓN
+Segovia,0.003259867736441286,2019,Estructura Porcentual,CASTILLA Y LEÓN
+Soria,0.0018900861794350129,2019,Estructura Porcentual,CASTILLA Y LEÓN
+Valladolid,0.011051694918853714,2019,Estructura Porcentual,CASTILLA Y LEÓN
+Zamora,0.003656998203356283,2019,Estructura Porcentual,CASTILLA Y LEÓN
+Albacete,0.008233555188392746,2019,Estructura Porcentual,CASTILLA - LA MANCHA
+Ciudad Real,0.010508029680724094,2019,Estructura Porcentual,CASTILLA - LA MANCHA
+Cuenca,0.00419216867214013,2019,Estructura Porcentual,CASTILLA - LA MANCHA
+Guadalajara,0.005538589613445521,2019,Estructura Porcentual,CASTILLA - LA MANCHA
+Toledo,0.014865846355106842,2019,Estructura Porcentual,CASTILLA - LA MANCHA
+Barcelona,0.1201946151657117,2019,Estructura Porcentual,CATALUÑA
+Girona,0.016356678375290416,2019,Estructura Porcentual,CATALUÑA
+Lleida,0.009225319509512017,2019,Estructura Porcentual,CATALUÑA
+Tarragona,0.01717429992482129,2019,Estructura Porcentual,CATALUÑA
+Alicante/Alacant,0.039623851613369065,2019,Estructura Porcentual,COMUNITAT VALENCIANA
+Castellón/Castelló,0.012349270936420898,2019,Estructura Porcentual,COMUNITAT VALENCIANA
+Valencia/València,0.05453004812286834,2019,Estructura Porcentual,COMUNITAT VALENCIANA
+Badajoz,0.014273336193239013,2019,Estructura Porcentual,EXTREMADURA
+Cáceres,0.008356729343906489,2019,Estructura Porcentual,EXTREMADURA
+"Coruña, A",0.023783230475834506,2019,Estructura Porcentual,GALICIA
+Lugo,0.006969958248208665,2019,Estructura Porcentual,GALICIA
+Ourense,0.00651336439587324,2019,Estructura Porcentual,GALICIA
+Pontevedra,0.02004340827135691,2019,Estructura Porcentual,GALICIA
+Araba/Álava,0.007035792710638424,2019,Estructura Porcentual,PAÍS VASCO
+Bizkaia,0.02442458556144054,2019,Estructura Porcentual,PAÍS VASCO
+Gipuzkoa,0.015326687592115156,2019,Estructura Porcentual,PAÍS VASCO
+Total Nacional,1.0,2019,Estructura Porcentual,MELILLA
+Almería,0.014253457521874235,2019,Tasa de Variación Interanual,ANDALUCÍA
+Cádiz,0.0015292981326464616,2019,Tasa de Variación Interanual,ANDALUCÍA
+Córdoba,-0.0011507479861909697,2019,Tasa de Variación Interanual,ANDALUCÍA
+Granada,0.003714629083360732,2019,Tasa de Variación Interanual,ANDALUCÍA
+Huelva,0.005759262814359678,2019,Tasa de Variación Interanual,ANDALUCÍA
+Jaén,-0.005510943158557713,2019,Tasa de Variación Interanual,ANDALUCÍA
+Málaga,0.012794857801224913,2019,Tasa de Variación Interanual,ANDALUCÍA
+Sevilla,0.0026309001805520094,2019,Tasa de Variación Interanual,ANDALUCÍA
+Huesca,0.0049886621315191615,2019,Tasa de Variación Interanual,ARAGÓN
+Teruel,-0.0014925373134327957,2019,Tasa de Variación Interanual,ARAGÓN
+Zaragoza,0.007905138339920903,2019,Tasa de Variación Interanual,ARAGÓN
+"Palmas, Las",0.00878529807261308,2019,Tasa de Variación Interanual,CANARIAS
+Santa Cruz de Tenerife,0.013675881605939244,2019,Tasa de Variación Interanual,CANARIAS
+Ávila,-0.003138731952291307,2019,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Burgos,0.0008417508417508657,2019,Tasa de Variación Interanual,CASTILLA Y LEÓN
+León,-0.00801212646167171,2019,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Palencia,-0.00495662949194553,2019,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Salamanca,-0.0039097744360903075,2019,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Segovia,0.0,2019,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Soria,0.0011248593925758943,2019,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Valladolid,0.0,2019,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Zamora,-0.012614678899082632,2019,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Albacete,-0.0002578648788035265,2019,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Ciudad Real,-0.003022365504735003,2019,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Cuenca,-0.0035335689045935537,2019,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Guadalajara,0.013996889580093486,2019,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Toledo,0.010538472643279784,2019,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Barcelona,0.01401057063513389,2019,Tasa de Variación Interanual,CATALUÑA
+Girona,0.013287725299302666,2019,Tasa de Variación Interanual,CATALUÑA
+Lleida,0.007888631090487097,2019,Tasa de Variación Interanual,CATALUÑA
+Tarragona,0.012900801603206391,2019,Tasa de Variación Interanual,CATALUÑA
+Alicante/Alacant,0.01303073080681938,2019,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Castellón/Castelló,0.008498092265001755,2019,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Valencia/València,0.009474760182418551,2019,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Badajoz,-0.002966918854769296,2019,Tasa de Variación Interanual,EXTREMADURA
+Cáceres,-0.004553503668100256,2019,Tasa de Variación Interanual,EXTREMADURA
+"Coruña, A",0.0008937349182231991,2019,Tasa de Variación Interanual,GALICIA
+Lugo,-0.003945371775417317,2019,Tasa de Variación Interanual,GALICIA
+Ourense,-0.004220779220779236,2019,Tasa de Variación Interanual,GALICIA
+Pontevedra,0.0013793103448276334,2019,Tasa de Variación Interanual,GALICIA
+Araba/Álava,0.008216676810712142,2019,Tasa de Variación Interanual,PAÍS VASCO
+Bizkaia,0.004717393203459208,2019,Tasa de Variación Interanual,PAÍS VASCO
+Gipuzkoa,0.006695494490166043,2019,Tasa de Variación Interanual,PAÍS VASCO
+Total Nacional,0.007971675293372282,2019,Tasa de Variación Interanual,MELILLA
+Almería,726.1,2020,Número de Habitantes,ANDALUCÍA
+Cádiz,1247.3,2020,Número de Habitantes,ANDALUCÍA
+Córdoba,779.5,2020,Número de Habitantes,ANDALUCÍA
+Granada,922.5,2020,Número de Habitantes,ANDALUCÍA
+Huelva,525.5,2020,Número de Habitantes,ANDALUCÍA
+Jaén,629.0,2020,Número de Habitantes,ANDALUCÍA
+Málaga,1686.1,2020,Número de Habitantes,ANDALUCÍA
+Sevilla,1950.1,2020,Número de Habitantes,ANDALUCÍA
+Huesca,223.0,2020,Número de Habitantes,ARAGÓN
+Teruel,134.0,2020,Número de Habitantes,ARAGÓN
+Zaragoza,974.5,2020,Número de Habitantes,ARAGÓN
+"Palmas, Las",1134.0,2020,Número de Habitantes,CANARIAS
+Santa Cruz de Tenerife,1046.4,2020,Número de Habitantes,CANARIAS
+Ávila,158.1,2020,Número de Habitantes,CASTILLA Y LEÓN
+Burgos,356.5,2020,Número de Habitantes,CASTILLA Y LEÓN
+León,454.0,2020,Número de Habitantes,CASTILLA Y LEÓN
+Palencia,159.8,2020,Número de Habitantes,CASTILLA Y LEÓN
+Salamanca,328.7,2020,Número de Habitantes,CASTILLA Y LEÓN
+Segovia,153.1,2020,Número de Habitantes,CASTILLA Y LEÓN
+Soria,88.8,2020,Número de Habitantes,CASTILLA Y LEÓN
+Valladolid,520.0,2020,Número de Habitantes,CASTILLA Y LEÓN
+Zamora,170.2,2020,Número de Habitantes,CASTILLA Y LEÓN
+Albacete,386.8,2020,Número de Habitantes,CASTILLA - LA MANCHA
+Ciudad Real,492.4,2020,Número de Habitantes,CASTILLA - LA MANCHA
+Cuenca,196.3,2020,Número de Habitantes,CASTILLA - LA MANCHA
+Guadalajara,263.7,2020,Número de Habitantes,CASTILLA - LA MANCHA
+Toledo,706.7,2020,Número de Habitantes,CASTILLA - LA MANCHA
+Barcelona,5693.7,2020,Número de Habitantes,CATALUÑA
+Girona,779.9,2020,Número de Habitantes,CATALUÑA
+Lleida,438.1,2020,Número de Habitantes,CATALUÑA
+Tarragona,818.1,2020,Número de Habitantes,CATALUÑA
+Alicante/Alacant,1881.5,2020,Número de Habitantes,COMUNITAT VALENCIANA
+Castellón/Castelló,585.4,2020,Número de Habitantes,COMUNITAT VALENCIANA
+Valencia/València,2588.8,2020,Número de Habitantes,COMUNITAT VALENCIANA
+Badajoz,671.3,2020,Número de Habitantes,EXTREMADURA
+Cáceres,391.1,2020,Número de Habitantes,EXTREMADURA
+"Coruña, A",1121.3,2020,Número de Habitantes,GALICIA
+Lugo,326.5,2020,Número de Habitantes,GALICIA
+Ourense,305.7,2020,Número de Habitantes,GALICIA
+Pontevedra,945.4,2020,Número de Habitantes,GALICIA
+Araba/Álava,333.4,2020,Número de Habitantes,PAÍS VASCO
+Bizkaia,1155.1,2020,Número de Habitantes,PAÍS VASCO
+Gipuzkoa,725.4,2020,Número de Habitantes,PAÍS VASCO
+Total Nacional,47344.9,2020,Número de Habitantes,MELILLA
+Almería,0.015336393148998097,2020,Estructura Porcentual,ANDALUCÍA
+Cádiz,0.026344970630416367,2020,Estructura Porcentual,ANDALUCÍA
+Córdoba,0.016464286544062824,2020,Estructura Porcentual,ANDALUCÍA
+Granada,0.019484675223730537,2020,Estructura Porcentual,ANDALUCÍA
+Huelva,0.01109940035779989,2020,Estructura Porcentual,ANDALUCÍA
+Jaén,0.013285485870706243,2020,Estructura Porcentual,ANDALUCÍA
+Málaga,0.035613128341172966,2020,Estructura Porcentual,ANDALUCÍA
+Sevilla,0.041189230519021056,2020,Estructura Porcentual,ANDALUCÍA
+Huesca,0.004710116612348954,2020,Estructura Porcentual,ARAGÓN
+Teruel,0.0028302942872410757,2020,Estructura Porcentual,ARAGÓN
+Zaragoza,0.020582998379973343,2020,Estructura Porcentual,ARAGÓN
+"Palmas, Las",0.023951893445756565,2020,Estructura Porcentual,CANARIAS
+Santa Cruz de Tenerife,0.022101641359470608,2020,Estructura Porcentual,CANARIAS
+Ávila,0.0033393248269612988,2020,Estructura Porcentual,CASTILLA Y LEÓN
+Burgos,0.007529850100010772,2020,Estructura Porcentual,CASTILLA Y LEÓN
+León,0.009589206017966033,2020,Estructura Porcentual,CASTILLA Y LEÓN
+Palencia,0.0033752315455307753,2020,Estructura Porcentual,CASTILLA Y LEÓN
+Salamanca,0.006942669643404041,2020,Estructura Porcentual,CASTILLA Y LEÓN
+Segovia,0.0032337168311687213,2020,Estructura Porcentual,CASTILLA Y LEÓN
+Soria,0.0018755980052761754,2020,Estructura Porcentual,CASTILLA Y LEÓN
+Valladolid,0.010983231562428055,2020,Estructura Porcentual,CASTILLA Y LEÓN
+Zamora,0.003594896176779336,2020,Estructura Porcentual,CASTILLA Y LEÓN
+Albacete,0.008169834554513792,2020,Estructura Porcentual,CASTILLA - LA MANCHA
+Ciudad Real,0.010400275425653025,2020,Estructura Porcentual,CASTILLA - LA MANCHA
+Cuenca,0.00414616991481659,2020,Estructura Porcentual,CASTILLA - LA MANCHA
+Guadalajara,0.005569765698100534,2020,Estructura Porcentual,CASTILLA - LA MANCHA
+Toledo,0.014926634125322897,2020,Estructura Porcentual,CASTILLA - LA MANCHA
+Barcelona,0.12026004912883964,2020,Estructura Porcentual,CATALUÑA
+Girona,0.01647273518372623,2020,Estructura Porcentual,CATALUÑA
+Lleida,0.009253372591345637,2020,Estructura Porcentual,CATALUÑA
+Tarragona,0.01727958027158152,2020,Estructura Porcentual,CATALUÑA
+Alicante/Alacant,0.03974028881674689,2020,Estructura Porcentual,COMUNITAT VALENCIANA
+Castellón/Castelló,0.012364584147394967,2020,Estructura Porcentual,COMUNITAT VALENCIANA
+Valencia/València,0.054679595901564904,2020,Estructura Porcentual,COMUNITAT VALENCIANA
+Badajoz,0.014178929515111446,2020,Estructura Porcentual,EXTREMADURA
+Cáceres,0.008260657430895409,2020,Estructura Porcentual,EXTREMADURA
+"Coruña, A",0.023683649136443417,2020,Estructura Porcentual,GALICIA
+Lugo,0.006896202125255307,2020,Estructura Porcentual,GALICIA
+Ourense,0.006456872862758185,2020,Estructura Porcentual,GALICIA
+Pontevedra,0.01996835984446054,2020,Estructura Porcentual,GALICIA
+Araba/Álava,0.007041941159449064,2020,Estructura Porcentual,PAÍS VASCO
+Bizkaia,0.02439755918800124,2020,Estructura Porcentual,PAÍS VASCO
+Gipuzkoa,0.015321608029587135,2020,Estructura Porcentual,PAÍS VASCO
+Total Nacional,1.0,2020,Estructura Porcentual,MELILLA
+Almería,0.010296368443022175,2020,Tasa de Variación Interanual,ANDALUCÍA
+Cádiz,0.0024109941332475238,2020,Tasa de Variación Interanual,ANDALUCÍA
+Córdoba,-0.002176139272913491,2020,Tasa de Variación Interanual,ANDALUCÍA
+Granada,0.0041362795254162865,2020,Tasa de Variación Interanual,ANDALUCÍA
+Huelva,0.0030540179423554914,2020,Tasa de Variación Interanual,ANDALUCÍA
+Jaén,-0.0041165294490184134,2020,Tasa de Variación Interanual,ANDALUCÍA
+Málaga,0.009519817985869983,2020,Tasa de Variación Interanual,ANDALUCÍA
+Sevilla,0.003344309528709566,2020,Tasa de Variación Interanual,ANDALUCÍA
+Huesca,0.00631768953068601,2020,Tasa de Variación Interanual,ARAGÓN
+Teruel,0.001494768310911665,2020,Tasa de Variación Interanual,ARAGÓN
+Zaragoza,0.005675954592363253,2020,Tasa de Variación Interanual,ARAGÓN
+"Palmas, Las",0.007731271660890382,2020,Tasa de Variación Interanual,CANARIAS
+Santa Cruz de Tenerife,0.008383925990170571,2020,Tasa de Variación Interanual,CANARIAS
+Ávila,-0.004408060453400586,2020,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Burgos,-0.0005606952621249883,2020,Tasa de Variación Interanual,CASTILLA Y LEÓN
+León,-0.008950010914647533,2020,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Palencia,-0.004981320049813109,2020,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Salamanca,-0.007548309178743939,2020,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Segovia,-0.002605863192182478,2020,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Soria,-0.0022471910112359383,2020,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Valladolid,-0.000768639508070712,2020,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Zamora,-0.011614401858304313,2020,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Albacete,-0.0023213825122516685,2020,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Ciudad Real,-0.004850444624090566,2020,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Cuenca,-0.005572441742654477,2020,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Guadalajara,0.01111963190184051,2020,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Toledo,0.009571428571428564,2020,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Barcelona,0.006007385550470978,2020,Tasa de Variación Interanual,CATALUÑA
+Girona,0.012594131394442876,2020,Tasa de Variación Interanual,CATALUÑA
+Lleida,0.008517495395948593,2020,Tasa de Variación Interanual,CATALUÑA
+Tarragona,0.011623593421540734,2020,Tasa de Variación Interanual,CATALUÑA
+Alicante/Alacant,0.008414621074070094,2020,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Castellón/Castelló,0.00670679277730013,2020,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Valencia/València,0.008217470888343792,2020,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Badajoz,-0.001190299062639566,2020,Tasa de Variación Interanual,EXTREMADURA
+Cáceres,-0.006099110546378572,2020,Tasa de Variación Interanual,EXTREMADURA
+"Coruña, A",0.0012501116171086402,2020,Tasa de Variación Interanual,GALICIA
+Lugo,-0.005179768433881793,2020,Tasa de Variación Interanual,GALICIA
+Ourense,-0.003260515161395472,2020,Tasa de Variación Interanual,GALICIA
+Pontevedra,0.0016952744225471328,2020,Tasa de Variación Interanual,GALICIA
+Araba/Álava,0.006338665861756576,2020,Tasa de Variación Interanual,PAÍS VASCO
+Bizkaia,0.0043474480479959166,2020,Tasa de Variación Interanual,PAÍS VASCO
+Gipuzkoa,0.0051267839822639605,2020,Tasa de Variación Interanual,PAÍS VASCO
+Total Nacional,0.0054600129969970546,2020,Tasa de Variación Interanual,MELILLA
+Almería,732.4,2021,Número de Habitantes,ANDALUCÍA
+Cádiz,1249.2,2021,Número de Habitantes,ANDALUCÍA
+Córdoba,775.6,2021,Número de Habitantes,ANDALUCÍA
+Granada,924.4,2021,Número de Habitantes,ANDALUCÍA
+Huelva,529.7,2021,Número de Habitantes,ANDALUCÍA
+Jaén,625.4,2021,Número de Habitantes,ANDALUCÍA
+Málaga,1703.8,2021,Número de Habitantes,ANDALUCÍA
+Sevilla,1947.7,2021,Número de Habitantes,ANDALUCÍA
+Huesca,224.3,2021,Número de Habitantes,ARAGÓN
+Teruel,134.0,2021,Número de Habitantes,ARAGÓN
+Zaragoza,972.5,2021,Número de Habitantes,ARAGÓN
+"Palmas, Las",1129.6,2021,Número de Habitantes,CANARIAS
+Santa Cruz de Tenerife,1047.3,2021,Número de Habitantes,CANARIAS
+Ávila,159.1,2021,Número de Habitantes,CASTILLA Y LEÓN
+Burgos,354.5,2021,Número de Habitantes,CASTILLA Y LEÓN
+León,450.4,2021,Número de Habitantes,CASTILLA Y LEÓN
+Palencia,158.3,2021,Número de Habitantes,CASTILLA Y LEÓN
+Salamanca,326.2,2021,Número de Habitantes,CASTILLA Y LEÓN
+Segovia,153.6,2021,Número de Habitantes,CASTILLA Y LEÓN
+Soria,88.4,2021,Número de Habitantes,CASTILLA Y LEÓN
+Valladolid,517.8,2021,Número de Habitantes,CASTILLA Y LEÓN
+Zamora,168.4,2021,Número de Habitantes,CASTILLA Y LEÓN
+Albacete,386.1,2021,Número de Habitantes,CASTILLA - LA MANCHA
+Ciudad Real,491.3,2021,Número de Habitantes,CASTILLA - LA MANCHA
+Cuenca,196.3,2021,Número de Habitantes,CASTILLA - LA MANCHA
+Guadalajara,266.6,2021,Número de Habitantes,CASTILLA - LA MANCHA
+Toledo,710.7,2021,Número de Habitantes,CASTILLA - LA MANCHA
+Barcelona,5685.8,2021,Número de Habitantes,CATALUÑA
+Girona,785.3,2021,Número de Habitantes,CATALUÑA
+Lleida,438.3,2021,Número de Habitantes,CATALUÑA
+Tarragona,825.0,2021,Número de Habitantes,CATALUÑA
+Alicante/Alacant,1891.9,2021,Número de Habitantes,COMUNITAT VALENCIANA
+Castellón/Castelló,588.0,2021,Número de Habitantes,COMUNITAT VALENCIANA
+Valencia/València,2592.8,2021,Número de Habitantes,COMUNITAT VALENCIANA
+Badajoz,668.9,2021,Número de Habitantes,EXTREMADURA
+Cáceres,389.4,2021,Número de Habitantes,EXTREMADURA
+"Coruña, A",1117.9,2021,Número de Habitantes,GALICIA
+Lugo,324.6,2021,Número de Habitantes,GALICIA
+Ourense,304.2,2021,Número de Habitantes,GALICIA
+Pontevedra,944.4,2021,Número de Habitantes,GALICIA
+Araba/Álava,332.9,2021,Número de Habitantes,PAÍS VASCO
+Bizkaia,1148.6,2021,Número de Habitantes,PAÍS VASCO
+Gipuzkoa,722.7,2021,Número de Habitantes,PAÍS VASCO
+Total Nacional,47346.8,2021,Número de Habitantes,MELILLA
+Almería,0.01546883844314716,2021,Estructura Porcentual,ANDALUCÍA
+Cádiz,0.026384042849780766,2021,Estructura Porcentual,ANDALUCÍA
+Córdoba,0.01638125491057474,2021,Estructura Porcentual,ANDALUCÍA
+Granada,0.01952402274282528,2021,Estructura Porcentual,ANDALUCÍA
+Huelva,0.01118766210176823,2021,Estructura Porcentual,ANDALUCÍA
+Jaén,0.01320891802613904,2021,Estructura Porcentual,ANDALUCÍA
+Málaga,0.035985536509331145,2021,Estructura Porcentual,ANDALUCÍA
+Sevilla,0.04113688781501601,2021,Estructura Porcentual,ANDALUCÍA
+Huesca,0.00473738457509272,2021,Estructura Porcentual,ARAGÓN
+Teruel,0.002830180709150354,2021,Estructura Porcentual,ARAGÓN
+Zaragoza,0.02053993089290089,2021,Estructura Porcentual,ARAGÓN
+"Palmas, Las",0.02385800096310627,2021,Estructura Porcentual,CANARIAS
+Santa Cruz de Tenerife,0.02211976310965049,2021,Estructura Porcentual,CANARIAS
+Ávila,0.003360311573327025,2021,Estructura Porcentual,CASTILLA Y LEÓN
+Burgos,0.007487306428311945,2021,Estructura Porcentual,CASTILLA Y LEÓN
+León,0.009512786502994922,2021,Estructura Porcentual,CASTILLA Y LEÓN
+Palencia,0.0033434149720783664,2021,Estructura Porcentual,CASTILLA Y LEÓN
+Salamanca,0.006889589159140638,2021,Estructura Porcentual,CASTILLA Y LEÓN
+Segovia,0.0032441474397424956,2021,Estructura Porcentual,CASTILLA Y LEÓN
+Soria,0.001867074437976801,2021,Estructura Porcentual,CASTILLA Y LEÓN
+Valladolid,0.010936325158194428,2021,Estructura Porcentual,CASTILLA Y LEÓN
+Zamora,0.003556734562842684,2021,Estructura Porcentual,CASTILLA Y LEÓN
+Albacete,0.00815472217763397,2021,Estructura Porcentual,CASTILLA - LA MANCHA
+Ciudad Real,0.010376625241832605,2021,Estructura Porcentual,CASTILLA - LA MANCHA
+Cuenca,0.004146003531389661,2021,Estructura Porcentual,CASTILLA - LA MANCHA
+Guadalajara,0.005630792366115556,2021,Estructura Porcentual,CASTILLA - LA MANCHA
+Toledo,0.01501051813427729,2021,Estructura Porcentual,CASTILLA - LA MANCHA
+Barcelona,0.12008836922453048,2021,Estructura Porcentual,CATALUÑA
+Girona,0.016586126200714726,2021,Estructura Porcentual,CATALUÑA
+Lleida,0.009257225409108958,2021,Estructura Porcentual,CATALUÑA
+Tarragona,0.01742462003767942,2021,Estructura Porcentual,CATALUÑA
+Alicante/Alacant,0.03995834987792206,2021,Estructura Porcentual,COMUNITAT VALENCIANA
+Castellón/Castelló,0.01241900191776424,2021,Estructura Porcentual,COMUNITAT VALENCIANA
+Valencia/València,0.05476188464690328,2021,Estructura Porcentual,COMUNITAT VALENCIANA
+Badajoz,0.014127670719034865,2021,Estructura Porcentual,EXTREMADURA
+Cáceres,0.008224420657784686,2021,Estructura Porcentual,EXTREMADURA
+"Coruña, A",0.023610888169844635,2021,Estructura Porcentual,GALICIA
+Lugo,0.0068557959566433214,2021,Estructura Porcentual,GALICIA
+Ourense,0.00642493262480252,2021,Estructura Porcentual,GALICIA
+Pontevedra,0.019946437774041748,2021,Estructura Porcentual,GALICIA
+Araba/Álava,0.007031098194598156,2021,Estructura Porcentual,PAÍS VASCO
+Bizkaia,0.024259295242761915,2021,Estructura Porcentual,PAÍS VASCO
+Gipuzkoa,0.015263967153007173,2021,Estructura Porcentual,PAÍS VASCO
+Total Nacional,1.0,2021,Estructura Porcentual,MELILLA
+Almería,0.00867649084148181,2021,Tasa de Variación Interanual,ANDALUCÍA
+Cádiz,0.0015232903070632187,2021,Tasa de Variación Interanual,ANDALUCÍA
+Córdoba,-0.0050032071840923065,2021,Tasa de Variación Interanual,ANDALUCÍA
+Granada,0.0020596205962060132,2021,Tasa de Variación Interanual,ANDALUCÍA
+Huelva,0.007992388201712775,2021,Tasa de Variación Interanual,ANDALUCÍA
+Jaén,-0.005723370429252861,2021,Tasa de Variación Interanual,ANDALUCÍA
+Málaga,0.010497598007235709,2021,Tasa de Variación Interanual,ANDALUCÍA
+Sevilla,-0.0012307061176348721,2021,Tasa de Variación Interanual,ANDALUCÍA
+Huesca,0.005829596412556093,2021,Tasa de Variación Interanual,ARAGÓN
+Teruel,0.0,2021,Tasa de Variación Interanual,ARAGÓN
+Zaragoza,-0.0020523345305284435,2021,Tasa de Variación Interanual,ARAGÓN
+"Palmas, Las",-0.0038800705467373353,2021,Tasa de Variación Interanual,CANARIAS
+Santa Cruz de Tenerife,0.0008600917431191846,2021,Tasa de Variación Interanual,CANARIAS
+Ávila,0.006325110689437086,2021,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Burgos,-0.005610098176718092,2021,Tasa de Variación Interanual,CASTILLA Y LEÓN
+León,-0.007929515418502286,2021,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Palencia,-0.009386733416770987,2021,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Salamanca,-0.0076057195010648115,2021,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Segovia,0.003265839320705455,2021,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Soria,-0.0045045045045044585,2021,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Valladolid,-0.004230769230769371,2021,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Zamora,-0.010575793184488758,2021,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Albacete,-0.0018097207859358866,2021,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Ciudad Real,-0.002233956133224968,2021,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Cuenca,0.0,2021,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Guadalajara,0.010997345468335418,2021,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Toledo,0.005660110372152305,2021,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Barcelona,-0.0013874984632136211,2021,Tasa de Variación Interanual,CATALUÑA
+Girona,0.006923964610847433,2021,Tasa de Variación Interanual,CATALUÑA
+Lleida,0.00045651677699143356,2021,Tasa de Variación Interanual,CATALUÑA
+Tarragona,0.008434176751008327,2021,Tasa de Variación Interanual,CATALUÑA
+Alicante/Alacant,0.005527504650544746,2021,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Castellón/Castelló,0.004441407584557577,2021,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Valencia/València,0.0015451174289244918,2021,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Badajoz,-0.0035751526888126994,2021,Tasa de Variación Interanual,EXTREMADURA
+Cáceres,-0.004346714395295437,2021,Tasa de Variación Interanual,EXTREMADURA
+"Coruña, A",-0.003032194773923025,2021,Tasa de Variación Interanual,GALICIA
+Lugo,-0.005819295558958548,2021,Tasa de Variación Interanual,GALICIA
+Ourense,-0.004906771344455385,2021,Tasa de Variación Interanual,GALICIA
+Pontevedra,-0.0010577533319230392,2021,Tasa de Variación Interanual,GALICIA
+Araba/Álava,-0.0014997000599880073,2021,Tasa de Variación Interanual,PAÍS VASCO
+Bizkaia,-0.005627218422647351,2021,Tasa de Variación Interanual,PAÍS VASCO
+Gipuzkoa,-0.003722084367245526,2021,Tasa de Variación Interanual,PAÍS VASCO
+Total Nacional,4.013103840128096e-05,2021,Tasa de Variación Interanual,MELILLA
+Almería,746.5,2022,Número de Habitantes,ANDALUCÍA
+Cádiz,1252.7,2022,Número de Habitantes,ANDALUCÍA
+Córdoba,775.1,2022,Número de Habitantes,ANDALUCÍA
+Granada,930.0,2022,Número de Habitantes,ANDALUCÍA
+Huelva,532.6,2022,Número de Habitantes,ANDALUCÍA
+Jaén,622.4,2022,Número de Habitantes,ANDALUCÍA
+Málaga,1733.9,2022,Número de Habitantes,ANDALUCÍA
+Sevilla,1954.5,2022,Número de Habitantes,ANDALUCÍA
+Huesca,226.0,2022,Número de Habitantes,ARAGÓN
+Teruel,134.6,2022,Número de Habitantes,ARAGÓN
+Zaragoza,974.1,2022,Número de Habitantes,ARAGÓN
+"Palmas, Las",1139.8,2022,Número de Habitantes,CANARIAS
+Santa Cruz de Tenerife,1059.5,2022,Número de Habitantes,CANARIAS
+Ávila,159.4,2022,Número de Habitantes,CASTILLA Y LEÓN
+Burgos,356.1,2022,Número de Habitantes,CASTILLA Y LEÓN
+León,448.9,2022,Número de Habitantes,CASTILLA Y LEÓN
+Palencia,157.9,2022,Número de Habitantes,CASTILLA Y LEÓN
+Salamanca,326.7,2022,Número de Habitantes,CASTILLA Y LEÓN
+Segovia,154.5,2022,Número de Habitantes,CASTILLA Y LEÓN
+Soria,88.9,2022,Número de Habitantes,CASTILLA Y LEÓN
+Valladolid,519.7,2022,Número de Habitantes,CASTILLA Y LEÓN
+Zamora,167.4,2022,Número de Habitantes,CASTILLA Y LEÓN
+Albacete,386.7,2022,Número de Habitantes,CASTILLA - LA MANCHA
+Ciudad Real,491.4,2022,Número de Habitantes,CASTILLA - LA MANCHA
+Cuenca,197.5,2022,Número de Habitantes,CASTILLA - LA MANCHA
+Guadalajara,271.7,2022,Número de Habitantes,CASTILLA - LA MANCHA
+Toledo,723.7,2022,Número de Habitantes,CASTILLA - LA MANCHA
+Barcelona,5748.5,2022,Número de Habitantes,CATALUÑA
+Girona,799.6,2022,Número de Habitantes,CATALUÑA
+Lleida,444.1,2022,Número de Habitantes,CATALUÑA
+Tarragona,839.7,2022,Número de Habitantes,CATALUÑA
+Alicante/Alacant,1931.4,2022,Número de Habitantes,COMUNITAT VALENCIANA
+Castellón/Castelló,597.7,2022,Número de Habitantes,COMUNITAT VALENCIANA
+Valencia/València,2633.1,2022,Número de Habitantes,COMUNITAT VALENCIANA
+Badajoz,667.0,2022,Número de Habitantes,EXTREMADURA
+Cáceres,388.6,2022,Número de Habitantes,EXTREMADURA
+"Coruña, A",1121.5,2022,Número de Habitantes,GALICIA
+Lugo,324.3,2022,Número de Habitantes,GALICIA
+Ourense,304.4,2022,Número de Habitantes,GALICIA
+Pontevedra,946.0,2022,Número de Habitantes,GALICIA
+Araba/Álava,335.1,2022,Número de Habitantes,PAÍS VASCO
+Bizkaia,1151.0,2022,Número de Habitantes,PAÍS VASCO
+Gipuzkoa,725.0,2022,Número de Habitantes,PAÍS VASCO
+Total Nacional,47786.0,2022,Número de Habitantes,MELILLA
+Almería,0.015621730213870172,2022,Estructura Porcentual,ANDALUCÍA
+Cádiz,0.026214790942954005,2022,Estructura Porcentual,ANDALUCÍA
+Córdoba,0.01622023186707404,2022,Estructura Porcentual,ANDALUCÍA
+Granada,0.01946176704474114,2022,Estructura Porcentual,ANDALUCÍA
+Huelva,0.01114552379357971,2022,Estructura Porcentual,ANDALUCÍA
+Jaén,0.013024735278114928,2022,Estructura Porcentual,ANDALUCÍA
+Málaga,0.036284685891265225,2022,Estructura Porcentual,ANDALUCÍA
+Sevilla,0.04090110074080275,2022,Estructura Porcentual,ANDALUCÍA
+Huesca,0.004729418658184405,2022,Estructura Porcentual,ARAGÓN
+Teruel,0.002816724563679739,2022,Estructura Porcentual,ARAGÓN
+Zaragoza,0.020384631482024025,2022,Estructura Porcentual,ARAGÓN
+"Palmas, Las",0.02385217427698489,2022,Estructura Porcentual,CANARIAS
+Santa Cruz de Tenerife,0.022171765789143264,2022,Estructura Porcentual,CANARIAS
+Ávila,0.0033357050182061692,2022,Estructura Porcentual,CASTILLA Y LEÓN
+Burgos,0.007451973381325075,2022,Estructura Porcentual,CASTILLA Y LEÓN
+León,0.009393964759553007,2022,Estructura Porcentual,CASTILLA Y LEÓN
+Palencia,0.0033043150713598125,2022,Estructura Porcentual,CASTILLA Y LEÓN
+Salamanca,0.006836730423136483,2022,Estructura Porcentual,CASTILLA Y LEÓN
+Segovia,0.003233164525174737,2022,Estructura Porcentual,CASTILLA Y LEÓN
+Soria,0.0018603775164274057,2022,Estructura Porcentual,CASTILLA Y LEÓN
+Valladolid,0.010875570250701043,2022,Estructura Porcentual,CASTILLA Y LEÓN
+Zamora,0.003503118068053405,2022,Estructura Porcentual,CASTILLA Y LEÓN
+Albacete,0.00809232829699075,2022,Estructura Porcentual,CASTILLA - LA MANCHA
+Ciudad Real,0.010283346586866447,2022,Estructura Porcentual,CASTILLA - LA MANCHA
+Cuenca,0.004133009668103629,2022,Estructura Porcentual,CASTILLA - LA MANCHA
+Guadalajara,0.005685765705436738,2022,Estructura Porcentual,CASTILLA - LA MANCHA
+Toledo,0.01514460302180555,2022,Estructura Porcentual,CASTILLA - LA MANCHA
+Barcelona,0.12029673963085423,2022,Estructura Porcentual,CATALUÑA
+Girona,0.0167329343322312,2022,Estructura Porcentual,CATALUÑA
+Lleida,0.009293516929644667,2022,Estructura Porcentual,CATALUÑA
+Tarragona,0.017572092244590467,2022,Estructura Porcentual,CATALUÑA
+Alicante/Alacant,0.04041769555936885,2022,Estructura Porcentual,COMUNITAT VALENCIANA
+Castellón/Castelló,0.01250784748671159,2022,Estructura Porcentual,COMUNITAT VALENCIANA
+Valencia/València,0.0551019126940945,2022,Estructura Porcentual,COMUNITAT VALENCIANA
+Badajoz,0.013958063031013268,2022,Estructura Porcentual,EXTREMADURA
+Cáceres,0.00813208889632947,2022,Estructura Porcentual,EXTREMADURA
+"Coruña, A",0.02346921692545934,2022,Estructura Porcentual,GALICIA
+Lugo,0.006786506508182313,2022,Estructura Porcentual,GALICIA
+Ourense,0.006370066546687314,2022,Estructura Porcentual,GALICIA
+Pontevedra,0.019796593144435607,2022,Estructura Porcentual,GALICIA
+Araba/Álava,0.007012514125476081,2022,Estructura Porcentual,PAÍS VASCO
+Bizkaia,0.02408655254677102,2022,Estructura Porcentual,PAÍS VASCO
+Gipuzkoa,0.015171807642405725,2022,Estructura Porcentual,PAÍS VASCO
+Total Nacional,1.0,2022,Estructura Porcentual,MELILLA
+Almería,0.019251774986346337,2022,Tasa de Variación Interanual,ANDALUCÍA
+Cádiz,0.0028017931476145286,2022,Tasa de Variación Interanual,ANDALUCÍA
+Córdoba,-0.0006446621970087607,2022,Tasa de Variación Interanual,ANDALUCÍA
+Granada,0.0060579835569019025,2022,Tasa de Variación Interanual,ANDALUCÍA
+Huelva,0.0054747970549366975,2022,Tasa de Variación Interanual,ANDALUCÍA
+Jaén,-0.004796929964822505,2022,Tasa de Variación Interanual,ANDALUCÍA
+Málaga,0.017666392769104533,2022,Tasa de Variación Interanual,ANDALUCÍA
+Sevilla,0.0034912974277352404,2022,Tasa de Variación Interanual,ANDALUCÍA
+Huesca,0.007579135086937194,2022,Tasa de Variación Interanual,ARAGÓN
+Teruel,0.004477611940298498,2022,Tasa de Variación Interanual,ARAGÓN
+Zaragoza,0.0016452442159382574,2022,Tasa de Variación Interanual,ARAGÓN
+"Palmas, Las",0.009029745042492987,2022,Tasa de Variación Interanual,CANARIAS
+Santa Cruz de Tenerife,0.011649002196123304,2022,Tasa de Variación Interanual,CANARIAS
+Ávila,0.0018856065367693908,2022,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Burgos,0.004513399153737829,2022,Tasa de Variación Interanual,CASTILLA Y LEÓN
+León,-0.003330373001776188,2022,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Palencia,-0.0025268477574226234,2022,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Salamanca,0.001532801961986463,2022,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Segovia,0.005859375,2022,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Soria,0.005656108597285048,2022,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Valladolid,0.0036693704132870764,2022,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Zamora,-0.005938242280285055,2022,Tasa de Variación Interanual,CASTILLA Y LEÓN
+Albacete,0.0015540015540014274,2022,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Ciudad Real,0.00020354162426206024,2022,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Cuenca,0.006113092205807469,2022,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Guadalajara,0.019129782445611365,2022,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Toledo,0.01829182496130577,2022,Tasa de Variación Interanual,CASTILLA - LA MANCHA
+Barcelona,0.011027471947659073,2022,Tasa de Variación Interanual,CATALUÑA
+Girona,0.018209601426206534,2022,Tasa de Variación Interanual,CATALUÑA
+Lleida,0.013232945471138624,2022,Tasa de Variación Interanual,CATALUÑA
+Tarragona,0.017818181818181955,2022,Tasa de Variación Interanual,CATALUÑA
+Alicante/Alacant,0.020878481949363037,2022,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Castellón/Castelló,0.01649659863945585,2022,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Valencia/València,0.015543042270903973,2022,Tasa de Variación Interanual,COMUNITAT VALENCIANA
+Badajoz,-0.0028404843773358612,2022,Tasa de Variación Interanual,EXTREMADURA
+Cáceres,-0.0020544427324087344,2022,Tasa de Variación Interanual,EXTREMADURA
+"Coruña, A",0.0032203238214507657,2022,Tasa de Variación Interanual,GALICIA
+Lugo,-0.0009242144177449285,2022,Tasa de Variación Interanual,GALICIA
+Ourense,0.0006574621959236637,2022,Tasa de Variación Interanual,GALICIA
+Pontevedra,0.0016941973739941218,2022,Tasa de Variación Interanual,GALICIA
+Araba/Álava,0.006608591168519196,2022,Tasa de Variación Interanual,PAÍS VASCO
+Bizkaia,0.0020895002611875935,2022,Tasa de Variación Interanual,PAÍS VASCO
+Gipuzkoa,0.0031825100318250144,2022,Tasa de Variación Interanual,PAÍS VASCO
+Total Nacional,0.009276234085513702,2022,Tasa de Variación Interanual,MELILLA
