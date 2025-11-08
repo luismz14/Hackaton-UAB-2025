@@ -2,6 +2,14 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import seaborn as sns
+from PIL import Image
+
+icon = Image.open("assets/logo_small.png")   
+st.set_page_config(
+    page_title="AI'll find it — Analysis",
+    page_icon=icon,        
+    layout="wide"
+)
 
 st.title("Noves oficines i predicció de potencials localitzacions futures.")
 
@@ -10,22 +18,57 @@ st.write("> Objectiu: L'objectiu d'aquest projecte es centra en buscar ubicacion
 st.subheader("Dades ")
 st.write("> Fonts Oficials: INE, BdE i dades pròpies de Caixa d'Enginyers.")
 
+# st.sidebar.header("*AI'll find it*")
+import streamlit as st, base64, pathlib
 
-st.subheader("Conclusió")
+# --- convierte tu logo local a base64 para poder incrustarlo en HTML ---
+def img_b64(path: str) -> str:
+    return base64.b64encode(open(path, "rb").read()).decode()
 
-st.sidebar.header("*AI'll fint it*")
+logo_path = "assets/logo_small.png"  # cambia la ruta a la tuya
+logo_b64  = img_b64(logo_path)
+
+with st.sidebar:
+    st.markdown(
+        f"""
+        <style>
+        .brand-row {{
+            display:flex;
+            align-items:center;      
+            gap:10px;                
+            margin: 6px 0 14px 0;    
+        }}
+        .brand-row img {{
+            width:28px; height:28px; 
+            object-fit:contain;
+            border-radius:6px;      
+        }}
+        .brand-row .brand-text {{
+            font-size:1.05rem;  
+            font-weight:600;
+            font-style:italic;    
+            line-height:1;      
+        }}
+        </style>
+
+        <div class="brand-row">
+            <img src="data:image/png;base64,{logo_b64}" alt="logo">
+            <div class="brand-text">AI'll find it</div>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
 st.sidebar.write("**Arnau Muñoz**")
 st.sidebar.write("**Míriam López**")
 st.sidebar.write("**Luis Martínez**")
 st.sidebar.write("**Marc Rodríguez**")
-
 
 import streamlit as st
 import pandas as pd
 import numpy as np
 import altair as alt
 
-st.set_page_config(page_title="Bancos por provincia", layout="wide")
 
 @st.cache_data
 def load_data(path: str):
@@ -102,3 +145,80 @@ if stacked_cols:
         )
     ).properties(height=500)
     st.altair_chart(chart2, use_container_width=True)
+
+import streamlit as st
+import pandas as pd
+import numpy as np
+import altair as alt
+from pathlib import Path
+
+@st.cache_data
+def load_data(path: str) -> pd.DataFrame:
+    df = pd.read_excel(path, sheet_name=0, header=0, engine="openpyxl")
+    df.columns = [str(c).strip() for c in df.columns]
+
+    prov_col = "Provincias" if "Provincias" in df.columns else "Provincia"
+
+    df = df[
+        (df["CCAA"].astype(str).str.strip().str.lower() != "total")
+        & (df[prov_col].astype(str).str.strip().str.lower() == "total")
+    ].copy()
+
+    columnas_total = [c for c in df.columns if ("Total" in c and c.split()[0].isdigit())]
+    columnas_total = sorted(columnas_total, key=lambda c: int(c.split()[0]))
+
+    df_grouped = df.groupby("CCAA", as_index=False)[columnas_total].sum()
+
+    long_df = df_grouped.melt(
+        id_vars="CCAA", value_vars=columnas_total, var_name="Col", value_name="Empresas"
+    )
+    long_df["Any"] = long_df["Col"].str.split().str[0].astype(int)
+    long_df = long_df.drop(columns=["Col"])
+    long_df["Empresas"] = pd.to_numeric(long_df["Empresas"], errors="coerce").fillna(0)
+
+    return long_df
+
+DATA_PATH = "data/Empresa per mida y provincia 2008-2022.xlsx"
+if not Path(DATA_PATH).exists():
+    st.error(f"No se encuentra el archivo: {DATA_PATH}")
+    st.stop()
+
+df_long = load_data(DATA_PATH)
+
+chart = (
+    alt.Chart(df_long)
+    .mark_line(point=True)
+    .encode(
+        x=alt.X("Any:O", title="Any"),
+        y=alt.Y("Empresas:Q", title="Número de empresas", axis=alt.Axis(format=",.0f")),
+        color=alt.Color("CCAA:N", title="CCAA", legend=alt.Legend(orient="right")),
+        tooltip=[
+            alt.Tooltip("CCAA:N"),
+            alt.Tooltip("Any:O"),
+            alt.Tooltip("Empresas:Q", title="Empresas", format=",.0f"),
+        ],
+    )
+    .properties(height=520)
+    .interactive()
+)
+
+st.altair_chart(chart, use_container_width=True)
+
+st.subheader("Conclusió")
+
+import streamlit as st
+
+st.set_page_config(layout="wide")
+
+col_img, col_list = st.columns([1, 2])   
+
+with col_img:
+    st.image("assets/cat_map.png", caption="Mapa de Catalunya", use_container_width=True)
+
+with col_list:
+    st.markdown("""
+- Comunitat amb major nombre d'empreses.
+- Top 5 valor PIB tant per càpita com en variació interanual.
+- Top 2 en nombre d'oficines bancàries.
+- Volum majoritari d'oficines de Caixa D'Enginyers a Catalunya. 
+    """)

@@ -6,7 +6,7 @@ from PIL import Image
 
 icon = Image.open("assets/logo_small.png")   
 st.set_page_config(
-    page_title="AI'll find it — Model",
+    page_title="AI'll find it — Proposta Bàsica",
     page_icon=icon,        
     layout="wide"
 )
@@ -55,9 +55,3 @@ st.sidebar.write("**Arnau Muñoz**")
 st.sidebar.write("**Míriam López**")
 st.sidebar.write("**Luis Martínez**")
 st.sidebar.write("**Marc Rodríguez**")
-
-st.subheader("Model Development")
-
-st.subheader("Objectiu")
-
-st.subheader("Resultats")
