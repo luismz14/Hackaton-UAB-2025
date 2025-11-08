@@ -6,11 +6,10 @@ from PIL import Image
 
 icon = Image.open("assets/logo_small.png")   
 st.set_page_config(
-    page_title="AI'll find it — Model",
+    page_title="AI'll find it — Proposta Avançada",
     page_icon=icon,        
     layout="wide"
 )
-
 import streamlit as st, base64, pathlib
 
 # --- convierte tu logo local a base64 para poder incrustarlo en HTML ---
@@ -55,9 +54,3 @@ st.sidebar.write("**Arnau Muñoz**")
 st.sidebar.write("**Míriam López**")
 st.sidebar.write("**Luis Martínez**")
 st.sidebar.write("**Marc Rodríguez**")
-
-st.subheader("Model Development")
-
-st.subheader("Objectiu")
-
-st.subheader("Resultats")
