@@ -13,13 +13,6 @@ st.write("> Fonts Oficials: INE, BdE i dades pròpies de Caixa d'Enginyers.")
 
 st.subheader("Conclusió")
 
-#Include emoticons
-st.write("This streamlit app adds *different formats* and icons is as :sunglasses:")
-st.write("This streamlit app adds *different formats* and icons is as :snow_cloud:")
-
-
-#Let's create a sidebar
-
 st.sidebar.header("*AI'll fint it*")
 st.sidebar.write("**Arnau Muñoz**")
 st.sidebar.write("**Míriam López**")
@@ -27,77 +20,85 @@ st.sidebar.write("**Luis Martínez**")
 st.sidebar.write("**Marc Rodríguez**")
 
 
+import streamlit as st
+import pandas as pd
+import numpy as np
+import altair as alt
 
-#Basics line chart, area chart and bar chart
-chart_data = pd.DataFrame(
-np.random.randn(20, 3),
-columns=['a', 'b', 'c'])
-st.write("This is line chart")
-st.line_chart(chart_data)
-st.write("This is the area chart")
-st.area_chart(chart_data)
-st.write("This is the bar chart")
-st.bar_chart(chart_data)
+st.set_page_config(page_title="Bancos por provincia", layout="wide")
 
+@st.cache_data
+def load_data(path: str):
+    dfb = pd.read_excel(path, sheet_name=0, header=0, engine="openpyxl")
 
+    # 1) Si la cabecera es "Columna1..." usar primera fila como header real
+    if any(str(c).lower().startswith("columna") for c in dfb.columns):
+        dfb.columns = dfb.iloc[0].tolist()
+        dfb = dfb.iloc[1:].reset_index(drop=True)
 
-#Let's embeed a Matplotlib in our streamlit app
-import matplotlib.pyplot as plt
+    # 2) Normalizar nombres de columnas
+    dfb.columns = [str(c).strip() for c in dfb.columns]
+    return dfb
 
-#Example 1
-arr = np.random.normal(1, 1, size=100)
-fig, ax = plt.subplots()
-ax.hist(arr, bins=20)
-st.write("Example 1 of plot with Matplotlib")
-st.pyplot(fig)
+dfb = load_data("data/Bancs per provincia.xlsx")
 
-#Seaborn: Seaborn builds on top of a Matplotlib figure so you can display the charts in the same way
-import seaborn as sns
-penguins = sns.load_dataset("penguins")
-st.dataframe(penguins[["species", "flipper_length_mm"]].sample(6))
+name_col = "Provincia"
+cols_val = [
+    "Banco de España",
+    "Oficinas en España",
+    "Entidades de depósito",
+    "Otras entidades de crédito y EFC",
+]
 
-# Create Figure beforehand
-fig = plt.figure(figsize=(9, 7))
-sns.histplot(data=penguins, x="flipper_length_mm", hue="species", multiple="stack")
-plt.title("Hello Penguins!")
-st.write("Example of a plot with Seaborn library")
-st.pyplot(fig)
+for c in cols_val:
+    if c in dfb.columns:
+        dfb[c] = pd.to_numeric(dfb[c], errors="coerce").fillna(0)
 
+posibles_sel = [
+    "Seleccion","Selección","SELECCION","SELECCIÓN","Plot","PLOT","Marcar",
+    "Include","Selected"
+]
+sel_col = next((c for c in dfb.columns if str(c).strip() in posibles_sel), None)
 
+# ---------- Sidebar ----------
+if sel_col:
+    use_sel = st.checkbox(f"Usar columna de selección: **{sel_col}**", value=True)
+else:
+    use_sel = False
 
-#Step 10: Show a dataframe table in your app
-st.dataframe(penguins[["species", "flipper_length_mm"]].sample(6))
+top_n = st.slider("Top N per Oficines", min_value=5, max_value=30, value=12, step=1)
 
+st.divider()
+present_cols = [c for c in ["Banco de España","Entidades de depósito","Otras entidades de crédito y EFC"] if c in dfb.columns]
+stacked_cols = present_cols
 
+# DataFrame a graficar
+def _to_bool(v):
+    s = str(v).strip().lower()
+    return (v is True) or (s in ("1","si","sí","true","x","y","yes"))
 
-#Creating a map Maps
-#Let's create randomly a lattitude and longitud variables
-df = pd.DataFrame(
-np.random.randn(1000, 2) / [50, 50] + [37.76, -122.4],
-columns=['lat', 'lon']) #These columns are totally necessary
-st.write("Example of a plot with a map")
-st.map(df)
+if use_sel and sel_col:
+    dfb_plot = dfb[dfb[sel_col].apply(_to_bool)].copy()
+else:
+    if "Oficinas en España" in dfb.columns:
+        dfb_plot = dfb.sort_values("Oficinas en España", ascending=False).head(top_n).copy()
+    else:
+        dfb_plot = dfb.copy()
 
-
-#Let's include Plotly library
-
-import plotly.figure_factory as ff
-
-
-# Add histogram data
-x1 = np.random.randn(200) - 2
-x2 = np.random.randn(200)
-x3 = np.random.randn(200) + 2
-
-# Group data together
-hist_data = [x1, x2, x3]
-
-group_labels = ['Group 1', 'Group 2', 'Group 3']
-
-# Create distplot with custom bin_size
-fig = ff.create_distplot(
-hist_data, group_labels, bin_size=[.1, .25, .5])
-
-# Plot!
-st.write("Example of a plot with Plotly")
-st.plotly_chart(fig, use_container_width=True)
+if stacked_cols:
+    st.subheader("Entitats per Provincia")
+    # Convertir a formato largo (melt)
+    long_df = dfb_plot[[name_col] + stacked_cols].melt(
+        id_vars=name_col, var_name="Tipus", value_name="Valor"
+    )
+    chart2 = (
+        alt.Chart(long_df)
+        .mark_bar()
+        .encode(
+            x=alt.X(f"{name_col}:N", sort="-y", title="Provincia"),
+            y=alt.Y("Valor:Q", title="Número de entidades"),
+            color=alt.Color("Tipus:N", title="Tipus d'Entitat"),
+            tooltip=[name_col, "Tipus", "Valor"]
+        )
+    ).properties(height=500)
+    st.altair_chart(chart2, use_container_width=True)
