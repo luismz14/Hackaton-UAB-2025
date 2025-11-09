@@ -187,7 +187,7 @@ def load_data(path: str):
     dfb.columns = [str(c).strip() for c in dfb.columns]
     return dfb
 
-dfb = load_data("data/Bancs per provincia.xlsx")
+dfb = load_data("data/BancsProvincia.xlsx")
 
 name_col = "Provincia"
 cols_val = [
