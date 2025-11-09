@@ -68,5 +68,13 @@ st.write("Per crear el graf cal disposar de:" \
 "\nA partir d'aquestes dades es genera un graf per poder treballar-hi.")
 
 st.image("assets/girona_bank_coverage.png")
+st.image("assets/girona_bank_coverage_map.png")
+
 st.image("assets/lleida_bank_coverage.png")
+st.image("assets/lleida_bank_coverage_map.png")
+
 st.image("assets/tarragona_bank_coverage.png")
+st.image("assets/tarragona_bank_coverage_map.png")
+
+
+st.header("Procés Interactiu: Prova el Model")
