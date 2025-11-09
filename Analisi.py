@@ -6,7 +6,7 @@ from PIL import Image
 
 icon = Image.open("assets/logo_small.png")   
 st.set_page_config(
-    page_title="AI'll find it — Analysis",
+    page_title="AI'll find it — Analasi",
     page_icon=icon,        
     layout="wide"
 )
@@ -216,9 +216,22 @@ with col_img:
     st.image("assets/cat_map.png", caption="Mapa de Catalunya", use_container_width=True)
 
 with col_list:
-    st.markdown("""
-- Comunitat amb major nombre d'empreses.
-- Top 5 valor PIB tant per càpita com en variació interanual.
-- Top 2 en nombre d'oficines bancàries.
-- Volum majoritari d'oficines de Caixa D'Enginyers a Catalunya. 
-    """)
+    st.markdown(
+        """
+        <div style="
+            font-size:1.5rem;      /* tamaño del texto */
+            line-height:1.6;        /* alto de línea */
+        ">
+          <ul style="
+              margin:0; 
+              padding-left:1.4em;   /* sangría de las viñetas */
+          ">
+            <li><b>Comunitat</b> amb major nombre d'empreses.</li>
+            <li><b>Top 5</b> valor PIB tant per càpita com en variació interanual.</li>
+            <li><b>Top 2</b> en nombre d'oficines bancàries.</li>
+            <li>Volum majoritari d'oficines de <i>Caixa d'Enginyers</i> a Catalunya.</li>
+          </ul>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )

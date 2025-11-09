@@ -55,3 +55,7 @@ st.sidebar.write("**Arnau Muñoz**")
 st.sidebar.write("**Míriam López**")
 st.sidebar.write("**Luis Martínez**")
 st.sidebar.write("**Marc Rodríguez**")
+
+st.image("assets/girona_bank_coverage.png", use_column_width=True)
+st.image("assets/lleida_bank_coverage.png", use_column_width=True)
+st.image("assets/tarragona_bank_coverage.png", use_column_width=True)
