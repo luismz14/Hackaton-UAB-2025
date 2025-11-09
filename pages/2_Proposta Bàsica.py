@@ -55,3 +55,26 @@ st.sidebar.write("**Arnau Muñoz**")
 st.sidebar.write("**Míriam López**")
 st.sidebar.write("**Luis Martínez**")
 st.sidebar.write("**Marc Rodríguez**")
+
+st.header("Objectiu")
+st.write("El codi té com a objectiu seleccionar la ubicació òptima d’oficines bancàries fixes i mòbils per maximitzar la cobertura de la població d’una regió. Per fer-ho, treballa amb un graf de municipis, on cada node representa un municipi i les arestes representen la seva proximitat geogràfica.")
+
+st.subheader("Dades d’entrada")
+st.write("Per crear el graf cal disposar de:" \
+"- Nom del municipi" \
+"- Codi o identificador únic" \
+"- Població (en diferents franges d’edat o total)" \
+"- Coordenades UTM (X, Y)" \
+"\nA partir d'aquestes dades es genera un graf per poder treballar-hi.")
+
+st.image("assets/girona_bank_coverage.png")
+st.image("assets/girona_bank_coverage_map.png")
+
+st.image("assets/lleida_bank_coverage.png")
+st.image("assets/lleida_bank_coverage_map.png")
+
+st.image("assets/tarragona_bank_coverage.png")
+st.image("assets/tarragona_bank_coverage_map.png")
+
+
+st.header("Procés Interactiu: Prova el Model")
