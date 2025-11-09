@@ -80,23 +80,27 @@ for path in PATHS_DATASETS:
     elif filename == "EmpresesProvincia.xlsx":
         # Aquest era 'df_long'. Requereix el processament complex.
         try:
-            prov_col = "Provincias" if "Provincias" in df_full.columns else "Provincia"
+            df_wide = df_full.copy()
+
+            # 1. Identifiquem la columna d'identificació (la primera, 'Provincias/Any')
+            id_col = df_wide.columns[0]
             
-            df_filtrat = df_full[
-                (df_full["CCAA"].astype(str).str.strip().str.lower() != "total")
-                & (df_full[prov_col].astype(str).str.strip().str.lower() == "total")
-            ].copy()
+            # 2. Identifiquem les columnes de valors (totes les altres, que són els anys)
+            value_cols = [col for col in df_wide.columns if col != id_col]
 
-            columnes_total = [c for c in df_filtrat.columns if ("Total" in c and c.split()[0].isdigit())]
-            columnes_total = sorted(columnes_total, key=lambda c: int(c.split()[0]))
-
-            df_grouped = df_filtrat.groupby("CCAA", as_index=False)[columnes_total].sum()
-
-            df_long = df_grouped.melt(
-                id_vars="CCAA", value_vars=columnes_total, var_name="Col", value_name="Empresas"
+            # 3. Transformem de 'wide' a 'long' amb 'melt'
+            df_long = df_wide.melt(
+                id_vars=id_col,        # La columna que es manté (Províncies)
+                value_vars=value_cols, # Les columnes que volem 'desfer' (Anys)
+                var_name="Any",        # Nom de la nova columna per als anys
+                value_name="Empresas"  # Nom de la nova columna per als valors
             )
-            df_long["Any"] = df_long["Col"].str.split().str[0].astype(int)
-            df_long = df_long.drop(columns=["Col"])
+            
+            # 4. Reanomenem la columna de províncies per a més claredat
+            df_long.rename(columns={id_col: "Provincia"}, inplace=True)
+
+            # 5. Assegurem que els tipus de dades són correctes
+            df_long["Any"] = pd.to_numeric(df_long["Any"], errors="coerce")
             df_long["Empresas"] = pd.to_numeric(df_long["Empresas"], errors="coerce").fillna(0)
         except Exception as e:
             st.error(f"Error processant {filename} per al gràfic: {e}")
@@ -258,29 +262,55 @@ from pathlib import Path
 
 @st.cache_data
 def load_data(path: str) -> pd.DataFrame:
-    df = pd.read_excel(path, sheet_name=0, header=0, engine="openpyxl")
-    df.columns = [str(c).strip() for c in df.columns]
+    """
+    Carrega les dades de l'Excel (format com la imatge) i les transforma
+    de format ample (columnes per any) a format llarg (files per any).
+    """
+    try:
+        # 1. Carregar les dades
+        df_wide = pd.read_excel(path, sheet_name=0, header=0, engine="openpyxl")
+        
+        # 2. Netejar noms de columnes (els anys poden tenir espais)
+        df_wide.columns = [str(c).strip() for c in df_wide.columns]
 
-    prov_col = "Provincias" if "Provincias" in df.columns else "Provincia"
+        # --- AQUESTA ÉS LA NOVA LÒGICA ---
+        # (Substitueix tot el bloc antic de 'CCAA', 'total', 'groupby', etc.)
 
-    df = df[
-        (df["CCAA"].astype(str).str.strip().str.lower() != "total")
-        & (df[prov_col].astype(str).str.strip().str.lower() == "total")
-    ].copy()
+        # 3. Identifiquem la columna d'identificació (la primera)
+        #    (ex: 'Provincias/Any')
+        id_col = df_wide.columns[0]
+        
+        # 4. Identifiquem les columnes de valors (totes les altres, que són els anys)
+        value_cols = [col for col in df_wide.columns if col != id_col]
 
-    columnas_total = [c for c in df.columns if ("Total" in c and c.split()[0].isdigit())]
-    columnas_total = sorted(columnas_total, key=lambda c: int(c.split()[0]))
+        # 5. Transformem de 'wide' a 'long' amb 'melt'
+        # 
+        df_long = df_wide.melt(
+            id_vars=id_col,        # La columna que es manté (Províncies)
+            value_vars=value_cols, # Les columnes que volem 'desfer' (Anys)
+            var_name="Any",        # Nom de la nova columna per als anys
+            value_name="Empresas"  # Nom de la nova columna per als valors
+        )
+        
+        # 6. Reanomenem la columna de províncies per a més claredat
+        df_long.rename(columns={id_col: "Provincia"}, inplace=True)
 
-    df_grouped = df.groupby("CCAA", as_index=False)[columnas_total].sum()
+        # 7. Assegurem que els tipus de dades són correctes
+        df_long["Any"] = pd.to_numeric(df_long["Any"], errors="coerce")
+        df_long["Empresas"] = pd.to_numeric(df_long["Empresas"], errors="coerce").fillna(0)
 
-    long_df = df_grouped.melt(
-        id_vars="CCAA", value_vars=columnas_total, var_name="Col", value_name="Empresas"
-    )
-    long_df["Any"] = long_df["Col"].str.split().str[0].astype(int)
-    long_df = long_df.drop(columns=["Col"])
-    long_df["Empresas"] = pd.to_numeric(long_df["Empresas"], errors="coerce").fillna(0)
+        # 8. (Opcional) Netejar el prefix numèric de la província
+        #    Comprova si té el format "XX Nom" i el treu
+        if df_long["Provincia"].str.match(r"^\d{2}\s").any():
+            df_long["Provincia"] = df_long["Provincia"].str.split(n=1).str[1].str.strip()
+        
+        return df_long
 
-    return long_df
+    except Exception as e:
+        # Si fas servir Streamlit, pots posar un error
+        st.error(f"Error en carregar i processar el fitxer {path}: {e}")
+        # Retornem un DataFrame buit en cas d'error
+        return pd.DataFrame(columns=["Provincia", "Any", "Empresas"])
 
 DATA_PATH = "data/EmpresesProvincia.xlsx"
 if not Path(DATA_PATH).exists():
