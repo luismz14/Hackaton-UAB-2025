@@ -16,14 +16,11 @@ Aquest projecte desenvolupa una solució per **optimitzar la cobertura de servei
 - [Execució](#execució)
   - [Mode Aplicació (Streamlit)](#mode-aplicació-streamlit)
   - [Mode Exploratori (Jupyter)](#mode-exploratori-jupyter)
-- [Estructura de dades](#estructura-de-dades)
-- [Motor d’optimització](#motor-doptimització)
-- [Xatbot RAG](#xatbot-rag)
 - [Comandes útils](#comandes-útils)
 - [Estructura del repositori](#estructura-del-repositori)
-- [Roadmap](#roadmap)
 - [Llicència](#llicència)
 - [Enllaços](#enllaços)
+
 
 ---
 
