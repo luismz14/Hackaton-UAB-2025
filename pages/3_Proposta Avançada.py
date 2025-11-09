@@ -54,3 +54,10 @@ st.sidebar.write("**Arnau Muñoz**")
 st.sidebar.write("**Míriam López**")
 st.sidebar.write("**Luis Martínez**")
 st.sidebar.write("**Marc Rodríguez**")
+
+st.subheader("Model Development")
+
+st.subheader("Objectiu")
+st.write("Desenvolupar un model d'intel·ligència artificial capaç de predir a tres terminis (2026, 2030 i 2035) el creixement de socis de l'entitat bancària Caixa D'Enginyers a Catalunya.")
+
+st.subheader("Resultats")
