@@ -3,7 +3,7 @@
 **Descripció del repositori**  
 Aquest projecte desenvolupa una solució per **optimitzar la cobertura de serveis bancaris** a Catalunya combinant: anàlisi de dades (demografia, oferta bancària), **algorismes de grafs**, un mòdul d’**optimització** (oficines fixes + unitats mòbils) i una **aplicació interactiva amb Streamlit** que inclou un **xatbot RAG** per fer consultes en llenguatge natural sobre les dades carregades. També inclou un quadern d’**anàlisi exploratòria** que justifica l’enfocament i avalua l’impacte.
 
-> Documentació viva (generada amb IA): **https://deepwiki.com/arnaumunozbarrera/Hackaton-UAB-2025**
+> Documentació viva: **https://deepwiki.com/arnaumunozbarrera/Hackaton-UAB-2025**
 
 ---
 
@@ -40,9 +40,9 @@ Aquest projecte desenvolupa una solució per **optimitzar la cobertura de servei
 - **Pages** — `pages/`:
   - `1_Model.py`: explicació/model base.
   - `3_Genera graf i proposta.py`: càrrega de dades, generació de graf i proposta (N oficines, M parades).
-  - `4_Proposta Avançada.py`: anàlisi i ajustos avançats (si escau).
+  - `4_Proposta Avançada.py`: anàlisi i ajustos avançats.
 - **Optimization Engine** — `bank_optimizer.py`: classe/funcions per puntuar nodes i selecció greedy en dues fases.
-- **RAG Utils** — `utils/AIna_utils.py`: utilitats per compondre prompts i consultar el LLM amb mostres del dataset (context curt).
+- **RAG Utils** — `utils/AIna_utils.py`: utilitats per compondre prompts i consultar el LLM amb mostres del dataset.
 
 ---
 
@@ -54,7 +54,7 @@ Aquest projecte desenvolupa una solució per **optimitzar la cobertura de servei
 - **scikit-learn** (modelatge/auxiliars)
 - **altair**, **matplotlib** (gràfics)
 - **openpyxl** (Excel)
-- **contextily** (mapes base, si s’usen tiles)
+- **contextily** (mapes base)
 - **Jupyter** (notebooks)
 
 > Si necessites crear ràpidament el fitxer de dependències:
@@ -96,14 +96,4 @@ pip install -r requirements.txt
 
 # Llançar l’app (Streamlit)
 streamlit run Analisi.py
-
-# Instal·lar peces soltes (si falten)
-pip install altair matplotlib contextily openpyxl
-
-# Obrir el notebook exploratori
-jupyter notebook   # Obre 'Informe Final.ipynb'
-
-# Lint/format (si s’utilitza ruff) i tests (pytest)
-ruff check . && ruff format .
-pytest -q
 
