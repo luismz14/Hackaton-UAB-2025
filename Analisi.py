@@ -319,24 +319,24 @@ if not Path(DATA_PATH).exists():
 
 df_long = load_data(DATA_PATH)
 
-chart = (
-    alt.Chart(df_long)
-    .mark_line(point=True)
-    .encode(
-        x=alt.X("Any:O", title="Any"),
-        y=alt.Y("Empresas:Q", title="Número de empresas", axis=alt.Axis(format=",.0f")),
-        color=alt.Color("CCAA:N", title="CCAA", legend=alt.Legend(orient="right")),
-        tooltip=[
-            alt.Tooltip("CCAA:N"),
-            alt.Tooltip("Any:O"),
-            alt.Tooltip("Empresas:Q", title="Empresas", format=",.0f"),
-        ],
-    )
-    .properties(height=520)
-    .interactive()
-)
+# chart = (
+#     alt.Chart(df_long)
+#     .mark_line(point=True)
+#     .encode(
+#         x=alt.X("Any:O", title="Any"),
+#         y=alt.Y("Empresas:Q", title="Número de empresas", axis=alt.Axis(format=",.0f")),
+#         color=alt.Color("CCAA:N", title="CCAA", legend=alt.Legend(orient="right")),
+#         tooltip=[
+#             alt.Tooltip("CCAA:N"),
+#             alt.Tooltip("Any:O"),
+#             alt.Tooltip("Empresas:Q", title="Empresas", format=",.0f"),
+#         ],
+#     )
+#     .properties(height=520)
+#     .interactive()
+# )
 
-st.altair_chart(chart, use_container_width=True)
+# st.altair_chart(chart, use_container_width=True)
 
 st.subheader("Conclusió")
 

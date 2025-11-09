@@ -246,3 +246,5 @@ fig = px.choropleth_mapbox(
     title="HEAT MAP DE SOCIS"
 )
 st.plotly_chart(fig, use_container_width=True)
+
+st.image("assets\heatmap_socios_2035_REPARTO_PONDERADO.png", caption="Heatmap de socis per províncies a Catalunya")
