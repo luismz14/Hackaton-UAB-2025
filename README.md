@@ -1,96 +1,53 @@
-# Hackaton-UAB-2025 — Optimització de cobertura bancària
+# Banking Coverage Optimization in Catalonia
 
-**Descripció del repositori**  
-Aquest projecte desenvolupa una solució per **optimitzar la cobertura de serveis bancaris** a Catalunya combinant: anàlisi de dades (demografia, oferta bancària), **algorismes de grafs**, un mòdul d’**optimització** (oficines fixes + unitats mòbils) i una **aplicació interactiva amb Streamlit** que inclou un **xatbot RAG** per fer consultes en llenguatge natural sobre les dades carregades. També inclou un quadern d’**anàlisi exploratòria** que justifica l’enfocament i avalua l’impacte.
+A UAB 2025 hackathon prototype for exploring banking access in Catalonia. The project combines demographic and economic data, graph-based coverage optimization, and a Streamlit dashboard. An optional chatbot sends selected dataset context and conversation messages to a remote language model.
 
-> Documentació viva: **https://deepwiki.com/arnaumunozbarrera/Hackaton-UAB-2025**
+## Project structure
 
----
+- `Analisi.py`: dashboard, data loading, charts, and chatbot interface.
+- `bank_optimizer.py`: greedy placement of physical offices and mobile banking stops on a municipality graph, with population coverage and distance-based scoring.
+- `pages/1_Proposta Bàsica.py`: basic proposal page.
+- `pages/2_Genera graf i proposta.py`: graph construction and office/mobile-stop proposal.
+- `pages/3_Proposta Avançada.py`: advanced proposal page.
+- `utils/AIna_utils.py`: remote chatbot integration.
+- `Informe Final.ipynb`: exploratory analysis and historical project evidence.
+- `data/` and `utils/*.xlsx`: retained identified statistics and demonstration fixture; other historical inputs must be supplied locally (see provenance document).
+- `assets/`: dashboard images and coverage figures.
 
-## Taula de continguts
-- [Visió general](#visió-general)
-- [Arquitectura](#arquitectura)
-- [Tecnologies](#tecnologies)
-- [Requisits](#requisits)
-- [Instal·lació i entorn](#instal·lació-i-entorn)
-- [Execució](#execució)
-  - [Mode Aplicació (Streamlit)](#mode-aplicació-streamlit)
-  - [Mode Exploratori (Jupyter)](#mode-exploratori-jupyter)
-- [Comandes útils](#comandes-útils)
-- [Estructura del repositori](#estructura-del-repositori)
-- [Llicència](#llicència)
-- [Enllaços](#enllaços)
+## Setup and usage
 
+Run commands from the repository root. Python dependencies are pinned in `requirements.txt`; this maintenance pass did not reinstall that environment or verify a minimum Python version.
 
----
-
-## Visió general
-- **Problema:** Hi ha zones amb **baixa cobertura bancària** (oficines/caixers), que impacta la inclusió financera i l’accés a serveis.
-- **Solució:** Model que avalua cobertura i suggereix **ubicacions òptimes** per a noves oficines i **parades d’unitats mòbils** (furgó), maximitzant població servida i minimitzant solapaments/costos.
-- **Sortida:** App interactiva per explorar escenaris, carregar datasets, generar grafs i obtenir una **proposta automàtica** amb mètriques de cobertura.
-
----
-
-## Arquitectura
-- **Analytical Core** — `Informe Final.ipynb`: EDA, mètriques, visualitzacions i experiments de models.
-- **Interactive App** — `Analisi.py`: App Streamlit multipàgina (sidebar) per explorar dades, llançar optimitzacions i visualitzar resultats.
-- **Pages** — `pages/`:
-  - `1_Model.py`: explicació/model base.
-  - `3_Genera graf i proposta.py`: càrrega de dades, generació de graf i proposta (N oficines, M parades).
-  - `4_Proposta Avançada.py`: anàlisi i ajustos avançats.
-- **Optimization Engine** — `bank_optimizer.py`: classe/funcions per puntuar nodes i selecció greedy en dues fases.
-- **RAG Utils** — `utils/AIna_utils.py`: utilitats per compondre prompts i consultar el LLM amb mostres del dataset.
-
----
-
-## Tecnologies
-- **Python 3.10+**
-- **Streamlit** (UI multipàgina)
-- **pandas**, **numpy** (ETL i manipulació)
-- **networkx** (grafs)
-- **scikit-learn** (modelatge/auxiliars)
-- **altair**, **matplotlib** (gràfics)
-- **openpyxl** (Excel)
-- **contextily** (mapes base)
-- **Jupyter** (notebooks)
-
-> Si necessites crear ràpidament el fitxer de dependències:
-> ```bash
-> python -m pip freeze > requirements.txt
-> ```
-
----
-
-## Requisits
-- **Git** ≥ 2.30  
-- **Python** ≥ 3.10  
-- **pip** ≥ 23  
-- (Opcional) **Jupyter** per a notebooks
-
----
-
-## Instal·lació i entorn
 ```bash
-# 1) Clona el repositori
-git clone https://github.com/arnaumunozbarrera/Hackaton-UAB-2025.git
-cd Hackaton-UAB-2025
-
-# 2) Crea i activa un entorn virtual
 python -m venv .venv
-# Windows (PowerShell):
-. .venv/Scripts/Activate.ps1
-# macOS/Linux:
-# source .venv/bin/activate
+```
 
-# 3) Instal·la dependències
-pip install -r requirements.txt
-# Si no existeix, instal·la manualment les llibreries clau:
-# pip install streamlit pandas numpy networkx scikit-learn altair matplotlib contextily openpyxl jupyter
+Activate in Windows PowerShell with `.\.venv\Scripts\Activate.ps1`, or on macOS/Linux with `source .venv/bin/activate`.
 
-# ─────────────────────────────────────────────────────────────
-# Comandes ràpides per afegir al final del README (copiar/enganxar)
-# ─────────────────────────────────────────────────────────────
+```bash
+python -m pip install -r requirements.txt
+python -m streamlit run Analisi.py
+```
 
-# Llançar l’app (Streamlit)
-streamlit run Analisi.py
+The public tree is incomplete for historical execution: several required workbooks are intentionally excluded. Obtain authorized local copies at the exact paths in [DATA_SOURCES.md](DATA_SOURCES.md) before launching affected pages. The setup commands do not supply these inputs.
 
+Keep the working directory at the repository root because data and asset paths are relative. Open `Informe Final.ipynb` in a Jupyter-capable editor for the exploratory workflow. A notebook frontend may need to be supplied separately.
+
+The application uses pandas, NumPy, NetworkX, Streamlit, matplotlib, and contextily, with openpyxl for Excel files. Map tiles and the optional chatbot require external services; offline operation of those features has not been verified.
+
+## Security and limitations
+
+The optional chatbot reads `PUBLICAI_API_KEY` from the process environment when the application starts. Set it locally before launching Streamlit. In PowerShell:
+
+```powershell
+$env:PUBLICAI_API_KEY = "<your newly issued credential>"
+python -m streamlit run Analisi.py
+```
+
+On macOS/Linux, use `export PUBLICAI_API_KEY="<your newly issued credential>"` before starting the application. The helper does not automatically load a `.env` file. If the variable is missing, chatbot requests return a configuration message without contacting the API; the dashboard can still be used.
+
+A credential was previously committed and has been removed from the current helper. The user will handle revocation/rotation and any Git-history cleanup manually. Removing it from the working tree does not remove historical exposure. Never commit a real credential or reuse the exposed value.
+
+The chatbot transmits data context to a third-party service. Review the input tables and their sharing permissions before using that feature. No source-code license is included. [DATA_SOURCES.md](DATA_SOURCES.md) records retained-source terms, excluded inputs, and unresolved provenance.
+
+The notebook and some original implementation text remain in Catalan as historical material. Four machine-specific paths in the saved notebook reduce portability. This prototype has no automated test suite, and the original analysis and optimization results were preserved rather than regenerated.

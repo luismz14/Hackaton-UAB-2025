@@ -207,3 +207,31 @@ marimo/_lsp/
 __marimo__/
 
 *pbix
+
+# Temporary Microsoft Office lock files
+~$*.xlsx
+~$*.xls
+
+# Local environment variants (retain shareable examples)
+.env.*
+!.env.example
+
+# Local historical inputs/assets excluded under the publication provenance policy.
+/data/BancsProvincia.xlsx
+/data/EmpresesProvincia.xlsx
+/data/model/EmpresesProvincia.xlsx
+/data/Habitants.xlsx
+/data/OficinesMunicipi.xlsx
+/data/PIB.xlsx
+/data/PIBperCapita.xlsx
+/data/PIBpercentatge.xlsx
+/data/model/Densidad.xlsx
+/data/model/HipotequesAnuals(2009-2022).xlsx
+/data/model/PIB.xlsx
+/data/model/socios_caixa_enginyers_provincias_EXTENDIDO.xlsx
+/data/socios_caixa_enginyers_provincias_EXTENDIDO_2035_REPARTO_PONDERADO.xlsx
+/utils/MunicipiosEspana.xlsx
+/assets/cat_map.png
+/assets/furgo.jpeg
+/assets/logo_small.png
+/assets/Eina_AINA.jpeg

@@ -1,7 +1,5 @@
 import streamlit as st
-import numpy as np
 import pandas as pd
-import seaborn as sns
 from PIL import Image
 import os
 from utils.AIna_utils import preguntar_chatbot, SYSTEM_PROMPT
@@ -9,13 +7,13 @@ from utils.AIna_utils import preguntar_chatbot, SYSTEM_PROMPT
 @st.cache_data
 def load_data(path: str) -> pd.DataFrame:
     """
-    Carrega dades des d'un fitxer Excel o CSV.
+    Load Excel/CSV input, promoting a placeholder header row when present.
     """
     try:
         # Llegeix el fitxer segons l'extensió
         if path.endswith(".csv"):
             # Afegeix 'encoding' si tens problemes amb caràcters especials
-            df = pd.read_csv(path) 
+            df = pd.read_csv(path)
         elif path.endswith(".xlsx"):
             df = pd.read_excel(path, sheet_name=0, header=0, engine="openpyxl")
         else:
@@ -26,7 +24,7 @@ def load_data(path: str) -> pd.DataFrame:
         if any(str(c).lower().startswith("columna") for c in df.columns):
             df.columns = df.iloc[0].tolist()
             df = df.iloc[1:].reset_index(drop=True)
-        
+
         # Neteja 2: Normalitzar noms de columnes
         df.columns = [str(c).strip() for c in df.columns]
         return df
@@ -54,7 +52,6 @@ if "context_samples" not in st.session_state:
 # Inicialitzem les variables per als nostres gràfics
 dfb = None
 df_long = None
-# ... (afegeix més variables si les necessites per a altres gràfics) ...
 
 # Bucle principal de càrrega, processament i mostreig
 for path in PATHS_DATASETS:
@@ -64,7 +61,7 @@ for path in PATHS_DATASETS:
         continue
 
     filename = os.path.basename(path)
-    
+
     # 1. Carregar les dades (utilitzant la nova funció genèrica)
     df_full = load_data(path)
     if df_full.empty:
@@ -72,11 +69,11 @@ for path in PATHS_DATASETS:
 
     # 2. Processament específic per als GRÀFICS
     # (Agafem la lògica de l'Analisi.py original i la posem aquí)
-    
+
     if filename == "BancsProvincia.xlsx":
         # Aquest era 'dfb'. No necessita més processament.
         dfb = df_full
-        
+
     elif filename == "EmpresesProvincia.xlsx":
         # Aquest era 'df_long'. Requereix el processament complex.
         try:
@@ -84,7 +81,7 @@ for path in PATHS_DATASETS:
 
             # 1. Identifiquem la columna d'identificació (la primera, 'Provincias/Any')
             id_col = df_wide.columns[0]
-            
+
             # 2. Identifiquem les columnes de valors (totes les altres, que són els anys)
             value_cols = [col for col in df_wide.columns if col != id_col]
 
@@ -95,7 +92,7 @@ for path in PATHS_DATASETS:
                 var_name="Any",        # Nom de la nova columna per als anys
                 value_name="Empresas"  # Nom de la nova columna per als valors
             )
-            
+
             # 4. Reanomenem la columna de províncies per a més claredat
             df_long.rename(columns={id_col: "Provincia"}, inplace=True)
 
@@ -112,10 +109,10 @@ for path in PATHS_DATASETS:
             df_sample = df_full.sample(n=n_samples)
             st.session_state.context_samples[filename] = df_sample
 
-icon = Image.open("assets/logo_small.png")   
+icon = "🏦"
 st.set_page_config(
     page_title="AI'll find it — Analasi",
-    page_icon=icon,        
+    page_icon=icon,
     layout="wide"
 )
 
@@ -127,40 +124,30 @@ st.subheader("Dades ")
 st.write("> Fonts Oficials: INE, BdE i dades pròpies de Caixa d'Enginyers.")
 
 # st.sidebar.header("*AI'll find it*")
-import streamlit as st, base64, pathlib
-
-# --- convierte tu logo local a base64 para poder incrustarlo en HTML ---
-def img_b64(path: str) -> str:
-    return base64.b64encode(open(path, "rb").read()).decode()
-
-logo_path = "assets/logo_small.png"  # cambia la ruta a la tuya
-logo_b64  = img_b64(logo_path)
-
 with st.sidebar:
     st.markdown(
         f"""
         <style>
         .brand-row {{
             display:flex;
-            align-items:center;      
-            gap:10px;                
-            margin: 6px 0 14px 0;    
+            align-items:center;
+            gap:10px;
+            margin: 6px 0 14px 0;
         }}
         .brand-row img {{
-            width:28px; height:28px; 
+            width:28px; height:28px;
             object-fit:contain;
-            border-radius:6px;      
+            border-radius:6px;
         }}
         .brand-row .brand-text {{
-            font-size:1.05rem;  
+            font-size:1.05rem;
             font-weight:600;
-            font-style:italic;    
-            line-height:1;      
+            font-style:italic;
+            line-height:1;
         }}
         </style>
 
         <div class="brand-row">
-            <img src="data:image/png;base64,{logo_b64}" alt="logo">
             <div class="brand-text">AI'll find it</div>
         </div>
         """,
@@ -174,7 +161,6 @@ st.sidebar.write("**Marc Rodríguez**")
 
 import streamlit as st
 import pandas as pd
-import numpy as np
 import altair as alt
 
 
@@ -256,42 +242,39 @@ if stacked_cols:
 
 import streamlit as st
 import pandas as pd
-import numpy as np
 import altair as alt
 from pathlib import Path
 
 @st.cache_data
 def load_data(path: str) -> pd.DataFrame:
     """
-    Carrega les dades de l'Excel (format com la imatge) i les transforma
-    de format ample (columnes per any) a format llarg (files per any).
+    Reshape a province-by-year Excel table into long-form company counts.
     """
     try:
         # 1. Carregar les dades
         df_wide = pd.read_excel(path, sheet_name=0, header=0, engine="openpyxl")
-        
+
         # 2. Netejar noms de columnes (els anys poden tenir espais)
         df_wide.columns = [str(c).strip() for c in df_wide.columns]
 
         # --- AQUESTA ÉS LA NOVA LÒGICA ---
-        # (Substitueix tot el bloc antic de 'CCAA', 'total', 'groupby', etc.)
 
         # 3. Identifiquem la columna d'identificació (la primera)
         #    (ex: 'Provincias/Any')
         id_col = df_wide.columns[0]
-        
+
         # 4. Identifiquem les columnes de valors (totes les altres, que són els anys)
         value_cols = [col for col in df_wide.columns if col != id_col]
 
         # 5. Transformem de 'wide' a 'long' amb 'melt'
-        # 
+        #
         df_long = df_wide.melt(
             id_vars=id_col,        # La columna que es manté (Províncies)
             value_vars=value_cols, # Les columnes que volem 'desfer' (Anys)
             var_name="Any",        # Nom de la nova columna per als anys
             value_name="Empresas"  # Nom de la nova columna per als valors
         )
-        
+
         # 6. Reanomenem la columna de províncies per a més claredat
         df_long.rename(columns={id_col: "Provincia"}, inplace=True)
 
@@ -303,7 +286,7 @@ def load_data(path: str) -> pd.DataFrame:
         #    Comprova si té el format "XX Nom" i el treu
         if df_long["Provincia"].str.match(r"^\d{2}\s").any():
             df_long["Provincia"] = df_long["Provincia"].str.split(n=1).str[1].str.strip()
-        
+
         return df_long
 
     except Exception as e:
@@ -319,35 +302,16 @@ if not Path(DATA_PATH).exists():
 
 df_long = load_data(DATA_PATH)
 
-# chart = (
-#     alt.Chart(df_long)
-#     .mark_line(point=True)
-#     .encode(
-#         x=alt.X("Any:O", title="Any"),
-#         y=alt.Y("Empresas:Q", title="Número de empresas", axis=alt.Axis(format=",.0f")),
-#         color=alt.Color("CCAA:N", title="CCAA", legend=alt.Legend(orient="right")),
-#         tooltip=[
-#             alt.Tooltip("CCAA:N"),
-#             alt.Tooltip("Any:O"),
-#             alt.Tooltip("Empresas:Q", title="Empresas", format=",.0f"),
-#         ],
-#     )
-#     .properties(height=520)
-#     .interactive()
-# )
-
-# st.altair_chart(chart, use_container_width=True)
-
 st.subheader("Conclusió")
 
 import streamlit as st
 
 st.set_page_config(layout="wide")
 
-col_img, col_list = st.columns([1, 2])   
+col_img, col_list = st.columns([1, 2])
 
 with col_img:
-    st.image("assets/cat_map.png", caption="Mapa de Catalunya", use_container_width=True)
+    st.caption("Historical map illustration excluded: reuse permission unresolved. See DATA_SOURCES.md.")
 
 with col_list:
     st.markdown(
@@ -374,7 +338,7 @@ with col_list:
 # --- SECCIÓ DEL CHATBOT ---
 # =================================================================
 
-st.divider() 
+st.divider()
 st.subheader("🤖 Analista Expert (Chatbot)")
 st.write("Fes una pregunta sobre les dades, oportunitats de mercat o estratègia financera per a Caixa d'Enginyers.")
 
@@ -383,24 +347,24 @@ st.write("Fes una pregunta sobre les dades, oportunitats de mercat o estratègia
 if "chat_messages" not in st.session_state:
     st.session_state.chat_messages = [
         # Fem servir la variable SYSTEM_PROMPT importada
-        {"role": "system", "content": SYSTEM_PROMPT} 
+        {"role": "system", "content": SYSTEM_PROMPT}
         # HEM ELIMINAT el missatge inicial d'assistant d'aquí
     ]
 
 # --- CANVI 2: Lògica de visualització ---
-# Mostrem el missatge de benvinguda manualment, perquè no és a l'historial real.
+# Display the welcome message without sending it as conversation history.
 with st.chat_message("assistant"):
     st.markdown("Hola! Sóc el teu analista assistent. En què et puc ajudar avui?")
 
 # Mostrem la resta de missatges REALS (saltant el system prompt, que no es mostra)
-for message in st.session_state.chat_messages[1:]: 
+for message in st.session_state.chat_messages[1:]:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
 # ---------------------------------------------
 
 # Input de l'usuari
 if prompt := st.chat_input("Escriu la teva consulta..."):
-    
+
     # 1. Afegir i mostrar el missatge de l'usuari (Això no canvia)
     st.session_state.chat_messages.append({"role": "user", "content": prompt})
     with st.chat_message("user"):
@@ -409,9 +373,9 @@ if prompt := st.chat_input("Escriu la teva consulta..."):
     # ------------------------------------------------------------------
     # 2. PREPAREM LA TRUCADA (Aquí injectem el RAG amb els 9 datasets)
     # ------------------------------------------------------------------
-    
+
     context_augmentat = "Hola expert. Tinc diversos datasets. Aquí tens una mostra aleatòria de 5 files de cadascun d'ells. Fes servir aquest context per respondre la meva pregunta:\n\n"
-    
+
     # Iterem sobre el diccionari que hem omplert a la part de dalt
     if "context_samples" in st.session_state and st.session_state.context_samples:
         for filename, df_sample in st.session_state.context_samples.items():
@@ -419,7 +383,7 @@ if prompt := st.chat_input("Escriu la teva consulta..."):
             # Li diem quines columnes té
             context_augmentat += f"Columnes: {', '.join(df_sample.columns)}\n"
             # Li passem les 5 files aleatòries com a text
-            context_augmentat += df_sample.to_string(index=False) 
+            context_augmentat += df_sample.to_string(index=False)
             context_augmentat += "\n\n"
     else:
         context_augmentat = "" # No hi ha dades de context, no afegim res
@@ -428,25 +392,25 @@ if prompt := st.chat_input("Escriu la teva consulta..."):
     prompt_augmentat = f"""
     {context_augmentat}
     --- FI DEL CONTEXT ---
-    
+
     Ara, basant-te estrictament en el context anterior (si és rellevant), respon la meva pregunta:
     "{prompt}"
     """
-    
+
     # Creem una CÒPIA de l'historial per enviar a l'API
     historial_per_api = list(st.session_state.chat_messages)
-    
+
     # Substituïm l'últim missatge (el 'prompt' simple) per la nostra versió AUGMENTADA
     historial_per_api[-1] = {"role": "user", "content": prompt_augmentat}
-    
+
     # ------------------------------------------------------------------
     # 3. FEM LA TRUCADA A L'API
     # ------------------------------------------------------------------
     with st.chat_message("assistant"):
         with st.spinner("Processant..."):
             # Cridem la funció amb l'historial AUGMENTAT
-            resposta_bot = preguntar_chatbot(historial_per_api) 
+            resposta_bot = preguntar_chatbot(historial_per_api)
             st.markdown(resposta_bot)
-    
+
     # 4. Guardem la resposta a l'historial REAL (Això no canvia)
     st.session_state.chat_messages.append({"role": "assistant", "content": resposta_bot})

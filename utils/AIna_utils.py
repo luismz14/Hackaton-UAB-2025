@@ -1,18 +1,21 @@
 #!/usr/bin/env python3
+"""PublicAI chatbot adapter; PUBLICAI_API_KEY is read at process startup."""
+
+import os
+
 import requests
 
 # =============================================================================
-# CONFIGURACIÓ DEL CHATBOT
+# CHATBOT CONFIGURATION
 # =============================================================================
 
-API_KEY = "REDACTED_HISTORICAL_PUBLICAI_CREDENTIAL"  # La teva clau
+API_KEY = os.environ.get("PUBLICAI_API_KEY", "")
 API_URL = "https://api.publicai.co/v1/chat/completions"
 
-# Tria el model que vols utilitzar
-# MODEL = "BSC-LT/ALIA-40b-instruct_Q8_0"
-MODEL = "BSC-LT/salamandra-7b-instruct-tools-16k" # (Opció més ràpida)
+# Select the chatbot model.
+MODEL = "BSC-LT/salamandra-7b-instruct-tools-16k" # Faster model option.
 
-# Personalitza el comportament del chatbot
+# Configure the chatbot role.
 SYSTEM_PROMPT = "Ets un analista expert en estratègia financera i expansió de mercat, especialitzat en el territori català. " \
 "Actues com a consultor principal per a Caixa Enginyers. La teva missió és analitzar dades demogràfiques, econòmiques i de competència bancària per identificar oportunitats de creixement. " \
 "Proporciona respostes precises, basades en dades i orientades a la presa de decisions estratègiques, com l'obertura de noves oficines o l'adaptació de serveis a mercats locals. " \
@@ -20,14 +23,17 @@ SYSTEM_PROMPT = "Ets un analista expert en estratègia financera i expansió de 
 
 
 # =============================================================================
-# FUNCIÓ PRINCIPAL
+# CHATBOT REQUEST
 # =============================================================================
 
 def preguntar_chatbot(historial_missatges, temperatura=0.7, max_tokens=1000):
     """
-    Envia l'historial complet de missatges a l'API.
-    L'historial JA ha d'incloure el system prompt i el nou missatge de l'usuari.
+    Send the complete message history to the API.
+    The history must already include the system prompt and the new user message.
     """
+    if not API_KEY:
+        return "PublicAI API key is not configured. Set PUBLICAI_API_KEY before starting the application."
+
     headers = {
         "Authorization": f"Bearer {API_KEY}",
         "Content-Type": "application/json",

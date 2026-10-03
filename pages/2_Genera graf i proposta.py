@@ -1,14 +1,14 @@
 import streamlit as st
 import pandas as pd
 import networkx as nx
-from bank_optimizer import BankCoverageOptimizer, optimize_province
+from bank_optimizer import BankCoverageOptimizer
 from PIL import Image
 import plotly.graph_objects as go
 import matplotlib.pyplot as plt
 import contextily as cx
 
 # --- Page config ---
-icon = Image.open("assets/logo_small.png")
+icon = "🏦"
 st.set_page_config(
     page_title="AI'll find it — Generació De Graf i Proposta",
     page_icon=icon,
@@ -93,6 +93,7 @@ if uploaded_file:
         # --- Plot coverage map (matplotlib + contextily) ---
         st.subheader("🗺️ Coverage Map")
         def visualize_graph_on_map(G, title="Graph on Map", crs_epsg=25831):
+            """Plot projected coordinates; UTM zone 31N is assumed by default."""
             fig, ax = plt.subplots(figsize=(12, 10))
             pos = {node: (data['utm_x'], data['utm_y']) for node, data in G.nodes(data=True)}
 
@@ -130,7 +131,7 @@ if uploaded_file:
         st.subheader("🗺️ Interactive Graph Visualization")
         pos = {node: (G.nodes[node]['utm_x'], G.nodes[node]['utm_y']) for node in G.nodes}
         office_nodes = set(results.get('physical_offices', []))
-        van_nodes = set(results.get('mobile_stops', []))  # corrected key
+        van_nodes = set(results.get('mobile_stops', []))
 
         edge_x, edge_y = [], []
         for edge in G.edges():

@@ -1,7 +1,6 @@
 import networkx as nx
 import numpy as np
 import pandas as pd
-from collections import defaultdict
 import matplotlib.pyplot as plt
 import contextily as cx
 
@@ -13,7 +12,7 @@ class BankCoverageOptimizer:
 
     def __init__(self, graph, physical_office_radius=15000, mobile_van_radius=10000):
         """
-        Initialize the optimizer.
+        Initialize the optimizer, resetting coverage attributes on the caller's graph.
 
         Parameters:
         - graph: NetworkX graph with nodes containing population and coordinates
@@ -93,7 +92,7 @@ class BankCoverageOptimizer:
         """
         Select optimal locations for physical bank offices using greedy algorithm.
 
-        Returns: List of node IDs for physical office locations
+        Returns: Selected node IDs and the set of covered node IDs.
         """
         print(f"\n{'='*60}")
         print(f"SELECTING {num_offices} PHYSICAL OFFICE LOCATIONS")
@@ -164,7 +163,7 @@ class BankCoverageOptimizer:
         Select optimal locations for mobile van stops.
         Focuses on areas not covered by physical offices.
 
-        Returns: List of node IDs for mobile van stop locations
+        Returns: Selected node IDs and the cumulative set of covered node IDs.
         """
         print(f"\n{'='*60}")
         print(f"SELECTING {num_stops} MOBILE VAN STOP LOCATIONS")

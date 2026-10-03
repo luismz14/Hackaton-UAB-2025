@@ -1,49 +1,37 @@
 import streamlit as st
-import numpy as np
 import pandas as pd
-import seaborn as sns
 from PIL import Image
 
-icon = Image.open("assets/logo_small.png")   
+icon = "🏦"
 st.set_page_config(
     page_title="AI'll find it — Proposta Avançada",
-    page_icon=icon,        
+    page_icon=icon,
     layout="wide"
 )
-import streamlit as st, base64, pathlib
-
-# --- convierte tu logo local a base64 para poder incrustarlo en HTML ---
-def img_b64(path: str) -> str:
-    return base64.b64encode(open(path, "rb").read()).decode()
-
-logo_path = "assets/logo_small.png"  # cambia la ruta a la tuya
-logo_b64  = img_b64(logo_path)
-
 with st.sidebar:
     st.markdown(
         f"""
         <style>
         .brand-row {{
             display:flex;
-            align-items:center;      
-            gap:10px;                
-            margin: 6px 0 14px 0;    
+            align-items:center;
+            gap:10px;
+            margin: 6px 0 14px 0;
         }}
         .brand-row img {{
-            width:28px; height:28px; 
+            width:28px; height:28px;
             object-fit:contain;
-            border-radius:6px;      
+            border-radius:6px;
         }}
         .brand-row .brand-text {{
-            font-size:1.05rem;  
+            font-size:1.05rem;
             font-weight:600;
-            font-style:italic;    
-            line-height:1;      
+            font-style:italic;
+            line-height:1;
         }}
         </style>
 
         <div class="brand-row">
-            <img src="data:image/png;base64,{logo_b64}" alt="logo">
             <div class="brand-text">AI'll find it</div>
         </div>
         """,
@@ -67,7 +55,7 @@ import plotly.express as px
 import unicodedata
 
 # ---------- Config ----------
-EXCEL_FALLBACK = "data\socios_caixa_enginyers_provincias_EXTENDIDO_2035_REPARTO_PONDERADO.xlsx"
+EXCEL_FALLBACK = r"data\socios_caixa_enginyers_provincias_EXTENDIDO_2035_REPARTO_PONDERADO.xlsx"
 GEOJSON_URL = "https://raw.githubusercontent.com/codeforgermany/click_that_hood/master/public/data/spain-provinces.geojson"
 
 # ---------- Utilidades ----------
@@ -116,13 +104,13 @@ def normalize_province(name: str) -> str:
     return " ".join(w.capitalize() for w in key.split())
 
 def to_number(x):
-    """Convierte strings con formato ES ('1.234,56') a float. También maneja floats/ints NaN."""
+    """Parse Spanish-formatted numbers, returning None for missing/invalid input."""
     if pd.isna(x):
         return None
     if isinstance(x, (int, float)):
         return x
     s = str(x).strip()
-    # elimina espacios, cambia puntos de miles y coma decimal
+    # Periods denote thousands separators; commas denote decimal separators.
     s = s.replace(" ", "").replace(".", "").replace(",", ".")
     try:
         return float(s)
@@ -247,4 +235,4 @@ fig = px.choropleth_mapbox(
 )
 st.plotly_chart(fig, use_container_width=True)
 
-st.image("assets\heatmap_socios_2035_REPARTO_PONDERADO.png", caption="Heatmap de socis per províncies a Catalunya")
+st.image(r"assets\heatmap_socios_2035_REPARTO_PONDERADO.png", caption="Project-modeled membership forecast; historical input base unverified, not official observed statistics")

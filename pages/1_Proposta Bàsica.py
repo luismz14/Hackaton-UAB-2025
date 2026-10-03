@@ -1,24 +1,12 @@
 import streamlit as st
-import numpy as np
-import pandas as pd
-import seaborn as sns
 from PIL import Image
 
-icon = Image.open("assets/logo_small.png")   
+icon = "🏦"
 st.set_page_config(
     page_title="AI'll find it — Proposta Bàsica",
-    page_icon=icon,        
+    page_icon=icon,
     layout="wide"
 )
-
-import streamlit as st, base64, pathlib
-
-# --- convierte tu logo local a base64 para poder incrustarlo en HTML ---
-def img_b64(path: str) -> str:
-    return base64.b64encode(open(path, "rb").read()).decode()
-
-logo_path = "assets/logo_small.png"  # cambia la ruta a la tuya
-logo_b64  = img_b64(logo_path)
 
 with st.sidebar:
     st.markdown(
@@ -26,25 +14,24 @@ with st.sidebar:
         <style>
         .brand-row {{
             display:flex;
-            align-items:center;      
-            gap:10px;                
-            margin: 6px 0 14px 0;    
+            align-items:center;
+            gap:10px;
+            margin: 6px 0 14px 0;
         }}
         .brand-row img {{
-            width:28px; height:28px; 
+            width:28px; height:28px;
             object-fit:contain;
-            border-radius:6px;      
+            border-radius:6px;
         }}
         .brand-row .brand-text {{
-            font-size:1.05rem;  
+            font-size:1.05rem;
             font-weight:600;
-            font-style:italic;    
-            line-height:1;      
+            font-style:italic;
+            line-height:1;
         }}
         </style>
 
         <div class="brand-row">
-            <img src="data:image/png;base64,{logo_b64}" alt="logo">
             <div class="brand-text">AI'll find it</div>
         </div>
         """,
@@ -75,8 +62,8 @@ st.image("assets/lleida_bank_coverage_map.png")
 
 st.image("assets/tarragona_bank_coverage.png")
 st.image("assets/tarragona_bank_coverage_map.png")
+st.caption("Project coverage scenarios using Generalitat/Idescat municipal data. Basemaps: © OpenStreetMap contributors, © CARTO. See DATA_SOURCES.md for sources and reuse terms.")
 
-# Títol i introducció
 st.title("Proposta: Oficina Mòbil a les Cooperatives Locals")
 st.markdown("""
 ### Objectiu general
@@ -84,7 +71,6 @@ Apropar els serveis financers de la *Caixa d'Enginyers* a les zones rurals mitja
 Aquesta iniciativa vol *millorar la inclusió financera* i *enfortir el vincle cooperatiu* amb les comunitats locals.
 """)
 
-# Secció 1: Context i necessitat
 st.header("Context i necessitat")
 st.markdown("""
 Molts *pobles i zones rurals* pateixen una *manca d’oficines bancàries*, fet que dificulta l'accés als serveis financers bàsics.  
@@ -95,7 +81,6 @@ st.info("""
 Proposta: Col·locar una *furgoneta-oficina mòbil* de la Caixa d’Enginyers a les cooperatives dels municipis seleccionats, amb un calendari rotatiu setmanal.
 """)
 
-# Secció 2: Justificació
 st.header("Justificació de la proposta")
 st.markdown("""
 La *Caixa d’Enginyers* és una *cooperativa de crèdit, **sense propietaris externs* i amb *valors alineats amb les cooperatives locals*:
@@ -110,7 +95,6 @@ st.success("""
 Relació clau: Les cooperatives i la Caixa d’Enginyers comparteixen els mateixos valors: *solidaritat, proximitat i retorn social*.
 """)
 
-# Secció 3: Impacte i beneficis
 st.header("Impacte esperat")
 st.markdown("""
 L’oficina mòbil permetrà:
@@ -120,7 +104,6 @@ L’oficina mòbil permetrà:
 - *Donar visibilitat* a la Caixa d’Enginyers en entorns on no és present.
 """)
 
-# Secció 4: Importància de la venda de productes
 st.header("Importància de donar a conèixer els productes")
 st.markdown("""
 Molts possibles socis *desconeixen els productes i avantatges* que ofereix la Caixa d’Enginyers.  
@@ -134,7 +117,6 @@ st.warning("""
 Objectiu estratègic: No només oferir serveis, sinó *vendre i educar* sobre els productes que aporten valor real a la comunitat.
 """)
 
-# Secció 5: Conclusió
 st.header("Conclusió")
 st.markdown("""
 La proposta de la *furgoneta-oficina mòbil* reforça el compromís de la Caixa d’Enginyers amb el territori i amb els seus valors cooperatius.  
