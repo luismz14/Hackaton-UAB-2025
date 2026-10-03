@@ -1,6 +1,6 @@
 # Data sources and publication scope
 
-This prototype mixes observed statistics, derived data, AI-generated values, fictitious membership assumptions and forecasts. These categories are not interchangeable. Publication review: 2026-10-03. Historical results were not rerun or independently validated. No source-code license is selected here; upstream data conditions remain separate.
+This prototype mixes observed statistics, derived data, AI-generated values, fictitious membership assumptions and forecasts. These categories are not interchangeable. Publication review: 2026-10-03. Historical results were not rerun or independently validated. Repository-authored source code uses [MIT](LICENSE); third-party data, assets, libraries, submodules and models retain their own terms. upstream data conditions remain separate.
 
 ## Retained observed inputs
 

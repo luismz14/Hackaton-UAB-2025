@@ -48,6 +48,6 @@ On macOS/Linux, use `export PUBLICAI_API_KEY="<your newly issued credential>"` b
 
 A credential was previously committed and has been removed from the current helper. The user will handle revocation/rotation and any Git-history cleanup manually. Removing it from the working tree does not remove historical exposure. Never commit a real credential or reuse the exposed value.
 
-The chatbot transmits data context to a third-party service. Review the input tables and their sharing permissions before using that feature. No source-code license is included. [DATA_SOURCES.md](DATA_SOURCES.md) records retained-source terms, excluded inputs, and unresolved provenance.
+The chatbot transmits data context to a third-party service. Review the input tables and their sharing permissions before using that feature. Repository-authored source code is licensed under [MIT](LICENSE). Third-party data/assets, upstream libraries, submodules and external models retain their own terms; MIT does not relicense them. [DATA_SOURCES.md](DATA_SOURCES.md) records retained-source terms, excluded inputs, and unresolved provenance.
 
 The notebook and some original implementation text remain in Catalan as historical material. Four machine-specific paths in the saved notebook reduce portability. This prototype has no automated test suite, and the original analysis and optimization results were preserved rather than regenerated.
